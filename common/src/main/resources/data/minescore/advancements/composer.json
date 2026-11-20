@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:root",
+  "display": {
+    "icon": {
+      "item": "minescore:score"
+    },
+    "title": {
+      "translate": "advancements.minescore.composer.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.composer.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "composer": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "composer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "composer"
+    ]
+  ]
+}

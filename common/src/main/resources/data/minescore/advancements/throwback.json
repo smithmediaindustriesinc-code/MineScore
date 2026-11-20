@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:fresh_cut",
+  "display": {
+    "icon": {
+      "item": "minescore:vinyl_player"
+    },
+    "title": {
+      "translate": "advancements.minescore.throwback.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.throwback.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "throwback": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "throwback"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "throwback"
+    ]
+  ]
+}

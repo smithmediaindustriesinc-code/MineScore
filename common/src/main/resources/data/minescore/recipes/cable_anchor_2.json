@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  A",
+    " N ",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:nuggets/iron"
+    },
+    "N": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "minescore:cable_anchor",
+    "count": 4
+  }
+}

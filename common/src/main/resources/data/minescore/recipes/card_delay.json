@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RPR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    }
+  },
+  "result": {
+    "item": "minescore:card_delay"
+  }
+}

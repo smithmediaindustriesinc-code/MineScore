@@ -1,0 +1,105 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minescore:item/encoded_cd",
+    "layer1": "minescore:item/cd_label_encoded"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minescore:trim": 0.0625
+      },
+      "model": "minescore:item/encoded_cd_sentry_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.125
+      },
+      "model": "minescore:item/encoded_cd_dune_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.1875
+      },
+      "model": "minescore:item/encoded_cd_coast_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.25
+      },
+      "model": "minescore:item/encoded_cd_wild_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.3125
+      },
+      "model": "minescore:item/encoded_cd_ward_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.375
+      },
+      "model": "minescore:item/encoded_cd_eye_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.4375
+      },
+      "model": "minescore:item/encoded_cd_vex_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.5
+      },
+      "model": "minescore:item/encoded_cd_tide_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.5625
+      },
+      "model": "minescore:item/encoded_cd_snout_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.625
+      },
+      "model": "minescore:item/encoded_cd_rib_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.6875
+      },
+      "model": "minescore:item/encoded_cd_spire_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.75
+      },
+      "model": "minescore:item/encoded_cd_wayfinder_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.8125
+      },
+      "model": "minescore:item/encoded_cd_shaper_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.875
+      },
+      "model": "minescore:item/encoded_cd_silence_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 0.9375
+      },
+      "model": "minescore:item/encoded_cd_raiser_trim"
+    },
+    {
+      "predicate": {
+        "minescore:trim": 1.0
+      },
+      "model": "minescore:item/encoded_cd_host_trim"
+    }
+  ]
+}

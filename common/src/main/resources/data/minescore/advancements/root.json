@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minescore:manual"
+    },
+    "title": {
+      "translate": "advancements.minescore.root.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.root.description"
+    },
+    "background": "minescore:textures/gui/advancements.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "has_music": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minescore:blank_cd",
+              "minescore:encoded_cd",
+              "minescore:mp3_player",
+              "minescore:manual",
+              "minescore:blank_score",
+              "minescore:speaker_wire_12",
+              "minescore:speaker_wire_16",
+              "minescore:speaker_wire_20"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

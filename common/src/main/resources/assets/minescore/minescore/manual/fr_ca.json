@@ -1,0 +1,119 @@
+{
+  "title": "Manuel de MineScore",
+  "intro": [
+    "MineScore apporte de la vraie musique dans Minecraft : des disques gravés à partir de tes propres fichiers audio, des lecteurs MP3, une chaîne hi-fi que tu câbles toi-même et un bureau pour écrire de la musique.",
+    "Choisis un chapitre à droite. Les flèches ou la molette tournent les pages ; Retour arrière ramène ici."
+  ],
+  "chapters": [
+    {
+      "title": "Disques",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "La musique commence au tour de gravure de disques. Mets tes fichiers audio (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio ou partitions MineScore) dans le dossier blkcdsongs de ton instance Minecraft.",
+        "# Graver un disque",
+        "Mets un vinyle vierge dans l'emplacement d'entrée du tour, choisis un morceau dans la liste (tu peux chercher, trier et écouter) et appuie sur Graver. Il en sort un disque vinyle au nom du morceau. Tu peux le renommer gratuitement au tour.",
+        "Le tour a besoin de 20 FE/t ou de la rotation de Create. Lui brancher une sortie de bande d'amplificateur accélère la gravure : 20 ga divise le temps par deux, 16 ga grave en 2 secondes et 12 ga est instantané. Avec Create, 64 tr/min prend 3 secondes ; plus vite et le disque éclate.",
+        "# Copies",
+        "Un disque vinyle dans l'emplacement d'entrée et un vinyle vierge dans le second font une copie, numérotée copie n° 1, n° 2 et ainsi de suite. Une partition dans l'emplacement d'entrée avec un vinyle vierge presse ta partition sur un disque.",
+        "# Apparence",
+        "Teins un disque comme une armure en cuir pour colorer son étiquette, et orne-le à une table de forgeron avec n'importe quel modèle et matériau d'ornement. Un fourneau efface un disque pour le rendre vierge."
+      ]
+    },
+    {
+      "title": "Écouter de la musique",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Platine vinyle",
+        "Clic droit avec un disque vinyle pour le jouer, avec la main vide pour le retirer. Seule, elle joue d'elle-même ; câblée à des enceintes, elle joue à travers elles.",
+        "# Lecteur MP3",
+        "Charge des morceaux dessus au tour : un disque vinyle dans l'emplacement d'entrée et le lecteur MP3 dans le second. Le disque reste. Clic droit pour l'ouvrir : bibliothèque, playlists, file d'attente et égaliseur 10 bandes. Tant qu'il est dans ton inventaire, toi seul l'entends.",
+        "Clic droit avec lui sur une enceinte pour jouer à travers elle pour tout le monde à proximité (Bluetooth). Un autre clic droit arrête.",
+        "# Ranger la musique",
+        "Un présentoir à vinyle expose un disque sur un mur ou une table. Un meuble à musique contient 16 partitions et 8 disques vinyles : clic droit sur sa façade pour en ranger un, Maj+clic droit main vide pour en sortir un."
+      ]
+    },
+    {
+      "title": "Monter un système",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Un système, c'est une source, des hubs et des enceintes, reliés par du câble d'enceinte.",
+        "# Sources",
+        "La table de mixage joue un lecteur MP3 posé sur sa station. Le bureau de compositeur joue la partition posée dessus. La platine vinyle joue son disque, directement vers des enceintes uniquement.",
+        "# La chaîne",
+        "Source, puis éventuellement une unité multi-effets, puis un gestionnaire de canaux, puis un amplificateur, puis les enceintes. Chaque hub est facultatif, mais ils viennent toujours dans cet ordre.",
+        "# Câblage",
+        "Les prises de chaque bloc sont à l'arrière. Les entrées sont des prises femelles marquées d'une flèche bleue ; les sorties, des fiches marquées d'une flèche blanche. Les prises ne se relient qu'à la même couleur.",
+        "Clique sur une prise avec du câble, puis sur la prise à l'autre bout. Hub à hub : Maj+clic droit, avec n'importe quel calibre. Hub à enceinte, ou enceinte à enceinte : clic droit avec le calibre de l'enceinte : 12 ga pour les caissons de basses, 16 ga pour les enceintes médium, 20 ga pour les tweeters.",
+        "Les ancrages de câble soutiennent un câble en chemin : clique sur l'extrémité d'entrée d'un ancrage pendant que tu poses un câble. La pince coupante retire un câble et rend le câble."
+      ]
+    },
+    {
+      "title": "Enceintes",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Les caissons de basses jouent les basses (20-200 Hz), les enceintes médium le médium (200 Hz-2 kHz) et les tweeters les aigus (2-20 kHz). Un type d'enceinte ne joue que si sa bande est câblée à chaque hub jusqu'à la source.",
+        "Les enceintes se posent sur quelque chose ou s'accrochent dessous, jamais à un mur. Par défaut on les entend à 32 blocs, plus fort devant et plus faiblement derrière.",
+        "Chaîne d'autres enceintes d'un même type à partir de leurs prises de sortie. Clic droit main vide sur une enceinte pour la renommer et voir son canal, son énergie et son état.",
+        "# Trop fort",
+        "Pousse une enceinte trop fort et elle court-circuite : elle tombe en objet et les enceintes suivantes perdent leur signal. Les basses grillent en premier. Pour réinitialiser, coupe l'énergie de la source et rétablis-la (ou, avec l'énergie désactivée dans la config, attends 5 secondes et appuie sur Lire)."
+      ]
+    },
+    {
+      "title": "Hubs",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Gestionnaire de canaux",
+        "Met chaque enceinte en gauche, droite ou mono, chacune avec son niveau et un bouton Localiser. Il ne vient jamais après un amplificateur.",
+        "# Amplificateur",
+        "Volume général et égaliseur 10 bandes. Il peut amplifier au-delà de 100%, jusqu'à un plafond fixé par la liaison de hub la plus fine qui lui est reliée : 200% en 20 ga, 300% en 16 ga, 400% en 12 ga. Les enceintes plus fortes portent aussi plus loin.",
+        "Les amplificateurs de ligne se placent sur une ligne d'enceintes, servent un seul type d'enceinte et empêchent un court-circuit après eux d'atteindre ce qui est avant.",
+        "# Unité multi-effets",
+        "Se place juste après la table de mixage ou le bureau. Elle accueille jusqu'à six cartes d'effet (drive et distorsion, modulation, délai, réverbération, ampli et baffle, dynamique et utilitaires), appliquées dans l'ordre des emplacements. Choisis un effet sur chaque carte et règle ses boutons ; les puces de préréglage enregistrent l'ensemble. Reliée à un tour, elle imprime ses effets sur les disques qui y sont gravés."
+      ]
+    },
+    {
+      "title": "Énergie",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Par défaut, les systèmes fonctionnent à la Forge Energy, injectée uniquement dans la source. Chaque hub coûte 50 FE/t (l'unité multi-effets 10 de plus par carte utilisée), et chaque enceinte un peu plus à mesure qu'elle est loin dans sa chaîne.",
+        "Un système a besoin au moins du coût de ses hubs pour jouer. Tant que l'alimentation couvre tout le système, tout joue à plein volume ; au-delà du budget d'un système (500 FE/t par défaut), les enceintes les plus éloignées jouent plus bas.",
+        "Désactive complètement l'énergie dans le menu des réglages et les systèmes tournent librement, sans limites."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "L'écran de chaque hub a un interrupteur de commande redstone, désactivé par défaut. Activé, la redstone le commande ; les comparateurs fonctionnent dans les deux cas.",
+        "# Table de mixage",
+        "Un signal devant, derrière, dessus ou dessous lance la lecture ; le retirer met en pause. Une impulsion à sa gauche passe au morceau suivant ; à sa droite, elle relance le morceau ou revient au précédent.",
+        "# Autres",
+        "Un gestionnaire de canaux coupe un côté avec un signal faible de ce côté, et force le mono avec un signal fort. L'amplificateur et l'unité multi-effets ont les leurs : survole l'interrupteur dans leurs écrans pour voir ce que fait chaque côté.",
+        "La gauche et la droite sont celles du bloc, comme si tu étais le bloc regardant depuis sa façade."
+      ]
+    },
+    {
+      "title": "Écrire de la musique",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Place deux blocs de bureau de compositeur côte à côte pour monter le bureau. Pose une partition vierge dessus et appuie sur Ouvrir l'éditeur.",
+        "# L'éditeur",
+        "Il fonctionne comme un logiciel de notation. Choisis une durée avec les touches numériques, puis clique sur la portée ou tape une lettre (A-G) pour saisir des notes, et utilise les palettes à gauche pour tout le reste : nuances, articulations, lignes, texte, arpèges et plus. Ctrl+F cherche dans les palettes. Espace lance la lecture ; sélectionne d'abord de la musique pour ne jouer que ce passage. Chaque raccourci peut être changé dans les réglages de touches de l'éditeur.",
+        "Ajoute des instruments depuis la section Instruments à droite. Ctrl+Z annule, et plusieurs joueurs peuvent modifier la même partition en même temps, chacun avec son curseur.",
+        "# Copies et disques",
+        "Une partition vierge dans l'emplacement de copie du bureau fait une copie numérotée. Presse une partition sur un disque au tour. Importe et exporte des fichiers MIDI, Note Block Studio et MineScore depuis l'éditeur.",
+        "# Le bureau comme source",
+        "Câblé à des enceintes, le bureau joue sa partition à travers le système : Lire, Arrêter et Boucle sont sur son écran."
+      ]
+    },
+    {
+      "title": "Réglages",
+      "icon": "minescore:manual",
+      "text": [
+        "Appuie sur Ctrl+M en jeu, ou utilise Config dans la liste des mods, pour tous les réglages de MineScore : énergie, écoute, grillades, câbles, l'éditeur et plus. Les opérateurs peuvent modifier les réglages du serveur en jeu. Les préréglages en changent plusieurs d'un coup.",
+        "# Apparence et sons",
+        "MineScore inclut des packs de ressources intégrés : Studio moderne, Hi-fi rétro et une version 16x de l'apparence par défaut, ainsi que les packs de sons Rétro et Studio. Active-les dans Options, Packs de ressources."
+      ]
+    }
+  ]
+}

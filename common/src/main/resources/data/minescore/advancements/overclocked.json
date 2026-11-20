@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:fresh_cut",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": {
+      "translate": "advancements.minescore.overclocked.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.overclocked.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "overclocked": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "overclocked"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overclocked"
+    ]
+  ]
+}

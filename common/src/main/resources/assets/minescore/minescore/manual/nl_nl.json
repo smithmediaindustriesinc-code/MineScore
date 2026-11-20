@@ -1,0 +1,119 @@
+{
+  "title": "MineScore-handleiding",
+  "intro": [
+    "MineScore brengt echte muziek naar Minecraft: platen gesneden uit je eigen muziekbestanden, MP3-spelers, een hifisysteem dat je zelf bekabelt en een bureau om muziek te schrijven.",
+    "Kies rechts een hoofdstuk. De pijltoetsen of het muiswiel slaan de pagina's om; Backspace brengt je hier terug."
+  ],
+  "chapters": [
+    {
+      "title": "Platen",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Muziek begint bij de platensnijbank. Zet je muziekbestanden (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio of MineScore-partituren) in de map blkcdsongs van je Minecraft-installatie.",
+        "# Een plaat snijden",
+        "Leg leeg vinyl in de invoersleuf van de snijbank, kies een nummer uit de lijst (je kunt zoeken, sorteren en voorbeluisteren) en klik op Snijden. Er komt een vinylplaat uit met de naam van het nummer. Hernoemen bij de snijbank is gratis.",
+        "De snijbank heeft 20 FE/t of rotatie van Create nodig. Sluit je de banduitgang van een versterker erop aan, dan gaat het snijden sneller: 20 ga halveert de tijd, 16 ga snijdt in 2 seconden en 12 ga direct. Met Create op 64 rpm duurt een snede 3 seconden; sneller en de plaat versplintert.",
+        "# Kopieën",
+        "Een vinylplaat in de invoersleuf met leeg vinyl in de tweede maakt een genummerde kopie: kopie nr. 1, nr. 2 enzovoort. Een partituur in de invoersleuf met leeg vinyl drukt je partituur op een plaat.",
+        "# Uiterlijk",
+        "Verf een plaat zoals leren harnas om het label te kleuren, en versier hem bij een smeedtafel met elk sjabloon en materiaal voor versiering. Een oven wist een plaat terug tot leeg vinyl."
+      ]
+    },
+    {
+      "title": "Muziek luisteren",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Platenspeler",
+        "Rechtsklik met een vinylplaat om hem op te leggen, met lege hand om hem eraf te halen. Op zichzelf speelt hij uit zijn eigen blok; aangesloten op luidsprekers speelt hij daardoor.",
+        "# MP3-speler",
+        "Zet er nummers op bij een snijbank: een vinylplaat in de invoersleuf, de MP3-speler in de tweede. De plaat blijft. Rechtsklik om hem te openen: bibliotheek, afspeellijsten, wachtrij en een equalizer met 10 banden. In je inventaris hoor alleen jij hem.",
+        "Rechtsklik ermee op een luidspreker om via die luidspreker voor iedereen in de buurt af te spelen (Bluetooth). Nog eens rechtsklikken stopt het.",
+        "# Muziek opbergen",
+        "De vinylvitrine toont een plaat aan een muur of op een tafel. De muziekkast bergt 16 partituren en 8 vinylplaten op: rechtsklik op de voorkant om er een in te leggen, Shift+rechtsklik met lege hand om er een uit te halen."
+      ]
+    },
+    {
+      "title": "Een systeem bouwen",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Een systeem is een bron, een paar hubs en luidsprekers, verbonden met luidsprekerdraad.",
+        "# Bronnen",
+        "Het mengpaneel speelt een MP3-speler die erin gedockt is. Het componistenbureau speelt de partituur die erop ligt. De platenspeler speelt zijn plaat, alleen rechtstreeks naar luidsprekers.",
+        "# De keten",
+        "Bron, dan eventueel een multi-effectunit, dan een kanaalbeheerder, dan een versterker, dan luidsprekers. Elke hub is optioneel, maar ze komen altijd in die volgorde.",
+        "# Bekabelen",
+        "De aansluitingen van elk blok zitten aan de achterkant. Ingangen zijn bussen met een blauwe pijl; uitgangen zijn pluggen met een witte pijl. Aansluitingen verbinden alleen met dezelfde kleur.",
+        "Klik met draad op een aansluiting en dan op de aansluiting aan het andere eind. Hub naar hub: Shift+rechtsklik, elke dikte. Hub naar luidspreker of luidspreker naar luidspreker: rechtsklik met draad in de dikte van de luidspreker: 12 ga voor subwoofers, 16 ga voor middentoonluidsprekers, 20 ga voor tweeters.",
+        "Kabelhouders houden een kabel onderweg vast: klik op het invoeruiteinde van een houder terwijl je een kabel legt. Kniptangen halen een kabel weg en geven de draad terug."
+      ]
+    },
+    {
+      "title": "Luidsprekers",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofers spelen het laag (20-200 Hz), middentoonluidsprekers het midden (200 Hz-2 kHz) en tweeters het hoog (2-20 kHz). Een soort luidspreker speelt alleen als zijn band op elke hub tot aan de bron is aangesloten.",
+        "Luidsprekers staan op iets of hangen onder iets, maar nooit aan een muur. Standaard hoor je ze op 32 blokken, het hardst van voren en zachter van achteren.",
+        "Schakel meer luidsprekers van dezelfde soort door via hun uitgangen. Rechtsklik met lege hand op een luidspreker om hem te hernoemen en zijn kanaal, vermogen en toestand te zien.",
+        "# Te hard",
+        "Overbelast een luidspreker en hij krijgt kortsluiting: hij valt eraf als voorwerp en de luidsprekers erna verliezen hun signaal. Het laag brandt eerst door. Om te resetten haal je de energie van de bron weg en zet je hem terug (of, als energie uit staat in de configuratie, wacht 5 seconden en klik op Afspelen)."
+      ]
+    },
+    {
+      "title": "Hubs",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Kanaalbeheerder",
+        "Geeft elke luidspreker links, rechts of mono, elk met een eigen niveau en een zoekknop. Komt nooit na een versterker.",
+        "# Versterker",
+        "Hoofdvolume en een equalizer met 10 banden. Kan boven 100% versterken tot een limiet die de dunste hubverbinding ernaartoe bepaalt: 200% bij 20 ga, 300% bij 16 ga, 400% bij 12 ga. Hardere luidsprekers dragen ook verder.",
+        "Lijnversterkers staan op een luidsprekerlijn, bedienen één soort luidspreker en voorkomen dat kortsluiting erna doorslaat naar wat ervoor zit.",
+        "# Multi-effectunit",
+        "Komt direct na de mixer of het bureau. Bevat tot zes effectkaarten (drive & vervorming, modulatie, delay, galm, versterker & kast, dynamiek & hulpmiddelen), toegepast in de volgorde van de sleuven. Kies in elke kaart een effect en stel de knoppen in; presetchips bewaren de hele set. Aangesloten op een snijbank brandt hij zijn effecten in de platen die daar gesneden worden."
+      ]
+    },
+    {
+      "title": "Vermogen",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Standaard draaien systemen op Forge Energy, die alleen aan de bron wordt geleverd. Elke hub kost 50 FE/t (de multi-effectunit 10 meer per gebruikte kaart), en elke luidspreker iets meer naarmate hij verder in een keten zit.",
+        "Om überhaupt te spelen heeft een systeem minstens de kosten van zijn hubs nodig. Zolang het vermogen het hele systeem dekt, speelt alles op vol volume; boven het budget van het systeem (standaard 500 FE/t) worden de verste luidsprekers zachter.",
+        "Zet energie helemaal uit in het instellingenmenu en systemen draaien gratis, zonder limieten."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Het scherm van elke hub heeft een schakelaar Redstone-bediening, standaard uit. Staat hij aan, dan bestuurt redstone de hub; comparators werken hoe dan ook.",
+        "# Mengpaneel",
+        "Een signaal voor, achter, boven of onder speelt af; zonder signaal pauzeert het. Een puls links gaat naar het volgende nummer; rechts begint het nummer opnieuw of gaat terug naar het vorige.",
+        "# De rest",
+        "De kanaalbeheerder dempt een kant met een zwak signaal aan die kant en schakelt mono in met een sterk signaal. De versterker en multi-effectunit hebben hun eigen regels: wijs de schakelaar op hun scherm aan om te zien wat elke kant doet.",
+        "Links en rechts zijn de kanten van het blok zelf, alsof jij het blok was en uit zijn voorkant keek."
+      ]
+    },
+    {
+      "title": "Muziek schrijven",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Zet twee blokken componistenbureau naast elkaar om het bureau te vormen. Leg er een lege partituur op en klik op Editor openen.",
+        "# De editor",
+        "Hij werkt als een notatieprogramma. Kies een duur met de cijfertoetsen, klik dan op de notenbalk of typ een letter (A-G) om noten in te voeren, en gebruik de paletten links voor al het andere: dynamiek, articulaties, lijnen, tekst, arpeggio's en meer. Ctrl+F doorzoekt de paletten. Spatie speelt af; selecteer eerst muziek om alleen die te spelen. Elke sneltoets is te wijzigen in de sneltoetsen van de editor.",
+        "Voeg instrumenten toe in het gedeelte Instrumenten rechts. Ctrl+Z maakt ongedaan, en meerdere spelers kunnen dezelfde partituur tegelijk bewerken, elk met een eigen cursor.",
+        "# Kopieën en platen",
+        "Een lege partituur in de kopieersleuf van het bureau maakt een genummerde kopie. Druk een partituur op een plaat bij de snijbank. Importeer en exporteer MIDI-, Note Block Studio- en MineScore-bestanden vanuit de editor.",
+        "# Het bureau als bron",
+        "Aangesloten op luidsprekers speelt het bureau zijn partituur via het systeem: Afspelen, Stoppen en Herhalen staan op zijn scherm."
+      ]
+    },
+    {
+      "title": "Instellingen",
+      "icon": "minescore:manual",
+      "text": [
+        "Druk in het spel op Ctrl+M of gebruik Configuratie in de modlijst om alle MineScore-instellingen te openen: energie, hoorbaarheid, doorbranden, draden, de editor en meer. Operators kunnen serverinstellingen in het spel wijzigen. Presets wijzigen er veel tegelijk.",
+        "# Uiterlijk en geluiden",
+        "MineScore heeft ingebouwde resourcepakketten: Moderne studio, Retro-hifi en een 16x-versie van het gewone uiterlijk, plus de geluidspakketten Retro en Studio. Zet ze aan in Opties → Resourcepakketten."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GPA"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:goat_horn"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    },
+    "A": {
+      "tag": "minecraft:tools"
+    }
+  },
+  "result": {
+    "item": "minescore:card_dynamics"
+  }
+}

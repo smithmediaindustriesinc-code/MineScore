@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:plugged_in",
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "advancements.minescore.redstone_dj.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.redstone_dj.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "redstone_dj": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "redstone_dj"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone_dj"
+    ]
+  ]
+}

@@ -1,0 +1,1454 @@
+{
+  "format": "minescore-recipes-1",
+  "minecraft": "1.20.1",
+  "items": [
+    {
+      "item": "minescore:amplifier",
+      "name": "Amplifier",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:amplifier",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "TNT",
+              "MPM",
+              "SSS"
+            ],
+            "key": {
+              "T": {
+                "item": "minescore:tweeter_speaker"
+              },
+              "N": {
+                "item": "minecraft:tnt"
+              },
+              "M": {
+                "item": "minescore:middle_speaker"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "S": {
+                "item": "minescore:subwoofer"
+              }
+            },
+            "result": {
+              "item": "minescore:amplifier"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:tnt",
+            "minescore:middle_speaker",
+            "minescore:preset_chip",
+            "minescore:subwoofer",
+            "minescore:tweeter_speaker"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:audio_mixer",
+      "name": "Audio Mixer",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:audio_mixer",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "TVT",
+              "MPM",
+              "SSS"
+            ],
+            "key": {
+              "T": {
+                "item": "minescore:tweeter_speaker"
+              },
+              "V": {
+                "item": "minescore:vinyl_display"
+              },
+              "M": {
+                "item": "minescore:middle_speaker"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "S": {
+                "item": "minescore:subwoofer"
+              }
+            },
+            "result": {
+              "item": "minescore:audio_mixer"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minescore:middle_speaker",
+            "minescore:preset_chip",
+            "minescore:subwoofer",
+            "minescore:tweeter_speaker",
+            "minescore:vinyl_display"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:blank_cd",
+      "name": "Blank Vinyl",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:erase_encoded_cd",
+          "recipe": {
+            "type": "minecraft:smelting",
+            "category": "misc",
+            "ingredient": {
+              "item": "minescore:encoded_cd"
+            },
+            "result": "minescore:blank_cd",
+            "experience": 0.35,
+            "cookingtime": 200
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minescore:encoded_cd"
+          ]
+        },
+        {
+          "id": "minescore:blank_cd_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              " S ",
+              "S S",
+              " S "
+            ],
+            "key": {
+              "S": {
+                "item": "minecraft:smooth_quartz_slab"
+              }
+            },
+            "result": {
+              "item": "minescore:blank_cd"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:smooth_quartz_slab"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:blank_score",
+      "name": "Blank Score",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:blank_score",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "LP ",
+              "LPF",
+              "LPI"
+            ],
+            "key": {
+              "L": {
+                "item": "minecraft:leather"
+              },
+              "P": {
+                "item": "minecraft:paper"
+              },
+              "F": {
+                "item": "minecraft:feather"
+              },
+              "I": {
+                "item": "minecraft:ink_sac"
+              }
+            },
+            "result": {
+              "item": "minescore:blank_score"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:feather",
+            "minecraft:ink_sac",
+            "minecraft:leather",
+            "minecraft:paper"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:cable_anchor",
+      "name": "Cable Anchor",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:cable_anchor",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANA"
+            ],
+            "key": {
+              "A": {
+                "tag": "forge:nuggets/iron"
+              },
+              "N": {
+                "tag": "forge:ingots/iron"
+              }
+            },
+            "result": {
+              "item": "minescore:cable_anchor",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#forge:ingots/iron",
+            "#forge:nuggets/iron"
+          ]
+        },
+        {
+          "id": "minescore:cable_anchor_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "  A",
+              " N ",
+              "A  "
+            ],
+            "key": {
+              "A": {
+                "tag": "forge:nuggets/iron"
+              },
+              "N": {
+                "tag": "forge:ingots/iron"
+              }
+            },
+            "result": {
+              "item": "minescore:cable_anchor",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#forge:ingots/iron",
+            "#forge:nuggets/iron"
+          ]
+        },
+        {
+          "id": "minescore:cable_anchor_3",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "A  ",
+              " N ",
+              "  A"
+            ],
+            "key": {
+              "A": {
+                "tag": "forge:nuggets/iron"
+              },
+              "N": {
+                "tag": "forge:ingots/iron"
+              }
+            },
+            "result": {
+              "item": "minescore:cable_anchor",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#forge:ingots/iron",
+            "#forge:nuggets/iron"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_amp_cab",
+      "name": "Amp & Cabinet Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_amp_cab",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "TPT"
+            ],
+            "key": {
+              "T": {
+                "item": "minecraft:tnt"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              }
+            },
+            "result": {
+              "item": "minescore:card_amp_cab"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:tnt",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_delay",
+      "name": "Delay Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_delay",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "RPR"
+            ],
+            "key": {
+              "R": {
+                "item": "minecraft:repeater"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              }
+            },
+            "result": {
+              "item": "minescore:card_delay"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:repeater",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_drive",
+      "name": "Drive & Distortion Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_drive",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "APN"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wool"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "N": {
+                "tag": "forge:stone"
+              }
+            },
+            "result": {
+              "item": "minescore:card_drive"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#forge:stone",
+            "#minecraft:wool",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_dynamics",
+      "name": "Dynamics & Utility Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_dynamics",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "GPA"
+            ],
+            "key": {
+              "G": {
+                "item": "minecraft:goat_horn"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "A": {
+                "tag": "minecraft:tools"
+              }
+            },
+            "result": {
+              "item": "minescore:card_dynamics"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:tools",
+            "minecraft:goat_horn",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_modulation",
+      "name": "Modulation Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_modulation",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "PRP"
+            ],
+            "key": {
+              "P": {
+                "item": "minecraft:piston"
+              },
+              "R": {
+                "item": "minescore:preset_chip"
+              }
+            },
+            "result": {
+              "item": "minescore:card_modulation"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:piston",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:card_reverb",
+      "name": "Reverb Card",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:card_reverb",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "SPS"
+            ],
+            "key": {
+              "S": {
+                "item": "minecraft:slime_block"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              }
+            },
+            "result": {
+              "item": "minescore:card_reverb"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:slime_block",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:channel_manager",
+      "name": "Channel Manager",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:channel_manager",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "TST",
+              "MPM",
+              "UUU"
+            ],
+            "key": {
+              "T": {
+                "item": "minescore:tweeter_speaker"
+              },
+              "S": {
+                "item": "minecraft:sticky_piston"
+              },
+              "M": {
+                "item": "minescore:middle_speaker"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "U": {
+                "item": "minescore:subwoofer"
+              }
+            },
+            "result": {
+              "item": "minescore:channel_manager"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:sticky_piston",
+            "minescore:middle_speaker",
+            "minescore:preset_chip",
+            "minescore:subwoofer",
+            "minescore:tweeter_speaker"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:creative_power_source",
+      "name": "Creative Power Source (dev only)",
+      "confirmed": true,
+      "no_recipe": true,
+      "notes": "",
+      "recipes": []
+    },
+    {
+      "item": "minescore:disc_cutting_lathe",
+      "name": "Disc Cutting Lathe",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:disc_cutting_lathe",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "IR ",
+              "IBB"
+            ],
+            "key": {
+              "I": {
+                "item": "minecraft:iron_ingot"
+              },
+              "R": {
+                "item": "minecraft:iron_hoe"
+              },
+              "B": {
+                "item": "minecraft:iron_block"
+              }
+            },
+            "result": {
+              "item": "minescore:disc_cutting_lathe"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:iron_block",
+            "minecraft:iron_hoe",
+            "minecraft:iron_ingot"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:encoded_cd",
+      "name": "Vinyl Record",
+      "confirmed": true,
+      "no_recipe": true,
+      "notes": "",
+      "recipes": []
+    },
+    {
+      "item": "minescore:manual",
+      "name": "MineScore Manual",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:manual",
+          "recipe": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "minecraft:book"
+              },
+              {
+                "item": "minescore:blank_score"
+              }
+            ],
+            "result": {
+              "item": "minescore:manual"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:book",
+            "minescore:blank_score"
+          ]
+        },
+        {
+          "id": "minescore:manual_2",
+          "recipe": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "minecraft:writable_book"
+              },
+              {
+                "item": "minescore:blank_score"
+              }
+            ],
+            "result": {
+              "item": "minescore:manual"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:writable_book",
+            "minescore:blank_score"
+          ]
+        },
+        {
+          "id": "minescore:manual_3",
+          "recipe": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "minecraft:book"
+              },
+              {
+                "item": "minescore:manual"
+              }
+            ],
+            "result": {
+              "item": "minescore:manual"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:book",
+            "minescore:manual"
+          ]
+        },
+        {
+          "id": "minescore:manual_4",
+          "recipe": {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+              {
+                "item": "minecraft:writable_book"
+              },
+              {
+                "item": "minescore:manual"
+              }
+            ],
+            "result": {
+              "item": "minescore:manual"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:writable_book",
+            "minescore:manual"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:middle_speaker",
+      "name": "Middle Speaker",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:middle_speaker",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANA",
+              "NLN",
+              "ANA"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "N": {
+                "tag": "minecraft:planks"
+              },
+              "L": {
+                "item": "minecraft:leather"
+              }
+            },
+            "result": {
+              "item": "minescore:middle_speaker"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:planks",
+            "#minecraft:wooden_slabs",
+            "minecraft:leather"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:mp3_player",
+      "name": "MP3 Player",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:mp3_player",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              " A ",
+              "NPN",
+              " N "
+            ],
+            "key": {
+              "A": {
+                "tag": "forge:glass_panes"
+              },
+              "N": {
+                "tag": "minecraft:stone_buttons"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              }
+            },
+            "result": {
+              "item": "minescore:mp3_player"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#forge:glass_panes",
+            "#minecraft:stone_buttons",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:multi_effects_unit",
+      "name": "Multi-Effects Unit",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:multi_effects_unit",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "IRI",
+              "SPC",
+              "BRB"
+            ],
+            "key": {
+              "I": {
+                "item": "minecraft:iron_nugget"
+              },
+              "R": {
+                "item": "minecraft:iron_bars"
+              },
+              "S": {
+                "item": "minecraft:slime_block"
+              },
+              "P": {
+                "item": "minescore:preset_chip"
+              },
+              "C": {
+                "item": "minecraft:clock"
+              },
+              "B": {
+                "item": "minecraft:iron_block"
+              }
+            },
+            "result": {
+              "item": "minescore:multi_effects_unit"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:clock",
+            "minecraft:iron_bars",
+            "minecraft:iron_block",
+            "minecraft:iron_nugget",
+            "minecraft:slime_block",
+            "minescore:preset_chip"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:music_cabinet",
+      "name": "Music Cabinet",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:music_cabinet",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANA",
+              "AYA",
+              "ANA"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:planks"
+              },
+              "N": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "Y": {
+                "tag": "minecraft:wooden_pressure_plates"
+              }
+            },
+            "result": {
+              "item": "minescore:music_cabinet"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:planks",
+            "#minecraft:wooden_pressure_plates",
+            "#minecraft:wooden_slabs"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:preset_chip",
+      "name": "Preset Chip",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:preset_chip",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "CGC",
+              "RNR",
+              "CGC"
+            ],
+            "key": {
+              "C": {
+                "item": "minecraft:copper_ingot"
+              },
+              "G": {
+                "item": "minecraft:gold_ingot"
+              },
+              "R": {
+                "item": "minecraft:redstone"
+              },
+              "N": {
+                "item": "minecraft:quartz"
+              }
+            },
+            "result": {
+              "item": "minescore:preset_chip",
+              "count": 2
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:copper_ingot",
+            "minecraft:gold_ingot",
+            "minecraft:quartz",
+            "minecraft:redstone"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:score",
+      "name": "Score",
+      "confirmed": true,
+      "no_recipe": true,
+      "notes": "",
+      "recipes": []
+    },
+    {
+      "item": "minescore:speaker_wire_12",
+      "name": "12 Gauge Speaker Wire",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:speaker_wire_12",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "  C",
+              " C ",
+              "C  "
+            ],
+            "key": {
+              "C": [
+                {
+                  "item": "minecraft:cut_copper"
+                },
+                {
+                  "item": "minecraft:waxed_cut_copper"
+                }
+              ]
+            },
+            "result": {
+              "item": "minescore:speaker_wire_12",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:cut_copper",
+            "minecraft:waxed_cut_copper"
+          ]
+        },
+        {
+          "id": "minescore:speaker_wire_12_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "C  ",
+              " C ",
+              "  C"
+            ],
+            "key": {
+              "C": [
+                {
+                  "item": "minecraft:cut_copper"
+                },
+                {
+                  "item": "minecraft:waxed_cut_copper"
+                }
+              ]
+            },
+            "result": {
+              "item": "minescore:speaker_wire_12",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:cut_copper",
+            "minecraft:waxed_cut_copper"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:speaker_wire_16",
+      "name": "16 Gauge Speaker Wire",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:speaker_wire_16",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "C  ",
+              " C ",
+              "  C"
+            ],
+            "key": {
+              "C": [
+                {
+                  "item": "minecraft:cut_copper_slab"
+                },
+                {
+                  "item": "minecraft:waxed_cut_copper_slab"
+                }
+              ]
+            },
+            "result": {
+              "item": "minescore:speaker_wire_16",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:cut_copper_slab",
+            "minecraft:waxed_cut_copper_slab"
+          ]
+        },
+        {
+          "id": "minescore:speaker_wire_16_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "  C",
+              " C ",
+              "C  "
+            ],
+            "key": {
+              "C": [
+                {
+                  "item": "minecraft:cut_copper_slab"
+                },
+                {
+                  "item": "minecraft:waxed_cut_copper_slab"
+                }
+              ]
+            },
+            "result": {
+              "item": "minescore:speaker_wire_16",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:cut_copper_slab",
+            "minecraft:waxed_cut_copper_slab"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:speaker_wire_20",
+      "name": "20 Gauge Speaker Wire",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:speaker_wire_20",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "C  ",
+              " C ",
+              "  C"
+            ],
+            "key": {
+              "C": {
+                "item": "minecraft:copper_ingot"
+              }
+            },
+            "result": {
+              "item": "minescore:speaker_wire_20",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:copper_ingot"
+          ]
+        },
+        {
+          "id": "minescore:speaker_wire_20_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "  C",
+              " C ",
+              "C  "
+            ],
+            "key": {
+              "C": {
+                "item": "minecraft:copper_ingot"
+              }
+            },
+            "result": {
+              "item": "minescore:speaker_wire_20",
+              "count": 4
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:copper_ingot"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:subwoofer",
+      "name": "Subwoofer",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:subwoofer",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "AAA",
+              "ALA",
+              "AAA"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:planks"
+              },
+              "L": {
+                "item": "minecraft:leather"
+              }
+            },
+            "result": {
+              "item": "minescore:subwoofer"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:planks",
+            "minecraft:leather"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:tweeter_speaker",
+      "name": "Tweeter Speaker",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:tweeter_speaker",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANA",
+              "NLN",
+              "ANA"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wooden_buttons"
+              },
+              "N": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "L": {
+                "item": "minecraft:leather"
+              }
+            },
+            "result": {
+              "item": "minescore:tweeter_speaker"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:wooden_buttons",
+            "#minecraft:wooden_slabs",
+            "minecraft:leather"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:vinyl_display",
+      "name": "Vinyl Display",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:vinyl_display",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              " A ",
+              "NNN"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wool_carpets"
+              },
+              "N": {
+                "item": "minecraft:quartz"
+              }
+            },
+            "result": {
+              "item": "minescore:vinyl_display"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:wool_carpets",
+            "minecraft:quartz"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:vinyl_player",
+      "name": "Vinyl Player",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:vinyl_player",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "AI ",
+              "NCN"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wooden_buttons"
+              },
+              "I": {
+                "item": "minecraft:iron_bars"
+              },
+              "N": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "C": {
+                "item": "minecraft:copper_ingot"
+              }
+            },
+            "result": {
+              "item": "minescore:vinyl_player"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:wooden_buttons",
+            "#minecraft:wooden_slabs",
+            "minecraft:copper_ingot",
+            "minecraft:iron_bars"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:wire_cutters",
+      "name": "Wire Cutters",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:wire_cutters",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              " I ",
+              " SI",
+              "S  "
+            ],
+            "key": {
+              "I": {
+                "item": "minecraft:iron_ingot"
+              },
+              "S": {
+                "item": "minecraft:stick"
+              }
+            },
+            "result": {
+              "item": "minescore:wire_cutters"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "minecraft:iron_ingot",
+            "minecraft:stick"
+          ]
+        }
+      ]
+    },
+    {
+      "item": "minescore:writers_desk",
+      "name": "Writer's Desk",
+      "confirmed": true,
+      "no_recipe": false,
+      "notes": "",
+      "recipes": [
+        {
+          "id": "minescore:writers_desk",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANY",
+              "A  ",
+              "A  "
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:planks"
+              },
+              "N": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "Y": {
+                "tag": "minecraft:wooden_pressure_plates"
+              }
+            },
+            "result": {
+              "item": "minescore:writers_desk"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:planks",
+            "#minecraft:wooden_pressure_plates",
+            "#minecraft:wooden_slabs"
+          ]
+        },
+        {
+          "id": "minescore:writers_desk_2",
+          "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+              "ANY",
+              "  Y",
+              "  Y"
+            ],
+            "key": {
+              "A": {
+                "tag": "minecraft:wooden_pressure_plates"
+              },
+              "N": {
+                "tag": "minecraft:wooden_slabs"
+              },
+              "Y": {
+                "tag": "minecraft:planks"
+              }
+            },
+            "result": {
+              "item": "minescore:writers_desk"
+            }
+          },
+          "extras": {},
+          "notes": "",
+          "unlock_with": [
+            "#minecraft:planks",
+            "#minecraft:wooden_pressure_plates",
+            "#minecraft:wooden_slabs"
+          ]
+        }
+      ]
+    }
+  ]
+}

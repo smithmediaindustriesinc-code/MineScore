@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:fresh_cut",
+  "display": {
+    "icon": {
+      "item": "minescore:mp3_player"
+    },
+    "title": {
+      "translate": "advancements.minescore.mixtape.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.mixtape.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "mixtape": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "mixtape"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mixtape"
+    ]
+  ]
+}

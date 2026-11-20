@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minescore:block/vinyl_player"
+    },
+    "facing=east": {
+      "model": "minescore:block/vinyl_player",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minescore:block/vinyl_player",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minescore:block/vinyl_player",
+      "y": 270
+    }
+  }
+}

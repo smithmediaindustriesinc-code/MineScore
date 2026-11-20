@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "R": {
+      "item": "minescore:preset_chip"
+    }
+  },
+  "result": {
+    "item": "minescore:card_modulation"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "title": "MineScore-handbok",
+  "intro": [
+    "MineScore tar riktig musik till Minecraft: skivor skurna från dina egna musikfiler, MP3-spelare, ett hifisystem du kopplar själv och ett skrivbord för att skriva musik.",
+    "Välj ett kapitel till höger. Piltangenterna eller mushjulet bläddrar; Backspace tar dig tillbaka hit."
+  ],
+  "chapters": [
+    {
+      "title": "Skivor",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Musik börjar vid skivsvarven. Lägg dina musikfiler (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio eller MineScore-partitur) i mappen blkcdsongs i din Minecraft-instans.",
+        "# Skära en skiva",
+        "Lägg tom vinyl i svarvens ingångsplats, välj en låt i listan (du kan söka, sortera och förhandslyssna) och klicka på Skär. En vinylskiva med låtens namn kommer ut. Att byta namn vid svarven är gratis.",
+        "Svarven behöver 20 FE/t eller rotation från Create. Kopplar du en förstärkares bandutgång till den går skärningen fortare: 20 ga halverar tiden, 16 ga skär på 2 sekunder och 12 ga direkt. Med Create på 64 varv/min tar en skärning 3 sekunder; fortare och skivan krossas.",
+        "# Kopior",
+        "En vinylskiva i ingångsplatsen med tom vinyl i den andra ger en numrerad kopia: kopia nr 1, nr 2 och så vidare. Ett partitur i ingångsplatsen med tom vinyl trycker ditt partitur på en skiva.",
+        "# Utseende",
+        "Färga en skiva som läderrustning för att färga etiketten, och pryd den vid ett smidesbord med valfri mall och prydnadsmaterial. En ugn raderar en skiva tillbaka till tom vinyl."
+      ]
+    },
+    {
+      "title": "Lyssna på musik",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Skivspelare",
+        "Högerklicka med en vinylskiva för att lägga på den, med tom hand för att ta av den. Ensam spelar den från sitt eget block; inkopplad till högtalare spelar den genom dem.",
+        "# MP3-spelare",
+        "Lägg in låtar på den vid en svarv: en vinylskiva i ingångsplatsen, MP3-spelaren i den andra. Skivan blir kvar. Högerklicka för att öppna den: bibliotek, spellistor, kö och en equalizer med 10 band. I ditt förråd hörs den bara av dig.",
+        "Högerklicka med den på en högtalare för att spela genom den högtalaren för alla i närheten (Bluetooth). Högerklicka igen för att stoppa.",
+        "# Förvara musik",
+        "Vinylmontern visar en skiva på en vägg eller ett bord. Musikskåpet rymmer 16 partitur och 8 vinylskivor: högerklicka på framsidan för att lägga in en, Skift+högerklick med tom hand för att ta ut en."
+      ]
+    },
+    {
+      "title": "Bygga ett system",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Ett system är en källa, några hubbar och högtalare, kopplade med högtalartråd.",
+        "# Källor",
+        "Mixerbordet spelar en MP3-spelare som är dockad i det. Kompositörsskrivbordet spelar partituret som ligger på det. Skivspelaren spelar sin skiva, bara direkt till högtalare.",
+        "# Kedjan",
+        "Källa, sedan valfritt en multieffektenhet, sedan en kanalhanterare, sedan en förstärkare, sedan högtalare. Varje hubb är valfri, men de kommer alltid i den ordningen.",
+        "# Koppla",
+        "Varje blocks uttag sitter på baksidan. Ingångar är jack med en blå pil; utgångar är kontakter med en vit pil. Uttag kopplas bara till samma färg.",
+        "Klicka med tråd på ett uttag och sedan på uttaget i andra änden. Hubb till hubb: Skift+högerklick, valfri tjocklek. Hubb till högtalare eller högtalare till högtalare: högerklicka med tråd i högtalarens tjocklek: 12 ga för subwoofrar, 16 ga för mellanregisterhögtalare, 20 ga för diskanter.",
+        "Kabelhållare håller en kabel på vägen: klicka på en hållares ingångsände medan du drar en kabel. Avbitartänger tar bort en kabel och ger tillbaka tråden."
+      ]
+    },
+    {
+      "title": "Högtalare",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofrar spelar basen (20-200 Hz), mellanregisterhögtalare mellanregistret (200 Hz-2 kHz) och diskanter diskanten (2-20 kHz). En högtalarsort spelar bara om dess band är inkopplat vid varje hubb ända tillbaka till källan.",
+        "Högtalare står på något eller hänger under något, men aldrig på en vägg. Som standard hörs de 32 block bort, högst framifrån och tystare bakifrån.",
+        "Seriekoppla fler högtalare av samma sort via deras utgångsuttag. Högerklicka med tom hand på en högtalare för att byta namn på den och se dess kanal, effekt och tillstånd.",
+        "# För högt",
+        "Överbelasta en högtalare så kortsluts den: den faller av som föremål och högtalarna efter den tappar signalen. Basen brinner först. För att återställa, ta bort källans energi och ge tillbaka den (eller, om energi är avstängd i konfigurationen, vänta 5 sekunder och klicka på Spela)."
+      ]
+    },
+    {
+      "title": "Hubbar",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Kanalhanterare",
+        "Ger varje högtalare vänster, höger eller mono, var och en med egen nivå och en sökknapp. Kommer aldrig efter en förstärkare.",
+        "# Förstärkare",
+        "Huvudvolym och en equalizer med 10 band. Kan förstärka över 100% upp till en gräns som sätts av den tunnaste hubblänken fram till den: 200% på 20 ga, 300% på 16 ga, 400% på 12 ga. Högre högtalare når också längre.",
+        "Linjeförstärkare sitter på en högtalarlinje, betjänar en sorts högtalare och hindrar en kortslutning efter dem från att nå det som är före.",
+        "# Multieffektenhet",
+        "Kommer direkt efter mixern eller skrivbordet. Rymmer upp till sex effektkort (drive & distorsion, modulation, delay, eko, förstärkare & kabinett, dynamik & verktyg), som tillämpas i platsordning. Välj en effekt i varje kort och ställ in rattarna; förinställningschip sparar hela uppsättningen. Inkopplad till en svarv bränner den in sina effekter i skivorna som skärs där."
+      ]
+    },
+    {
+      "title": "Effekt",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Som standard går systemen på Forge Energy, som bara matas in i källan. Varje hubb kostar 50 FE/t (multieffektenheten 10 till per använt kort), och varje högtalare lite mer ju längre ned i en kedja den sitter.",
+        "För att spela alls behöver ett system minst kostnaden för sina hubbar. Så länge effekten täcker hela systemet spelar allt på full volym; över systemets budget (500 FE/t som standard) blir de avlägsnaste högtalarna tystare.",
+        "Stäng av energi helt i inställningsmenyn så går systemen gratis, utan gränser."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Varje hubbs skärm har en knapp för Redstone-styrning, avstängd som standard. Slås den på styr redstone hubben; komparatorer fungerar oavsett.",
+        "# Mixerbord",
+        "En signal fram, bak, uppe eller nere spelar; utan den pausar det. En puls till vänster hoppar till nästa låt; till höger börjar om låten eller går tillbaka till föregående.",
+        "# Övriga",
+        "Kanalhanteraren tystar en sida med en svag signal på den sidan och slår på mono med en stark signal. Förstärkaren och multieffektenheten har egna regler: håll muspekaren över knappen på deras skärmar för att se vad varje sida gör.",
+        "Vänster och höger är blockets egna sidor, som om du var blocket och tittade ut genom dess framsida."
+      ]
+    },
+    {
+      "title": "Skriva musik",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Ställ två block av kompositörsskrivbord bredvid varandra för att bilda skrivbordet. Lägg ett tomt partitur på det och klicka på Öppna redigeraren.",
+        "# Redigeraren",
+        "Den fungerar som ett notskrivningsprogram. Välj en längd med siffertangenterna, klicka sedan på notsystemet eller skriv en bokstav (A-G) för att mata in noter, och använd paletterna till vänster för allt annat: dynamik, artikulationer, linjer, text, arpeggion med mera. Ctrl+F söker i paletterna. Mellanslag spelar; markera musik först för att bara spela den. Alla kortkommandon kan ändras i redigerarens kortkommandon.",
+        "Lägg till instrument i avsnittet Instrument till höger. Ctrl+Z ångrar, och flera spelare kan redigera samma partitur samtidigt, var och en med sin egen markör.",
+        "# Kopior och skivor",
+        "Ett tomt partitur i skrivbordets kopieringsplats gör en numrerad kopia. Tryck ett partitur på en skiva vid svarven. Importera och exportera MIDI-, Note Block Studio- och MineScore-filer från redigeraren.",
+        "# Skrivbordet som källa",
+        "Inkopplat till högtalare spelar skrivbordet sitt partitur genom systemet: Spela, Stoppa och Upprepa finns på dess skärm."
+      ]
+    },
+    {
+      "title": "Inställningar",
+      "icon": "minescore:manual",
+      "text": [
+        "Tryck Ctrl+M i spelet eller använd Konfiguration i modlistan för att öppna alla MineScore-inställningar: energi, hörbarhet, utbränning, trådar, redigeraren med mera. Operatörer kan ändra serverinställningar i spelet. Förinställningar ändrar många på en gång.",
+        "# Utseende och ljud",
+        "MineScore har inbyggda resurspaket: Modern studio, Retro-hifi och en 16x-version av standardutseendet, plus ljudpaketen Retro och Studio. Slå på dem under Alternativ → Resurspaket."
+      ]
+    }
+  ]
+}

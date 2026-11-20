@@ -1,0 +1,109 @@
+{
+  "_comment": "Jack layouts in model pixels for the north-facing model (front = north, z = 0), read by PortLayouts and by tools/gen_resources.py so jacks render where they are clicked. All jacks are on the back (z = max). Seen from behind (left = low x): hub-link jacks on the left half, speaker-band jacks on the right half, inputs left of outputs; rows are 12 ga top, 16 ga middle, 20 ga bottom. Jacks stand half a pixel out from the back, inputs and outputs alike. Link jacks are coloured by the pair of blocks they join, so a cable only ever joins two jacks of the same colour; a Multi-Effects Unit's links on to a Channel Manager or Amplifier take the Mixer's purple and orange, as it stands in for the Mixer there. The Lathe takes one Amplifier band output on its matching jack, or a Multi-Effects Unit link (not both). Speakers also give 'front', the centre of their front face, where their sound comes from.",
+  "audio_mixer": {
+    "kind": "source",
+    "ports": [
+      { "id": "out_cm",  "dir": "out", "signal": "link_channel_manager", "from": [5, 10, 15.9],    "to": [7, 12, 16.5] },
+      { "id": "out_amp", "dir": "out", "signal": "link_amplifier",       "from": [5, 6, 15.9],     "to": [7, 8, 16.5] },
+      { "id": "out_meu", "dir": "out", "signal": "link_meu",             "from": [5, 2, 15.9],     "to": [7, 4, 16.5] },
+      { "id": "out_12",  "dir": "out", "signal": "band_12",              "from": [12.5, 10, 15.9], "to": [14.5, 12, 16.5] },
+      { "id": "out_16",  "dir": "out", "signal": "band_16",              "from": [12.5, 6, 15.9],  "to": [14.5, 8, 16.5] },
+      { "id": "out_20",  "dir": "out", "signal": "band_20",              "from": [12.5, 2, 15.9],  "to": [14.5, 4, 16.5] }
+    ]
+  },
+  "writers_desk": {
+    "kind": "source",
+    "ports": [
+      { "id": "out_cm",  "dir": "out", "signal": "link_channel_manager", "from": [5, 10, 15.9],    "to": [7, 12, 16.5] },
+      { "id": "out_amp", "dir": "out", "signal": "link_amplifier",       "from": [5, 6, 15.9],     "to": [7, 8, 16.5] },
+      { "id": "out_meu", "dir": "out", "signal": "link_meu",             "from": [5, 2, 15.9],     "to": [7, 4, 16.5] },
+      { "id": "out_12",  "dir": "out", "signal": "band_12",              "from": [12.5, 10, 15.9], "to": [14.5, 12, 16.5] },
+      { "id": "out_16",  "dir": "out", "signal": "band_16",              "from": [12.5, 6, 15.9],  "to": [14.5, 8, 16.5] },
+      { "id": "out_20",  "dir": "out", "signal": "band_20",              "from": [12.5, 2, 15.9],  "to": [14.5, 4, 16.5] }
+    ]
+  },
+  "multi_effects_unit": {
+    "kind": "meu",
+    "ports": [
+      { "id": "in_source", "dir": "in",  "signal": "link_source",          "from": [1.5, 10, 15.9],  "to": [3.5, 12, 16.5] },
+      { "id": "out_cm",    "dir": "out", "signal": "link_channel_manager", "from": [5, 10, 15.9],    "to": [7, 12, 16.5] },
+      { "id": "out_amp",   "dir": "out", "signal": "link_amplifier",       "from": [5, 6, 15.9],     "to": [7, 8, 16.5] },
+      { "id": "out_lathe", "dir": "out", "signal": "link_lathe",           "from": [5, 2, 15.9],     "to": [7, 4, 16.5] },
+      { "id": "in_12",     "dir": "in",  "signal": "band_12",              "from": [9, 10, 15.9],    "to": [11, 12, 16.5] },
+      { "id": "in_16",     "dir": "in",  "signal": "band_16",              "from": [9, 6, 15.9],     "to": [11, 8, 16.5] },
+      { "id": "in_20",     "dir": "in",  "signal": "band_20",              "from": [9, 2, 15.9],     "to": [11, 4, 16.5] },
+      { "id": "out_12",    "dir": "out", "signal": "band_12",              "from": [12.5, 10, 15.9], "to": [14.5, 12, 16.5] },
+      { "id": "out_16",    "dir": "out", "signal": "band_16",              "from": [12.5, 6, 15.9],  "to": [14.5, 8, 16.5] },
+      { "id": "out_20",    "dir": "out", "signal": "band_20",              "from": [12.5, 2, 15.9],  "to": [14.5, 4, 16.5] }
+    ]
+  },
+  "channel_manager": {
+    "kind": "channel_manager",
+    "ports": [
+      { "id": "in_source", "dir": "in",  "signal": "link_source",    "from": [1.5, 10, 15.9],  "to": [3.5, 12, 16.5] },
+      { "id": "in_meu",    "dir": "in",  "signal": "link_meu",       "from": [1.5, 6, 15.9],   "to": [3.5, 8, 16.5] },
+      { "id": "out_amp",   "dir": "out", "signal": "link_amplifier", "from": [5, 10, 15.9],    "to": [7, 12, 16.5] },
+      { "id": "in_12",     "dir": "in",  "signal": "band_12",        "from": [9, 10, 15.9],    "to": [11, 12, 16.5] },
+      { "id": "in_16",     "dir": "in",  "signal": "band_16",        "from": [9, 6, 15.9],     "to": [11, 8, 16.5] },
+      { "id": "in_20",     "dir": "in",  "signal": "band_20",        "from": [9, 2, 15.9],     "to": [11, 4, 16.5] },
+      { "id": "out_12",    "dir": "out", "signal": "band_12",        "from": [12.5, 10, 15.9], "to": [14.5, 12, 16.5] },
+      { "id": "out_16",    "dir": "out", "signal": "band_16",        "from": [12.5, 6, 15.9],  "to": [14.5, 8, 16.5] },
+      { "id": "out_20",    "dir": "out", "signal": "band_20",        "from": [12.5, 2, 15.9],  "to": [14.5, 4, 16.5] }
+    ]
+  },
+  "amplifier": {
+    "kind": "amplifier",
+    "ports": [
+      { "id": "in_source", "dir": "in",  "signal": "link_source",          "from": [1.5, 10, 15.9],  "to": [3.5, 12, 16.5] },
+      { "id": "in_cm",     "dir": "in",  "signal": "link_channel_manager", "from": [1.5, 6, 15.9],   "to": [3.5, 8, 16.5] },
+      { "id": "in_meu",    "dir": "in",  "signal": "link_meu",             "from": [1.5, 2, 15.9],   "to": [3.5, 4, 16.5] },
+      { "id": "in_12",     "dir": "in",  "signal": "band_12",              "from": [9, 10, 15.9],    "to": [11, 12, 16.5] },
+      { "id": "in_16",     "dir": "in",  "signal": "band_16",              "from": [9, 6, 15.9],     "to": [11, 8, 16.5] },
+      { "id": "in_20",     "dir": "in",  "signal": "band_20",              "from": [9, 2, 15.9],     "to": [11, 4, 16.5] },
+      { "id": "out_12",    "dir": "out", "signal": "band_12",              "from": [12.5, 10, 15.9], "to": [14.5, 12, 16.5] },
+      { "id": "out_16",    "dir": "out", "signal": "band_16",              "from": [12.5, 6, 15.9],  "to": [14.5, 8, 16.5] },
+      { "id": "out_20",    "dir": "out", "signal": "band_20",              "from": [12.5, 2, 15.9],  "to": [14.5, 4, 16.5] }
+    ]
+  },
+  "tweeter_speaker": {
+    "kind": "speaker",
+    "front": [8, 4, 4],
+    "ports": [
+      { "id": "in",  "dir": "in",  "signal": "band_20", "from": [5, 3, 11.9], "to": [7, 5, 12.5] },
+      { "id": "out", "dir": "out", "signal": "band_20", "from": [9, 3, 11.9], "to": [11, 5, 12.5] }
+    ]
+  },
+  "middle_speaker": {
+    "kind": "speaker",
+    "front": [8, 6, 2],
+    "ports": [
+      { "id": "in",  "dir": "in",  "signal": "band_16", "from": [4.5, 5, 13.9], "to": [6.5, 7, 14.5] },
+      { "id": "out", "dir": "out", "signal": "band_16", "from": [9.5, 5, 13.9], "to": [11.5, 7, 14.5] }
+    ]
+  },
+  "subwoofer": {
+    "kind": "speaker",
+    "front": [8, 8, 0],
+    "ports": [
+      { "id": "in",  "dir": "in",  "signal": "band_12", "from": [5, 7, 15.9], "to": [7, 9, 16.5] },
+      { "id": "out", "dir": "out", "signal": "band_12", "from": [9, 7, 15.9], "to": [11, 9, 16.5] }
+    ]
+  },
+  "vinyl_player": {
+    "kind": "vinyl_player",
+    "ports": [
+      { "id": "out_12", "dir": "out", "signal": "band_12", "from": [8.5, 1.5, 15.9],   "to": [10.5, 3.5, 16.5] },
+      { "id": "out_16", "dir": "out", "signal": "band_16", "from": [10.75, 1.5, 15.9], "to": [12.75, 3.5, 16.5] },
+      { "id": "out_20", "dir": "out", "signal": "band_20", "from": [13, 1.5, 15.9],    "to": [15, 3.5, 16.5] }
+    ]
+  },
+  "disc_cutting_lathe": {
+    "kind": "lathe",
+    "ports": [
+      { "id": "in_meu", "dir": "in", "signal": "link_meu", "from": [1, 1.5, 15.9], "to": [3, 3.5, 16.5] },
+      { "id": "in_12", "dir": "in", "signal": "band_12", "from": [4, 1.5, 15.9],  "to": [6, 3.5, 16.5] },
+      { "id": "in_16", "dir": "in", "signal": "band_16", "from": [7, 1.5, 15.9],  "to": [9, 3.5, 16.5] },
+      { "id": "in_20", "dir": "in", "signal": "band_20", "from": [10, 1.5, 15.9], "to": [12, 3.5, 16.5] }
+    ]
+  }
+}

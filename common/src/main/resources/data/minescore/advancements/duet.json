@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:composer",
+  "display": {
+    "icon": {
+      "item": "minescore:writers_desk"
+    },
+    "title": {
+      "translate": "advancements.minescore.duet.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.duet.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "duet": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "duet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "duet"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:mixtape",
+  "display": {
+    "icon": {
+      "item": "minescore:tweeter_speaker"
+    },
+    "title": {
+      "translate": "advancements.minescore.bluetooth.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.bluetooth.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "bluetooth": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "bluetooth"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bluetooth"
+    ]
+  ]
+}

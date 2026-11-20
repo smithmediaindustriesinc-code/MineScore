@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "C  ",
+    " C ",
+    "  C"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "minecraft:cut_copper_slab"
+      },
+      {
+        "item": "minecraft:waxed_cut_copper_slab"
+      }
+    ]
+  },
+  "result": {
+    "item": "minescore:speaker_wire_16",
+    "count": 4
+  }
+}

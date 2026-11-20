@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:root",
+  "display": {
+    "icon": {
+      "item": "minescore:speaker_wire_16"
+    },
+    "title": {
+      "translate": "advancements.minescore.plugged_in.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.plugged_in.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "plugged_in": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "plugged_in"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plugged_in"
+    ]
+  ]
+}

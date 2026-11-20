@@ -1,0 +1,119 @@
+{
+  "title": "MineScore Kılavuzu",
+  "intro": [
+    "MineScore, Minecraft'a gerçek müzik getirir: kendi müzik dosyalarından kesilmiş plaklar, MP3 çalarlar, kendin kabloladığın bir hi-fi sistemi ve müzik yazmak için bir masa.",
+    "Sağdan bir bölüm seç. Ok tuşları ya da fare tekerleği sayfaları çevirir; Backspace seni buraya geri getirir."
+  ],
+  "chapters": [
+    {
+      "title": "Plaklar",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Müzik plak torna tezgâhında başlar. Müzik dosyalarını (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio ya da MineScore partisyonları) Minecraft kurulumunun blkcdsongs klasörüne koy.",
+        "# Plak kesmek",
+        "Torna tezgâhının giriş yuvasına boş vinil koy, listeden bir şarkı seç (arayabilir, sıralayabilir ve ön dinleme yapabilirsin) ve Kes'e tıkla. Şarkının adını taşıyan bir vinil plak çıkar. Torna tezgâhında yeniden adlandırmak ücretsizdir.",
+        "Torna tezgâhının 20 FE/t'ye ya da Create'ten dönüşe ihtiyacı var. Ona bir amfinin bant çıkışını bağlamak kesimi hızlandırır: 20 ga süreyi yarıya indirir, 16 ga 2 saniyede keser, 12 ga ise anında. Create ile 64 rpm'de bir kesim 3 saniye sürer; daha hızlıysa plak parçalanır.",
+        "# Kopyalar",
+        "Giriş yuvasında bir vinil plak ve ikincide boş vinil numaralı bir kopya çıkarır: kopya no. 1, no. 2 ve böyle devam eder. Giriş yuvasında bir partisyon ve boş vinil, partisyonunu bir plağa basar.",
+        "# Görünüm",
+        "Etiketini renklendirmek için plağı deri zırh gibi boya ve bir demirci masasında herhangi bir şablon ve süsleme malzemesiyle süsle. Bir fırın plağı silip yeniden boş vinile çevirir."
+      ]
+    },
+    {
+      "title": "Müzik dinlemek",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Pikap",
+        "Plağı koymak için bir vinil plakla, çıkarmak için boş elle sağ tıkla. Tek başına kendi bloğundan çalar; hoparlörlere bağlıyken onlardan çalar.",
+        "# MP3 çalar",
+        "Bir torna tezgâhında ona şarkı yükle: giriş yuvasına bir vinil plak, ikinciye MP3 çalar. Plak kalır. Açmak için sağ tıkla: kitaplık, çalma listeleri, sıra ve 10 bantlı bir ekolayzer. Envanterindeyken onu yalnızca sen duyarsın.",
+        "Yakındaki herkes için o hoparlörden çalmak üzere bir hoparlöre onunla sağ tıkla (Bluetooth). Durdurmak için tekrar sağ tıkla.",
+        "# Müzik saklamak",
+        "Vinil Vitrini bir plağı duvarda ya da masada sergiler. Müzik Dolabı 16 partisyon ve 8 vinil plak alır: birini koymak için önüne sağ tıkla, birini almak için boş elle Shift+sağ tıkla."
+      ]
+    },
+    {
+      "title": "Bir sistem kurmak",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Bir sistem; bir kaynak, birkaç merkez ve hoparlörden oluşur ve hoparlör kablosuyla bağlanır.",
+        "# Kaynaklar",
+        "Miks masası içine takılmış bir MP3 çaları çalar. Besteci masası üzerindeki partisyonu çalar. Pikap kendi plağını, yalnızca doğrudan hoparlörlere çalar.",
+        "# Zincir",
+        "Kaynak, sonra isteğe bağlı olarak bir çoklu efekt ünitesi, sonra bir kanal yöneticisi, sonra bir amfi, sonra hoparlörler. Her merkez isteğe bağlıdır ama hep bu sırayla gelirler.",
+        "# Kablolama",
+        "Her bloğun jakları arkasındadır. Girişler mavi oklu yuvalardır; çıkışlar beyaz oklu fişlerdir. Jaklar yalnızca aynı renkle bağlanır.",
+        "Kabloyla bir jaka, sonra öbür uçtaki jaka tıkla. Merkezden merkeze: Shift+sağ tıkla, herhangi bir kalınlık. Merkezden hoparlöre ya da hoparlörden hoparlöre: hoparlörün kalınlığındaki kabloyla sağ tıkla: subwoofer'lar için 12 ga, orta frekans hoparlörleri için 16 ga, tiz hoparlörler için 20 ga.",
+        "Kablo tutucular kabloyu yol boyunca tutar: kablo çekerken bir tutucunun giriş ucuna tıkla. Kablo kesiciler bir kabloyu kaldırır ve kabloyu geri verir."
+      ]
+    },
+    {
+      "title": "Hoparlörler",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofer'lar bası (20-200 Hz), orta frekans hoparlörleri ortayı (200 Hz-2 kHz), tiz hoparlörler tizi (2-20 kHz) çalar. Bir hoparlör türü, bandı kaynağa kadar her merkezde bağlıysa çalar.",
+        "Hoparlörler bir şeyin üstünde durur ya da bir şeyin altında asılır ama asla duvarda değil. Varsayılan olarak 32 blok öteden duyulurlar; en yüksek önden, daha kısık arkadan.",
+        "Aynı türden daha fazla hoparlörü çıkış jaklarından zincirleme bağla. Yeniden adlandırmak ve kanalını, gücünü ve durumunu görmek için bir hoparlöre boş elle sağ tıkla.",
+        "# Çok yüksek",
+        "Bir hoparlörü aşırı yüklersen kısa devre yapar: bir eşya olarak düşer ve ondan sonraki hoparlörler sinyali kaybeder. İlk bas yanar. Sıfırlamak için kaynağın gücünü kesip geri ver (ya da yapılandırmada enerji kapalıysa 5 saniye bekleyip Çal'a tıkla)."
+      ]
+    },
+    {
+      "title": "Merkezler",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Kanal yöneticisi",
+        "Her hoparlöre sol, sağ ya da mono verir; her birinin kendi seviyesi ve bir bulma düğmesi vardır. Asla bir amfiden sonra gelmez.",
+        "# Amfi",
+        "Ana ses ve 10 bantlı bir ekolayzer. %100'ün üzerine, kendisine giden en ince merkez bağlantısının belirlediği sınıra kadar güçlendirebilir: 20 ga'da %200, 16 ga'da %300, 12 ga'da %400. Daha yüksek sesli hoparlörler ayrıca daha uzağa ulaşır.",
+        "Hat amfileri bir hoparlör hattında durur, tek bir hoparlör türüne hizmet eder ve onlardan sonraki bir kısa devrenin önlerindekine ulaşmasını engeller.",
+        "# Çoklu efekt ünitesi",
+        "Mikserden ya da masadan hemen sonra gelir. Yuva sırasına göre uygulanan altıya kadar efekt kartı alır (drive ve distorsiyon, modülasyon, delay, yankı, amfi ve kabin, dinamik ve araçlar). Her kartta bir efekt seç ve düğmeleri ayarla; ön ayar çipleri tüm seti saklar. Bir torna tezgâhına bağlıyken orada kesilen plaklara efektlerini işler."
+      ]
+    },
+    {
+      "title": "Güç",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Varsayılan olarak sistemler yalnızca kaynağa verilen Forge Energy ile çalışır. Her merkez 50 FE/t tutar (çoklu efekt ünitesi kullanılan her kart için 10 fazla) ve her hoparlör zincirde ne kadar aşağıdaysa biraz daha fazla tutar.",
+        "Hiç çalabilmek için bir sistemin en azından merkezlerinin maliyetine ihtiyacı var. Güç tüm sistemi karşıladığı sürece her şey tam seste çalar; sistemin bütçesinin üzerinde (varsayılan 500 FE/t) en uzak hoparlörler kısılır.",
+        "Ayarlar menüsünde enerjiyi tamamen kapatırsan sistemler sınırsız ve ücretsiz çalışır."
+      ]
+    },
+    {
+      "title": "Kızıltaş",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Her merkezin ekranında varsayılan olarak kapalı bir Kızıltaş kontrolü düğmesi vardır. Açarsan merkezi kızıltaş kontrol eder; karşılaştırıcılar her durumda çalışır.",
+        "# Miks masası",
+        "Önden, arkadan, üstten ya da alttan bir sinyal çalar; sinyal yoksa duraklatır. Soldan bir darbe sonraki şarkıya geçer; sağdan şarkıyı baştan başlatır ya da bir öncekine döner.",
+        "# Diğerleri",
+        "Kanal yöneticisi bir tarafı o taraftan gelen zayıf bir sinyalle susturur ve güçlü bir sinyalle monoyu açar. Amfi ve çoklu efekt ünitesinin kendi kuralları var: her tarafın ne yaptığını görmek için ekranlarındaki düğmenin üzerine gel.",
+        "Sol ve sağ, sanki sen bloğun kendisiymişsin ve önünden dışarı bakıyormuşsun gibi bloğun kendi taraflarıdır."
+      ]
+    },
+    {
+      "title": "Müzik yazmak",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Masayı oluşturmak için iki besteci masası bloğunu yan yana koy. Üzerine boş bir partisyon koy ve Düzenleyiciyi aç'a tıkla.",
+        "# Düzenleyici",
+        "Bir nota yazım programı gibi çalışır. Sayı tuşlarıyla bir süre seç, sonra nota girmek için porteye tıkla ya da bir harf (A-G) yaz; geri kalan her şey için soldaki paletleri kullan: dinamikler, artikülasyonlar, çizgiler, metin, arpejler ve daha fazlası. Ctrl+F paletlerde arar. Boşluk çalar; yalnızca bir kısmı çalmak için önce müziği seç. Her kısayol düzenleyici kısayollarından değiştirilebilir.",
+        "Sağdaki Enstrümanlar bölümünden enstrüman ekle. Ctrl+Z geri alır ve birden çok oyuncu aynı partisyonu aynı anda, her biri kendi imleciyle düzenleyebilir.",
+        "# Kopyalar ve plaklar",
+        "Masanın kopyalama yuvasındaki boş bir partisyon numaralı bir kopya çıkarır. Bir partisyonu torna tezgâhında plağa bas. MIDI, Note Block Studio ve MineScore dosyalarını düzenleyiciden içe ve dışa aktar.",
+        "# Kaynak olarak masa",
+        "Hoparlörlere bağlıyken masa partisyonunu sistem üzerinden çalar: Çal, Durdur ve Döngü ekranındadır."
+      ]
+    },
+    {
+      "title": "Ayarlar",
+      "icon": "minescore:manual",
+      "text": [
+        "Tüm MineScore ayarlarını açmak için oyunda Ctrl+M'ye bas ya da mod listesindeki Yapılandırma'yı kullan: enerji, duyulabilirlik, yanma, kablolar, düzenleyici ve daha fazlası. Operatörler sunucu ayarlarını oyun içinde değiştirebilir. Ön ayarlar birçoğunu aynı anda değiştirir.",
+        "# Görünüm ve sesler",
+        "MineScore'da yerleşik kaynak paketleri vardır: Modern Stüdyo, Retro Hi-Fi ve olağan görünümün 16x sürümü, ayrıca Retro ve Stüdyo ses paketleri. Bunları Seçenekler → Kaynak Paketleri'nden aç."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "minescore:plugged_in",
+  "display": {
+    "icon": {
+      "item": "minescore:channel_manager"
+    },
+    "title": {
+      "translate": "advancements.minescore.stereo.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.stereo.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "stereo_left": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "stereo_left"
+      }
+    },
+    "stereo_right": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "stereo_right"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stereo_left"
+    ],
+    [
+      "stereo_right"
+    ]
+  ]
+}

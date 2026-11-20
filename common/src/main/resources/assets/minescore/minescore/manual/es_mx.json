@@ -1,0 +1,119 @@
+{
+  "title": "Manual de MineScore",
+  "intro": [
+    "MineScore trae música de verdad a Minecraft: discos grabados con tus propios archivos de música, reproductores MP3, un equipo de alta fidelidad que conectas tú mismo y un escritorio para escribir música.",
+    "Elige un capítulo a la derecha. Las flechas o la rueda del ratón pasan páginas; Retroceso vuelve aquí."
+  ],
+  "chapters": [
+    {
+      "title": "Discos",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "La música empieza en el torno de grabación de discos. Pon tus archivos de música (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio o partituras de MineScore) en la carpeta blkcdsongs de tu instancia de Minecraft.",
+        "# Grabar un disco",
+        "Pon un vinilo virgen en la ranura de entrada del torno, elige una canción de la lista (puedes buscar, ordenar y escuchar) y pulsa Grabar. Sale un disco de vinilo con el nombre de la canción. Puedes cambiarle el nombre en el torno gratis.",
+        "El torno necesita 20 FE/t o rotación de Create. Conectarle la salida de banda de un amplificador acelera la grabación: 20 ga reduce el tiempo a la mitad, 16 ga graba en 2 segundos y 12 ga es instantáneo. Con Create, 64 RPM tarda 3 segundos; más rápido y el disco se rompe.",
+        "# Copias",
+        "Un disco de vinilo en la ranura de entrada y un vinilo virgen en la segunda hacen una copia, numerada copia n.º 1, n.º 2, etc. Una partitura en la ranura de entrada con un vinilo virgen prensa tu partitura en un disco.",
+        "# Aspecto",
+        "Tiñe un disco como una armadura de cuero para colorear su etiqueta, y adórnalo en una mesa de herrería con cualquier plantilla y material de adorno. Un horno borra un disco y lo devuelve a vinilo virgen."
+      ]
+    },
+    {
+      "title": "Escuchar música",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Tocadiscos",
+        "Haz clic derecho con un disco de vinilo para ponerlo y con la mano vacía para quitarlo. Solo, suena por sí mismo; conectado a altavoces, suena por ellos.",
+        "# Reproductor MP3",
+        "Carga canciones en él en el torno: un disco de vinilo en la ranura de entrada y el reproductor MP3 en la segunda. El disco se queda. Clic derecho para abrirlo: biblioteca, listas, cola y ecualizador de 10 bandas. Mientras está en tu inventario, solo lo oyes tú.",
+        "Haz clic derecho con él en un altavoz para sonar por ese altavoz para todos los que estén cerca (Bluetooth). Otro clic derecho lo para.",
+        "# Guardar música",
+        "Un expositor de vinilo muestra un disco en una pared o una mesa. Un mueble de música guarda 16 partituras y 8 discos: clic derecho en su frente para guardar uno, Mayús+clic derecho con la mano vacía para sacarlo."
+      ]
+    },
+    {
+      "title": "Montar un sistema",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Un sistema es una fuente, algunos hubs y altavoces, unidos con cable de altavoz.",
+        "# Fuentes",
+        "El mezclador de audio reproduce un reproductor MP3 acoplado. El escritorio de compositor reproduce la partitura que tiene. El tocadiscos reproduce su disco, solo directamente a altavoces.",
+        "# La cadena",
+        "Fuente, luego si quieres una unidad multiefectos, luego un gestor de canales, luego un amplificador y luego altavoces. Todos los hubs son opcionales, pero siempre van en ese orden.",
+        "# Cableado",
+        "Las tomas de cada bloque están detrás. Las entradas son conectores hembra marcados con una flecha azul; las salidas, clavijas marcadas con una flecha blanca. Las tomas solo se unen con su mismo color.",
+        "Haz clic en una toma con cable y luego en la toma del otro extremo. De hub a hub: Mayús+clic derecho, con cualquier calibre. De hub a altavoz, o de altavoz a altavoz: clic derecho con el calibre del altavoz: 12 ga para subwoofers, 16 ga para altavoces de medios, 20 ga para tweeters.",
+        "Los anclajes de cable sostienen un cable por el camino: haz clic en el extremo de entrada de un anclaje mientras tiendes un cable. Los alicates de corte quitan un cable y devuelven el cable."
+      ]
+    },
+    {
+      "title": "Altavoces",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Los subwoofers tocan los graves (20-200 Hz), los altavoces de medios los medios (200 Hz-2 kHz) y los tweeters los agudos (2-20 kHz). Un tipo de altavoz solo suena si su banda está conectada en cada hub hasta la fuente.",
+        "Los altavoces se apoyan en algo o cuelgan de algo, nunca de una pared. Por defecto se oyen a 32 bloques, más fuerte de frente y más bajo por detrás.",
+        "Encadena más altavoces de un tipo desde las tomas de salida de los otros. Clic derecho con la mano vacía en un altavoz para cambiarle el nombre y ver su canal, energía y estado.",
+        "# Demasiado alto",
+        "Fuerza demasiado un altavoz y hará cortocircuito: se cae como objeto y los altavoces que hay después pierden la señal. Los graves se queman primero. Para reiniciar, corta la energía de la fuente y vuelve a darla (o, con la energía desactivada en la configuración, espera 5 segundos y pulsa Reproducir)."
+      ]
+    },
+    {
+      "title": "Hubs",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Gestor de canales",
+        "Pone cada altavoz en izquierda, derecha o mono, cada uno con su nivel y un botón de localizar. Nunca va después de un amplificador.",
+        "# Amplificador",
+        "Volumen general y ecualizador de 10 bandas. Puede reforzar por encima del 100%, hasta un límite que fija el enlace de hub más fino conectado a él: 200% con 20 ga, 300% con 16 ga, 400% con 12 ga. Los altavoces más fuertes también llegan más lejos.",
+        "Los amplificadores de línea van en una línea de altavoces, sirven a un tipo de altavoz e impiden que un cortocircuito posterior llegue a lo que hay antes.",
+        "# Unidad multiefectos",
+        "Va justo después del mezclador o el escritorio. Admite hasta seis tarjetas de efecto (drive y distorsión, modulación, delay, reverberación, ampli y pantalla, dinámica y utilidades), aplicadas en el orden de las ranuras. Elige un efecto en cada tarjeta y ajusta sus controles; los chips de preajuste guardan el conjunto. Conectada a un torno, imprime sus efectos en los discos que se graban allí."
+      ]
+    },
+    {
+      "title": "Energía",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Por defecto, los sistemas funcionan con Forge Energy, que entra solo por la fuente. Cada hub cuesta 50 FE/t (la unidad multiefectos 10 más por tarjeta en uso), y cada altavoz algo más cuanto más abajo está en su cadena.",
+        "Un sistema necesita al menos lo que cuestan sus hubs para sonar. Mientras el suministro cubre todo el sistema, todo suena a pleno volumen; por encima del presupuesto del sistema (500 FE/t por defecto), los altavoces más alejados suenan más bajo.",
+        "Desactiva la energía por completo en el menú de ajustes y los sistemas funcionan libres, sin límites."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "La pantalla de cada hub tiene un interruptor de control por redstone, desactivado por defecto. Activado, la redstone lo controla; los comparadores funcionan en ambos casos.",
+        "# Mezclador de audio",
+        "Una señal delante, detrás, arriba o abajo reproduce; al quitarla, pausa. Un pulso a su izquierda salta a la siguiente canción; a su derecha, reinicia la canción o vuelve a la anterior.",
+        "# Otros",
+        "Un gestor de canales silencia un lado con una señal débil en ese lado y fuerza mono con una fuerte. El amplificador y la unidad multiefectos tienen las suyas: pasa el ratón por el interruptor en sus pantallas para ver qué hace cada lado.",
+        "Izquierda y derecha son las del propio bloque, como si fueras el bloque mirando desde su frente."
+      ]
+    },
+    {
+      "title": "Escribir música",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Coloca dos bloques de escritorio de compositor uno al lado del otro para montar el escritorio. Pon una partitura en blanco en él y pulsa Abrir editor.",
+        "# El editor",
+        "Funciona como un programa de notación. Elige una duración con las teclas numéricas, luego haz clic en el pentagrama o escribe una letra (A-G) para introducir notas, y usa las paletas de la izquierda para todo lo demás: dinámicas, articulaciones, líneas, texto, arpegios y más. Ctrl+F busca en las paletas. Espacio reproduce; selecciona antes algo de música para reproducir solo esa parte. Todos los atajos se pueden cambiar en los ajustes de teclas del editor.",
+        "Añade instrumentos desde la sección Instrumentos de la derecha. Ctrl+Z deshace, y varios jugadores pueden editar la misma partitura a la vez, cada uno con su cursor.",
+        "# Copias y discos",
+        "Una partitura en blanco en la ranura de copia del escritorio hace una copia numerada. Prensa una partitura en un disco en el torno. Importa y exporta archivos MIDI, Note Block Studio y MineScore desde el editor.",
+        "# El escritorio como fuente",
+        "Conectado a altavoces, el escritorio reproduce su partitura por el sistema: Reproducir, Detener y Bucle están en su pantalla."
+      ]
+    },
+    {
+      "title": "Ajustes",
+      "icon": "minescore:manual",
+      "text": [
+        "Pulsa Ctrl+M en el juego, o usa Configuración en la lista de mods, para todos los ajustes de MineScore: energía, audición, quemados, cables, el editor y más. Los operadores pueden cambiar los ajustes del servidor en el juego. Los preajustes cambian muchos a la vez.",
+        "# Aspecto y sonidos",
+        "MineScore incluye paquetes de recursos integrados: Estudio moderno, Hi-fi retro y una versión 16x del aspecto normal, además de los paquetes de sonido Retro y Estudio. Actívalos en Opciones, Paquetes de recursos."
+      ]
+    }
+  ]
+}

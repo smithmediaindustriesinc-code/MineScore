@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TNT",
+    "MPM",
+    "SSS"
+  ],
+  "key": {
+    "T": {
+      "item": "minescore:tweeter_speaker"
+    },
+    "N": {
+      "item": "minecraft:tnt"
+    },
+    "M": {
+      "item": "minescore:middle_speaker"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    },
+    "S": {
+      "item": "minescore:subwoofer"
+    }
+  },
+  "result": {
+    "item": "minescore:amplifier"
+  }
+}

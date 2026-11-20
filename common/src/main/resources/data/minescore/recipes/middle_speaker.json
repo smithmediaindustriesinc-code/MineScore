@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ANA",
+    "NLN",
+    "ANA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "N": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minescore:middle_speaker"
+  }
+}

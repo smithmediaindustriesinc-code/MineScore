@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minescore:disc_cutting_lathe",
+    "minescore:audio_mixer",
+    "minescore:channel_manager",
+    "minescore:amplifier",
+    "minescore:tweeter_speaker",
+    "minescore:middle_speaker",
+    "minescore:subwoofer",
+    "minescore:multi_effects_unit"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=north,half=single": {
+      "model": "minescore:block/writers_desk"
+    },
+    "facing=north,half=left": {
+      "model": "minescore:block/writers_desk"
+    },
+    "facing=north,half=right": {
+      "model": "minescore:block/writers_desk_right"
+    },
+    "facing=east,half=single": {
+      "model": "minescore:block/writers_desk",
+      "y": 90
+    },
+    "facing=east,half=left": {
+      "model": "minescore:block/writers_desk",
+      "y": 90
+    },
+    "facing=east,half=right": {
+      "model": "minescore:block/writers_desk_right",
+      "y": 90
+    },
+    "facing=south,half=single": {
+      "model": "minescore:block/writers_desk",
+      "y": 180
+    },
+    "facing=south,half=left": {
+      "model": "minescore:block/writers_desk",
+      "y": 180
+    },
+    "facing=south,half=right": {
+      "model": "minescore:block/writers_desk_right",
+      "y": 180
+    },
+    "facing=west,half=single": {
+      "model": "minescore:block/writers_desk",
+      "y": 270
+    },
+    "facing=west,half=left": {
+      "model": "minescore:block/writers_desk",
+      "y": 270
+    },
+    "facing=west,half=right": {
+      "model": "minescore:block/writers_desk_right",
+      "y": 270
+    }
+  }
+}

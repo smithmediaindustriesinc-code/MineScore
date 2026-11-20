@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:full_range",
+  "display": {
+    "icon": {
+      "item": "minescore:middle_speaker"
+    },
+    "title": {
+      "translate": "advancements.minescore.daisy_chain.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.daisy_chain.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "daisy_chain": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "daisy_chain"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "daisy_chain"
+    ]
+  ]
+}

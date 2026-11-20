@@ -1,0 +1,975 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_8"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "9"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_9"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "10"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_10"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "11"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_11"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "12"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_12"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "13"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_13"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "14"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_14"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "15"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_15"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "scores": "16"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_16"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_5"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_6"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_7"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "vinyls": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_8"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "9"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "10"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "11"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "12"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "13"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "14"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "15"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "scores": "16"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_16",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "vinyls": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "9"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "10"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "11"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "12"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "13"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "14"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "15"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "scores": "16"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_16",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "vinyls": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "9"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "10"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "11"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "12"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "13"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "14"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "15"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "scores": "16"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_scores_16",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "1"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "2"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "3"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "4"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "5"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "6"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "7"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "vinyls": "8"
+      },
+      "apply": {
+        "model": "minescore:block/music_cabinet_vinyls_8",
+        "y": 270
+      }
+    }
+  ]
+}

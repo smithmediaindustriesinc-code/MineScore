@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "diagonal=false,drop=0,facing=north": {
+      "model": "minescore:block/tweeter_speaker"
+    },
+    "diagonal=true,drop=0,facing=north": {
+      "model": "minescore:block/tweeter_speaker_diagonal"
+    },
+    "diagonal=false,drop=1,facing=north": {
+      "model": "minescore:block/tweeter_speaker_drop1"
+    },
+    "diagonal=true,drop=1,facing=north": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop1"
+    },
+    "diagonal=false,drop=2,facing=north": {
+      "model": "minescore:block/tweeter_speaker_drop2"
+    },
+    "diagonal=true,drop=2,facing=north": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop2"
+    },
+    "diagonal=false,drop=3,facing=north": {
+      "model": "minescore:block/tweeter_speaker_drop3"
+    },
+    "diagonal=true,drop=3,facing=north": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop3"
+    },
+    "diagonal=false,drop=4,facing=north": {
+      "model": "minescore:block/tweeter_speaker_drop4"
+    },
+    "diagonal=true,drop=4,facing=north": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop4"
+    },
+    "diagonal=false,drop=0,facing=east": {
+      "model": "minescore:block/tweeter_speaker",
+      "y": 90
+    },
+    "diagonal=true,drop=0,facing=east": {
+      "model": "minescore:block/tweeter_speaker_diagonal",
+      "y": 90
+    },
+    "diagonal=false,drop=1,facing=east": {
+      "model": "minescore:block/tweeter_speaker_drop1",
+      "y": 90
+    },
+    "diagonal=true,drop=1,facing=east": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop1",
+      "y": 90
+    },
+    "diagonal=false,drop=2,facing=east": {
+      "model": "minescore:block/tweeter_speaker_drop2",
+      "y": 90
+    },
+    "diagonal=true,drop=2,facing=east": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop2",
+      "y": 90
+    },
+    "diagonal=false,drop=3,facing=east": {
+      "model": "minescore:block/tweeter_speaker_drop3",
+      "y": 90
+    },
+    "diagonal=true,drop=3,facing=east": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop3",
+      "y": 90
+    },
+    "diagonal=false,drop=4,facing=east": {
+      "model": "minescore:block/tweeter_speaker_drop4",
+      "y": 90
+    },
+    "diagonal=true,drop=4,facing=east": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop4",
+      "y": 90
+    },
+    "diagonal=false,drop=0,facing=south": {
+      "model": "minescore:block/tweeter_speaker",
+      "y": 180
+    },
+    "diagonal=true,drop=0,facing=south": {
+      "model": "minescore:block/tweeter_speaker_diagonal",
+      "y": 180
+    },
+    "diagonal=false,drop=1,facing=south": {
+      "model": "minescore:block/tweeter_speaker_drop1",
+      "y": 180
+    },
+    "diagonal=true,drop=1,facing=south": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop1",
+      "y": 180
+    },
+    "diagonal=false,drop=2,facing=south": {
+      "model": "minescore:block/tweeter_speaker_drop2",
+      "y": 180
+    },
+    "diagonal=true,drop=2,facing=south": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop2",
+      "y": 180
+    },
+    "diagonal=false,drop=3,facing=south": {
+      "model": "minescore:block/tweeter_speaker_drop3",
+      "y": 180
+    },
+    "diagonal=true,drop=3,facing=south": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop3",
+      "y": 180
+    },
+    "diagonal=false,drop=4,facing=south": {
+      "model": "minescore:block/tweeter_speaker_drop4",
+      "y": 180
+    },
+    "diagonal=true,drop=4,facing=south": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop4",
+      "y": 180
+    },
+    "diagonal=false,drop=0,facing=west": {
+      "model": "minescore:block/tweeter_speaker",
+      "y": 270
+    },
+    "diagonal=true,drop=0,facing=west": {
+      "model": "minescore:block/tweeter_speaker_diagonal",
+      "y": 270
+    },
+    "diagonal=false,drop=1,facing=west": {
+      "model": "minescore:block/tweeter_speaker_drop1",
+      "y": 270
+    },
+    "diagonal=true,drop=1,facing=west": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop1",
+      "y": 270
+    },
+    "diagonal=false,drop=2,facing=west": {
+      "model": "minescore:block/tweeter_speaker_drop2",
+      "y": 270
+    },
+    "diagonal=true,drop=2,facing=west": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop2",
+      "y": 270
+    },
+    "diagonal=false,drop=3,facing=west": {
+      "model": "minescore:block/tweeter_speaker_drop3",
+      "y": 270
+    },
+    "diagonal=true,drop=3,facing=west": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop3",
+      "y": 270
+    },
+    "diagonal=false,drop=4,facing=west": {
+      "model": "minescore:block/tweeter_speaker_drop4",
+      "y": 270
+    },
+    "diagonal=true,drop=4,facing=west": {
+      "model": "minescore:block/tweeter_speaker_diagonal_drop4",
+      "y": 270
+    }
+  }
+}

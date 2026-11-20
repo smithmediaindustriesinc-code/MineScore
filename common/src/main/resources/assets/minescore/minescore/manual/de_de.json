@@ -1,0 +1,119 @@
+{
+  "title": "MineScore-Handbuch",
+  "intro": [
+    "MineScore bringt echte Musik nach Minecraft: Schallplatten aus deinen eigenen Musikdateien, MP3-Player, eine Hi-Fi-Anlage, die du selbst verkabelst, und einen Schreibtisch zum Komponieren.",
+    "Wähle rechts ein Kapitel. Die Pfeile oder das Mausrad blättern um; die Rücktaste bringt dich hierher zurück."
+  ],
+  "chapters": [
+    {
+      "title": "Schallplatten",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Musik beginnt an der Schallplatten-Schneidedrehbank. Lege deine Musikdateien (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio oder MineScore-Partituren) in den Ordner blkcdsongs deiner Minecraft-Instanz.",
+        "# Eine Platte schneiden",
+        "Lege eine leere Schallplatte in den Eingabeplatz der Drehbank, wähle ein Lied aus der Liste (du kannst suchen, sortieren und vorhören) und drücke „Schneiden“. Heraus kommt eine Schallplatte mit dem Namen des Lieds. An der Drehbank kannst du sie kostenlos umbenennen.",
+        "Die Drehbank braucht 20 FE/t oder Drehung von Create. Ein Bandausgang eines Verstärkers beschleunigt das Schneiden: 20 ga halbiert die Zeit, 16 ga schneidet in 2 Sekunden und 12 ga sofort. Mit Create dauern 64 U/min 3 Sekunden; schneller, und die Platte zerspringt.",
+        "# Kopien",
+        "Eine Schallplatte im Eingabeplatz und eine leere Schallplatte im zweiten Platz ergeben eine Kopie, nummeriert als Kopie Nr. 1, Nr. 2 und so weiter. Eine Partitur im Eingabeplatz mit einer leeren Schallplatte presst deine Partitur auf eine Platte.",
+        "# Aussehen",
+        "Färbe eine Platte wie Lederrüstung, um ihr Etikett zu färben, und verziere sie am Schmiedetisch mit jeder Verzierungsvorlage und jedem Material. Ein Ofen löscht eine Platte wieder zu einer leeren Schallplatte."
+      ]
+    },
+    {
+      "title": "Musik abspielen",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Plattenspieler",
+        "Rechtsklick mit einer Schallplatte spielt sie ab, mit leerer Hand nimmst du sie herunter. Allein spielt er aus sich selbst; mit Lautsprechern verkabelt spielt er stattdessen über sie.",
+        "# MP3-Player",
+        "Lade an der Drehbank Lieder darauf: eine Schallplatte in den Eingabeplatz und den MP3-Player in den zweiten Platz. Die Platte bleibt. Rechtsklick öffnet ihn: Bibliothek, Wiedergabelisten, Warteschlange und ein 10-Band-EQ. Solange er in deinem Inventar ist, hörst nur du ihn.",
+        "Rechtsklick damit auf einen Lautsprecher spielt über diesen Lautsprecher für alle in der Nähe (Bluetooth). Erneuter Rechtsklick stoppt.",
+        "# Musik aufbewahren",
+        "Ein Schallplattenhalter zeigt eine Platte an einer Wand oder auf einem Tisch. Ein Musikschrank fasst 16 Partituren und 8 Schallplatten: Rechtsklick auf seine Vorderseite legt eine ab, Umschalt+Rechtsklick mit leerer Hand nimmt eine heraus."
+      ]
+    },
+    {
+      "title": "Ein System aufbauen",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Ein System ist eine Quelle, einige Hubs und Lautsprecher, verbunden mit Lautsprecherkabel.",
+        "# Quellen",
+        "Das Mischpult spielt einen angedockten MP3-Player. Der Schreibtisch spielt die Partitur auf ihm. Der Plattenspieler spielt seine Platte, nur direkt an Lautsprecher.",
+        "# Die Kette",
+        "Quelle, dann wahlweise eine Multieffekt-Einheit, dann ein Kanalmanager, dann ein Verstärker, dann Lautsprecher. Jeder Hub ist optional, aber sie kommen immer in dieser Reihenfolge.",
+        "# Verkabelung",
+        "Die Buchsen jedes Blocks sind an seiner Rückseite. Eingänge sind Buchsen mit blauem Pfeil, Ausgänge Stecker mit weißem Pfeil. Buchsen verbinden sich nur mit gleicher Farbe.",
+        "Klicke mit Kabel auf eine Buchse und dann auf die Buchse am anderen Ende. Hub zu Hub: Umschalt+Rechtsklick, mit jeder Stärke. Hub zu Lautsprecher oder Lautsprecher zu Lautsprecher: Rechtsklick mit der Stärke des Lautsprechers: 12 ga für Subwoofer, 16 ga für Mitteltöner, 20 ga für Hochtöner.",
+        "Kabelanker halten ein Kabel unterwegs fest: klicke beim Verlegen auf das Eingangsende eines Ankers. Seitenschneider nehmen ein Kabel ab und geben das Kabel zurück."
+      ]
+    },
+    {
+      "title": "Lautsprecher",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofer spielen den Bass (20–200 Hz), Mitteltöner die Mitten (200 Hz–2 kHz) und Hochtöner die Höhen (2–20 kHz). Eine Lautsprecherart spielt nur, wenn ihr Band an jedem Hub bis zur Quelle verkabelt ist.",
+        "Lautsprecher stehen auf etwas oder hängen an etwas, nie an einer Wand. Standardmäßig hört man sie 32 Blöcke weit, vorn am lautesten und hinten leiser.",
+        "Schalte weitere Lautsprecher einer Art über ihre Ausgangsbuchsen in Reihe. Rechtsklick mit leerer Hand auf einen Lautsprecher benennt ihn um und zeigt Kanal, Energie und Zustand.",
+        "# Zu laut",
+        "Treib einen Lautsprecher zu stark an, und er bekommt einen Kurzschluss: er fällt als Gegenstand ab, und die Lautsprecher dahinter verlieren ihr Signal. Der Bass brennt zuerst durch. Zum Zurücksetzen trennst du die Energie der Quelle und stellst sie wieder her (oder, mit abgeschalteter Energie in der Konfiguration, wartest 5 Sekunden und drückst „Abspielen“)."
+      ]
+    },
+    {
+      "title": "Hubs",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Kanalmanager",
+        "Setzt jeden Lautsprecher auf Links, Rechts oder Mono, jeweils mit eigenem Pegel und einer Orten-Schaltfläche. Er kommt nie nach einem Verstärker.",
+        "# Verstärker",
+        "Gesamtlautstärke und ein 10-Band-EQ. Er kann über 100 % anheben, bis zu einer Grenze, die von der dünnsten Hub-Verbindung zu ihm abhängt: 200 % bei 20 ga, 300 % bei 16 ga, 400 % bei 12 ga. Lautere Lautsprecher tragen auch weiter.",
+        "Leitungsverstärker sitzen auf einer Lautsprecherleitung, bedienen eine Lautsprecherart und halten einen Kurzschluss dahinter von allem davor fern.",
+        "# Multieffekt-Einheit",
+        "Kommt direkt nach dem Mischpult oder Schreibtisch. Sie fasst bis zu sechs Effektkarten (Drive & Verzerrung, Modulation, Delay, Hall, Amp & Box, Dynamik & Werkzeug), angewendet in der Reihenfolge der Plätze. Wähle auf jeder Karte einen Effekt und stelle ihre Regler ein; Voreinstellungs-Chips speichern das ganze Set. An eine Drehbank angeschlossen, prägt sie ihre Effekte auf die dort geschnittenen Platten."
+      ]
+    },
+    {
+      "title": "Energie",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Standardmäßig laufen Systeme mit Forge Energy, die nur in die Quelle eingespeist wird. Jeder Hub kostet 50 FE/t (die MEU 10 mehr pro verwendeter Karte), und jeder Lautsprecher etwas mehr, je weiter hinten in seiner Kette er ist.",
+        "Ein System braucht mindestens die Kosten seiner Hubs, um überhaupt zu spielen. Solange die Versorgung das ganze System deckt, spielt alles in voller Lautstärke; über dem Budget eines Systems (standardmäßig 500 FE/t) werden die hintersten Lautsprecher leiser.",
+        "Schalte Energie in der Konfiguration ganz ab, und Systeme laufen frei ohne Grenzen."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Der Bildschirm jedes Hubs hat einen Schalter „Redstone-Steuerung“, standardmäßig aus. Eingeschaltet steuert ihn Redstone; Komparatoren funktionieren in beiden Fällen.",
+        "# Mischpult",
+        "Ein Signal vorne, hinten, oben oder unten spielt; nimmst du es weg, pausiert es. Ein Impuls links springt zum nächsten Lied; rechts startet er das Lied neu oder geht eins zurück.",
+        "# Weitere",
+        "Ein Kanalmanager schaltet eine Seite mit schwachem Signal an dieser Seite stumm und erzwingt mit starkem Signal Mono. Verstärker und MEU haben ihre eigenen Regeln: fahre über den Schalter in ihren Bildschirmen, um zu sehen, was jede Seite tut.",
+        "Links und rechts sind die des Blocks, als würdest du als Block aus seiner Vorderseite schauen."
+      ]
+    },
+    {
+      "title": "Musik schreiben",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Stelle zwei Schreibtisch-Blöcke nebeneinander, um den Schreibtisch zu bauen. Lege eine leere Partitur darauf und drücke „Editor öffnen“.",
+        "# Der Editor",
+        "Er funktioniert wie ein Notensatzprogramm. Wähle mit den Zahlentasten eine Notenlänge, klicke dann ins Notensystem oder tippe einen Buchstaben (A–G), um Noten einzugeben, und nutze die Paletten links für alles andere: Dynamik, Artikulationen, Linien, Text, Arpeggien und mehr. Strg+F durchsucht die Paletten. Die Leertaste spielt ab; wähle vorher Musik aus, um nur diesen Teil zu spielen. Jedes Tastenkürzel lässt sich in den Tasteneinstellungen des Editors ändern.",
+        "Füge Instrumente im Bereich „Instrumente“ rechts hinzu. Strg+Z macht rückgängig, und mehrere Spieler können dieselbe Partitur gleichzeitig bearbeiten, jeder mit eigenem Cursor.",
+        "# Kopien und Platten",
+        "Eine leere Partitur im Kopierplatz des Schreibtischs ergibt eine nummerierte Kopie. Presse eine Partitur an der Drehbank auf eine Platte. Importiere und exportiere MIDI-, Note-Block-Studio- und MineScore-Dateien aus dem Editor.",
+        "# Der Schreibtisch als Quelle",
+        "Mit Lautsprechern verkabelt spielt der Schreibtisch die Partitur auf ihm über das System: Abspielen, Stopp und Schleife sind auf seinem Bildschirm."
+      ]
+    },
+    {
+      "title": "Einstellungen",
+      "icon": "minescore:manual",
+      "text": [
+        "Drücke im Spiel Strg+M oder nutze „Konfiguration“ in der Mod-Liste für jede MineScore-Einstellung: Energie, Hören, Durchbrennen, Kabel, den Editor und mehr. Operatoren können die Servereinstellungen im Spiel ändern. Voreinstellungen setzen viele auf einmal.",
+        "# Aussehen und Klang",
+        "MineScore bringt eingebaute Ressourcenpakete mit: Modernes Studio, Retro-Hi-Fi und eine 16x-Version des Standardaussehens, dazu die Klangpakete Retro und Studio. Schalte sie unter Optionen, Ressourcenpakete ein."
+      ]
+    }
+  ]
+}

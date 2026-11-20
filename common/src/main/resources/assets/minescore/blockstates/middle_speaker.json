@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "drop=0,facing=north": {
+      "model": "minescore:block/middle_speaker"
+    },
+    "drop=1,facing=north": {
+      "model": "minescore:block/middle_speaker_drop1"
+    },
+    "drop=2,facing=north": {
+      "model": "minescore:block/middle_speaker_drop2"
+    },
+    "drop=3,facing=north": {
+      "model": "minescore:block/middle_speaker_drop3"
+    },
+    "drop=4,facing=north": {
+      "model": "minescore:block/middle_speaker_drop4"
+    },
+    "drop=0,facing=east": {
+      "model": "minescore:block/middle_speaker",
+      "y": 90
+    },
+    "drop=1,facing=east": {
+      "model": "minescore:block/middle_speaker_drop1",
+      "y": 90
+    },
+    "drop=2,facing=east": {
+      "model": "minescore:block/middle_speaker_drop2",
+      "y": 90
+    },
+    "drop=3,facing=east": {
+      "model": "minescore:block/middle_speaker_drop3",
+      "y": 90
+    },
+    "drop=4,facing=east": {
+      "model": "minescore:block/middle_speaker_drop4",
+      "y": 90
+    },
+    "drop=0,facing=south": {
+      "model": "minescore:block/middle_speaker",
+      "y": 180
+    },
+    "drop=1,facing=south": {
+      "model": "minescore:block/middle_speaker_drop1",
+      "y": 180
+    },
+    "drop=2,facing=south": {
+      "model": "minescore:block/middle_speaker_drop2",
+      "y": 180
+    },
+    "drop=3,facing=south": {
+      "model": "minescore:block/middle_speaker_drop3",
+      "y": 180
+    },
+    "drop=4,facing=south": {
+      "model": "minescore:block/middle_speaker_drop4",
+      "y": 180
+    },
+    "drop=0,facing=west": {
+      "model": "minescore:block/middle_speaker",
+      "y": 270
+    },
+    "drop=1,facing=west": {
+      "model": "minescore:block/middle_speaker_drop1",
+      "y": 270
+    },
+    "drop=2,facing=west": {
+      "model": "minescore:block/middle_speaker_drop2",
+      "y": 270
+    },
+    "drop=3,facing=west": {
+      "model": "minescore:block/middle_speaker_drop3",
+      "y": 270
+    },
+    "drop=4,facing=west": {
+      "model": "minescore:block/middle_speaker_drop4",
+      "y": 270
+    }
+  }
+}

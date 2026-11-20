@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minescore:item/blank_cd",
+    "layer1": "minescore:item/cd_label_blank",
+    "layer2": "minescore:item/cd_trim_vex"
+  }
+}

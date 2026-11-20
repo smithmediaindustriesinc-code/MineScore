@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TST",
+    "MPM",
+    "UUU"
+  ],
+  "key": {
+    "T": {
+      "item": "minescore:tweeter_speaker"
+    },
+    "S": {
+      "item": "minecraft:sticky_piston"
+    },
+    "M": {
+      "item": "minescore:middle_speaker"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    },
+    "U": {
+      "item": "minescore:subwoofer"
+    }
+  },
+  "result": {
+    "item": "minescore:channel_manager"
+  }
+}

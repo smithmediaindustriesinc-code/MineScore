@@ -1,0 +1,89 @@
+plugins {
+    id 'com.gradleup.shadow'
+}
+
+architectury {
+    platformSetupLoomIde()
+    forge()
+}
+
+loom {
+    forge {
+        mixinConfig 'minescore.mixins.json'
+    }
+}
+
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentForge.extendsFrom common
+
+    // Common code is bundled into the Forge jar.
+    shadowBundle {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.createmod.net' } // Create, Ponder, Flywheel
+    maven { url = 'https://maven.tterrag.com' }   // Registrate
+    maven { url = 'https://maven.blamejared.com' } // JEI
+    maven { url = 'https://maven.k-4u.nl' }        // The One Probe
+    exclusiveContent {                              // Jade
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    forge "net.minecraftforge:forge:$rootProject.forge_version"
+
+    // Create is optional (SCOPE.md §10): compiled against, never bundled. The dev game runs with it.
+    modCompileOnly("com.simibubi.create:create-1.20.1:$rootProject.create_version:slim") { transitive = false }
+    modCompileOnly("net.createmod.ponder:Ponder-Forge-1.20.1:$rootProject.ponder_version") { transitive = false }
+    modCompileOnly("dev.engine-room.flywheel:flywheel-forge-1.20.1:$rootProject.flywheel_version") { transitive = false }
+    modCompileOnly("com.tterrag.registrate:Registrate:$rootProject.registrate_version") { transitive = false }
+    modLocalRuntime("com.simibubi.create:create-1.20.1:$rootProject.create_version:slim") { transitive = false }
+    modLocalRuntime("net.createmod.ponder:Ponder-Forge-1.20.1:$rootProject.ponder_version") { transitive = false }
+    modLocalRuntime("dev.engine-room.flywheel:flywheel-forge-1.20.1:$rootProject.flywheel_version") { transitive = false }
+    modLocalRuntime("com.tterrag.registrate:Registrate:$rootProject.registrate_version") { transitive = false }
+    // JEI, Jade and The One Probe are optional too. The dev game runs with JEI and The One Probe (Jade's mixins don't apply in this dev setup).
+    modCompileOnly("mezz.jei:jei-1.20.1-common-api:$rootProject.jei_version") { transitive = false }
+    modCompileOnly("mezz.jei:jei-1.20.1-forge-api:$rootProject.jei_version") { transitive = false }
+    modLocalRuntime("mezz.jei:jei-1.20.1-forge:$rootProject.jei_version") { transitive = false }
+    modCompileOnly("maven.modrinth:jade:$rootProject.jade_version") { transitive = false }
+    modCompileOnly("mcjty.theoneprobe:theoneprobe:$rootProject.top_version:api") { transitive = false }
+    modLocalRuntime("mcjty.theoneprobe:theoneprobe:$rootProject.top_version") { transitive = false }
+    // Create's mixins need MixinExtras, which Forge 47 doesn't include (Create's own jar bundles it).
+    forgeRuntimeLibrary "io.github.llamalad7:mixinextras-common:$rootProject.mixinextras_version"
+    modLocalRuntime "io.github.llamalad7:mixinextras-forge:$rootProject.mixinextras_version"
+
+    common(project(path: ':common', configuration: 'namedElements')) { transitive false }
+    shadowBundle project(path: ':common', configuration: 'transformProductionForge')
+
+    // JLayer goes in as its own nested jar (Forge jar-in-jar), not shaded, as its LGPL licence prefers.
+    forgeRuntimeLibrary "javazoom:jlayer:$rootProject.jlayer_version"
+    include "javazoom:jlayer:$rootProject.jlayer_version"
+}
+
+processResources {
+    inputs.property 'version', project.version
+
+    filesMatching('META-INF/mods.toml') {
+        expand version: project.version
+    }
+}
+
+shadowJar {
+    configurations = [project.configurations.shadowBundle]
+    archiveClassifier = 'dev-shadow'
+}
+
+remapJar {
+    input.set shadowJar.archiveFile
+}

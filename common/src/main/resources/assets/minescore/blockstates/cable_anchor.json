@@ -1,0 +1,98 @@
+{
+  "variants": {
+    "facing=up,input=north": {
+      "model": "minescore:block/cable_anchor_floor"
+    },
+    "facing=up,input=east": {
+      "model": "minescore:block/cable_anchor_floor",
+      "y": 90
+    },
+    "facing=up,input=south": {
+      "model": "minescore:block/cable_anchor_floor",
+      "y": 180
+    },
+    "facing=up,input=west": {
+      "model": "minescore:block/cable_anchor_floor",
+      "y": 270
+    },
+    "facing=down,input=north": {
+      "model": "minescore:block/cable_anchor_floor",
+      "x": 180,
+      "y": 180
+    },
+    "facing=down,input=east": {
+      "model": "minescore:block/cable_anchor_floor",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,input=south": {
+      "model": "minescore:block/cable_anchor_floor",
+      "x": 180
+    },
+    "facing=down,input=west": {
+      "model": "minescore:block/cable_anchor_floor",
+      "x": 180,
+      "y": 90
+    },
+    "facing=north,input=north": {
+      "model": "minescore:block/cable_anchor_wall"
+    },
+    "facing=north,input=east": {
+      "model": "minescore:block/cable_anchor_wall_mirrored"
+    },
+    "facing=north,input=south": {
+      "model": "minescore:block/cable_anchor_wall"
+    },
+    "facing=north,input=west": {
+      "model": "minescore:block/cable_anchor_wall"
+    },
+    "facing=east,input=north": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 90
+    },
+    "facing=east,input=east": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 90
+    },
+    "facing=east,input=south": {
+      "model": "minescore:block/cable_anchor_wall_mirrored",
+      "y": 90
+    },
+    "facing=east,input=west": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 90
+    },
+    "facing=south,input=north": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 180
+    },
+    "facing=south,input=east": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 180
+    },
+    "facing=south,input=south": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 180
+    },
+    "facing=south,input=west": {
+      "model": "minescore:block/cable_anchor_wall_mirrored",
+      "y": 180
+    },
+    "facing=west,input=north": {
+      "model": "minescore:block/cable_anchor_wall_mirrored",
+      "y": 270
+    },
+    "facing=west,input=east": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 270
+    },
+    "facing=west,input=south": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 270
+    },
+    "facing=west,input=west": {
+      "model": "minescore:block/cable_anchor_wall",
+      "y": 270
+    }
+  }
+}

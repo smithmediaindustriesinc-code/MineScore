@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minescore:blank_score"
+    }
+  ],
+  "result": {
+    "item": "minescore:manual"
+  }
+}

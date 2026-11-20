@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/smithmediaindustriesinc-code/MineScore/issues"
+
+[[mods]]
+modId = "minescore"
+version = "${version}"
+displayName = "MineScore"
+logoFile = "minescore_logo.png"
+displayURL = "https://github.com/smithmediaindustriesinc-code/MineScore"
+authors = "Smith Media Industries"
+credits = "Optional support for Create, JEI, Jade and The One Probe."
+description = '''
+Real music in Minecraft. Cut your own songs onto vinyl, carry them on an MP3 player, wire up a hi-fi system with subwoofers, middle speakers and tweeters, shape the sound with amps and effects, and write your own scores at the Composer's Desk.
+'''
+
+[[dependencies.minescore]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.minescore]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+# Optional: with Create installed, the Disc Cutting Lathe runs on rotation (SCOPE.md §3.1).
+[[dependencies.minescore]]
+modId = "create"
+mandatory = false
+versionRange = "[6.0,)"
+ordering = "AFTER"
+side = "BOTH"

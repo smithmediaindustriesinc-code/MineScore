@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AI ",
+    "NCN"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "N": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "minescore:vinyl_player"
+  }
+}

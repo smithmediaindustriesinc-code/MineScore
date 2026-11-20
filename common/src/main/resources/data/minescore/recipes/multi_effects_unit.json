@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IRI",
+    "SPC",
+    "BRB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:iron_bars"
+    },
+    "S": {
+      "item": "minecraft:slime_block"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "minescore:multi_effects_unit"
+  }
+}

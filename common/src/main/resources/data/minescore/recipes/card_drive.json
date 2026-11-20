@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "APN"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:wool"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    },
+    "N": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "minescore:card_drive"
+  }
+}

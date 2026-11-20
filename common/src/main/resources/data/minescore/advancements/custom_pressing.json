@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:fresh_cut",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_dye"
+    },
+    "title": {
+      "translate": "advancements.minescore.custom_pressing.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.custom_pressing.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "custom_pressing": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "custom_pressing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "custom_pressing"
+    ]
+  ]
+}

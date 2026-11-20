@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:plugged_in",
+  "display": {
+    "icon": {
+      "item": "minescore:multi_effects_unit"
+    },
+    "title": {
+      "translate": "advancements.minescore.pedalboard.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.pedalboard.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "pedalboard": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "pedalboard"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pedalboard"
+    ]
+  ]
+}

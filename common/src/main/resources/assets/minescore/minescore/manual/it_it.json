@@ -1,0 +1,119 @@
+{
+  "title": "Manuale di MineScore",
+  "intro": [
+    "MineScore porta vera musica in Minecraft: dischi incisi dai tuoi file audio, lettori MP3, un impianto hi-fi che colleghi da solo e una scrivania per scrivere musica.",
+    "Scegli un capitolo a destra. Le frecce o la rotellina del mouse girano le pagine; Backspace torna qui."
+  ],
+  "chapters": [
+    {
+      "title": "Dischi",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "La musica comincia al tornio per incidere dischi. Metti i tuoi file audio (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio o spartiti MineScore) nella cartella blkcdsongs della tua istanza di Minecraft.",
+        "# Incidere un disco",
+        "Metti un vinile vergine nello slot di ingresso del tornio, scegli un brano dall'elenco (puoi cercare, ordinare e ascoltare) e premi Incidi. Esce un disco in vinile con il nome del brano. Puoi rinominarlo gratis al tornio.",
+        "Il tornio richiede 20 FE/t o la rotazione di Create. Collegargli un'uscita di banda di un amplificatore accelera l'incisione: 20 ga dimezza il tempo, 16 ga incide in 2 secondi e 12 ga è istantaneo. Con Create, 64 giri/min richiedono 3 secondi; più veloce e il disco va in pezzi.",
+        "# Copie",
+        "Un disco in vinile nello slot di ingresso e un vinile vergine nel secondo slot fanno una copia, numerata copia n. 1, n. 2 e così via. Uno spartito nello slot di ingresso con un vinile vergine stampa il tuo spartito su un disco.",
+        "# Aspetto",
+        "Tingi un disco come un'armatura di cuoio per colorarne l'etichetta, e decoralo a un tavolo da forgiatura con qualsiasi modello e materiale di decorazione. Una fornace cancella un disco e lo riporta a vinile vergine."
+      ]
+    },
+    {
+      "title": "Ascoltare musica",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Giradischi",
+        "Clic destro con un disco in vinile per suonarlo, a mano vuota per toglierlo. Da solo suona da sé; collegato ad altoparlanti, suona attraverso di loro.",
+        "# Lettore MP3",
+        "Carica i brani al tornio: un disco in vinile nello slot di ingresso e il lettore MP3 nel secondo. Il disco resta. Clic destro per aprirlo: libreria, playlist, coda e un equalizzatore a 10 bande. Finché è nel tuo inventario, lo senti solo tu.",
+        "Clic destro con esso su un altoparlante per suonare attraverso quell'altoparlante per tutti quelli vicini (Bluetooth). Un altro clic destro lo ferma.",
+        "# Conservare la musica",
+        "Un espositore per vinili mostra un disco su una parete o un tavolo. Un mobile per la musica contiene 16 spartiti e 8 dischi: clic destro sul davanti per riporne uno, Maiusc+clic destro a mano vuota per estrarlo."
+      ]
+    },
+    {
+      "title": "Costruire un impianto",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "Un impianto è una sorgente, alcuni hub e altoparlanti, collegati con cavo per altoparlanti.",
+        "# Sorgenti",
+        "Il mixer audio riproduce un lettore MP3 agganciato. La scrivania del compositore riproduce lo spartito che ha sopra. Il giradischi riproduce il suo disco, solo direttamente verso altoparlanti.",
+        "# La catena",
+        "Sorgente, poi a scelta un'unità multieffetto, poi un gestore dei canali, poi un amplificatore, poi gli altoparlanti. Ogni hub è facoltativo, ma vanno sempre in quell'ordine.",
+        "# Cablaggio",
+        "Le prese di ogni blocco sono sul retro. Gli ingressi sono prese segnate da una freccia blu; le uscite, spinotti segnati da una freccia bianca. Le prese si uniscono solo con lo stesso colore.",
+        "Clicca su una presa con il cavo, poi sulla presa all'altro capo. Da hub a hub: Maiusc+clic destro, con qualsiasi calibro. Da hub ad altoparlante, o da altoparlante ad altoparlante: clic destro con il calibro dell'altoparlante: 12 ga per i subwoofer, 16 ga per gli altoparlanti per medi, 20 ga per i tweeter.",
+        "Gli ancoraggi per cavi sostengono un cavo lungo il percorso: clicca sull'estremità di ingresso di un ancoraggio mentre posi un cavo. Le tronchesi tolgono un cavo e restituiscono il cavo."
+      ]
+    },
+    {
+      "title": "Altoparlanti",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "I subwoofer suonano i bassi (20-200 Hz), gli altoparlanti per medi i medi (200 Hz-2 kHz) e i tweeter gli acuti (2-20 kHz). Un tipo di altoparlante suona solo se la sua banda è collegata a ogni hub fino alla sorgente.",
+        "Gli altoparlanti stanno appoggiati su qualcosa o appesi sotto qualcosa, mai a una parete. Per impostazione predefinita si sentono a 32 blocchi, più forti davanti e più deboli dietro.",
+        "Collega in catena altri altoparlanti dello stesso tipo dalle loro prese di uscita. Clic destro a mano vuota su un altoparlante per rinominarlo e vederne canale, energia e stato.",
+        "# Troppo forte",
+        "Spingi troppo un altoparlante e va in cortocircuito: si stacca come oggetto e gli altoparlanti dopo di lui perdono il segnale. I bassi saltano per primi. Per ripristinare, togli l'energia alla sorgente e ridalla (oppure, con l'energia disattivata nella configurazione, aspetta 5 secondi e premi Riproduci)."
+      ]
+    },
+    {
+      "title": "Hub",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Gestore dei canali",
+        "Imposta ogni altoparlante su sinistra, destra o mono, ciascuno con il suo livello e un pulsante Trova. Non va mai dopo un amplificatore.",
+        "# Amplificatore",
+        "Volume generale ed equalizzatore a 10 bande. Può potenziare oltre il 100%, fino a un limite fissato dal collegamento hub più sottile collegato a lui: 200% con 20 ga, 300% con 16 ga, 400% con 12 ga. Gli altoparlanti più forti arrivano anche più lontano.",
+        "Gli amplificatori di linea stanno su una linea di altoparlanti, servono un solo tipo di altoparlante e impediscono che un cortocircuito dopo di loro raggiunga ciò che c'è prima.",
+        "# Unità multieffetto",
+        "Va subito dopo il mixer o la scrivania. Contiene fino a sei schede effetto (drive e distorsione, modulazione, delay, riverbero, ampli e cassa, dinamica e utilità), applicate nell'ordine degli slot. Scegli un effetto in ogni scheda e regola le sue manopole; i chip di preimpostazione salvano l'intero set. Collegata a un tornio, imprime i suoi effetti sui dischi incisi lì."
+      ]
+    },
+    {
+      "title": "Energia",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Per impostazione predefinita gli impianti funzionano con la Forge Energy, immessa solo nella sorgente. Ogni hub costa 50 FE/t (l'unità multieffetto 10 in più per scheda in uso), e ogni altoparlante un po' di più man mano che è più avanti nella sua catena.",
+        "Un impianto ha bisogno almeno del costo dei suoi hub per suonare. Finché l'alimentazione copre tutto l'impianto, tutto suona a pieno volume; oltre il budget dell'impianto (500 FE/t per impostazione predefinita), gli altoparlanti più lontani suonano più bassi.",
+        "Disattiva completamente l'energia nel menu impostazioni e gli impianti funzionano liberamente, senza limiti."
+      ]
+    },
+    {
+      "title": "Pietrarossa",
+      "icon": "minecraft:comparator",
+      "text": [
+        "La schermata di ogni hub ha un interruttore di controllo pietrarossa, spento per impostazione predefinita. Se attivo, la pietrarossa lo controlla; i comparatori funzionano in entrambi i casi.",
+        "# Mixer audio",
+        "Un segnale davanti, dietro, sopra o sotto avvia la riproduzione; toglierlo mette in pausa. Un impulso a sinistra passa al brano successivo; a destra riavvia il brano o torna al precedente.",
+        "# Altri",
+        "Un gestore dei canali silenzia un lato con un segnale debole su quel lato e forza il mono con uno forte. L'amplificatore e l'unità multieffetto hanno i loro: passa il mouse sull'interruttore nelle loro schermate per vedere cosa fa ogni lato.",
+        "Sinistra e destra sono quelle del blocco, come se fossi il blocco che guarda dal suo lato frontale."
+      ]
+    },
+    {
+      "title": "Scrivere musica",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Piazza due blocchi di scrivania del compositore affiancati per costruire la scrivania. Mettici sopra uno spartito vuoto e premi Apri l'editor.",
+        "# L'editor",
+        "Funziona come un programma di notazione. Scegli una durata con i tasti numerici, poi clicca sul pentagramma o digita una lettera (A-G) per inserire le note, e usa le palette a sinistra per tutto il resto: dinamiche, articolazioni, linee, testo, arpeggi e altro. Ctrl+F cerca nelle palette. Spazio riproduce; seleziona prima un po' di musica per suonare solo quella parte. Ogni scorciatoia si può cambiare nelle impostazioni dei tasti dell'editor.",
+        "Aggiungi strumenti dalla sezione Strumenti a destra. Ctrl+Z annulla, e più giocatori possono modificare lo stesso spartito insieme, ciascuno con il proprio cursore.",
+        "# Copie e dischi",
+        "Uno spartito vuoto nello slot di copia della scrivania fa una copia numerata. Stampa uno spartito su un disco al tornio. Importa ed esporta file MIDI, Note Block Studio e MineScore dall'editor.",
+        "# La scrivania come sorgente",
+        "Collegata ad altoparlanti, la scrivania riproduce il suo spartito attraverso l'impianto: Riproduci, Ferma e Ripetizione sono nella sua schermata."
+      ]
+    },
+    {
+      "title": "Impostazioni",
+      "icon": "minescore:manual",
+      "text": [
+        "Premi Ctrl+M in gioco, o usa Configurazione nell'elenco delle mod, per tutte le impostazioni di MineScore: energia, ascolto, bruciature, cavi, l'editor e altro. Gli operatori possono cambiare le impostazioni del server in gioco. Le preimpostazioni ne cambiano molte in una volta.",
+        "# Aspetto e suoni",
+        "MineScore include pacchetti di risorse integrati: Studio moderno, Hi-fi rétro e una versione 16x dell'aspetto predefinito, più i pacchetti di suoni Rétro e Studio. Attivali in Opzioni, Pacchetti di risorse."
+      ]
+    }
+  ]
+}

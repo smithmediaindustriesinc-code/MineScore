@@ -1,0 +1,119 @@
+{
+  "title": "Podręcznik MineScore",
+  "intro": [
+    "MineScore wnosi do Minecrafta prawdziwą muzykę: płyty wycinane z twoich własnych plików muzycznych, odtwarzacze MP3, system hi-fi, który sam podłączasz, i biurko do komponowania muzyki.",
+    "Wybierz rozdział po prawej. Strzałki lub kółko myszy przewracają strony; Backspace wraca tutaj."
+  ],
+  "chapters": [
+    {
+      "title": "Płyty",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Muzyka zaczyna się od tokarki do płyt. Umieść swoje pliki muzyczne (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio lub partytury MineScore) w folderze blkcdsongs swojej instancji Minecrafta.",
+        "# Wycinanie płyty",
+        "Włóż pusty winyl do gniazda wejściowego tokarki, wybierz utwór z listy (możesz szukać, sortować i odsłuchiwać) i kliknij „Wytnij”. Wyjdzie płyta winylowa z nazwą utworu. Zmiana jej nazwy na tokarce jest darmowa.",
+        "Tokarka potrzebuje 20 FE/t lub obrotu z Create. Podłączenie do niej wyjścia pasma wzmacniacza przyspiesza cięcie: 20 ga skraca czas o połowę, 16 ga tnie w 2 sekundy, a 12 ga od razu. Z Create przy 64 obr./min cięcie trwa 3 sekundy; szybciej, a płyta się roztrzaska.",
+        "# Kopie",
+        "Płyta winylowa w gnieździe wejściowym i pusty winyl w drugim dają numerowaną kopię: kopia nr 1, nr 2 i tak dalej. Partytura w gnieździe wejściowym z pustym winylem drukuje twoją partyturę na płytę.",
+        "# Wygląd",
+        "Farbuj płytę jak skórzaną zbroję, aby zabarwić jej etykietę, i ozdabiaj ją na stole kowalskim dowolnym wzorem i materiałem zdobienia. Piec kasuje płytę z powrotem do pustego winylu."
+      ]
+    },
+    {
+      "title": "Słuchanie muzyki",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Gramofon",
+        "PPM z płytą winylową, aby ją położyć, pustą ręką, aby ją zdjąć. Sam gra ze swojego bloku; podłączony do głośników gra przez nie.",
+        "# Odtwarzacz MP3",
+        "Wgrywaj na niego utwory na tokarce: płyta winylowa w gnieździe wejściowym, odtwarzacz MP3 w drugim. Płyta zostaje. PPM, aby otworzyć: biblioteka, playlisty, kolejka i 10-pasmowy korektor. W twoim ekwipunku słyszysz go tylko ty.",
+        "PPM nim na głośniku, aby grać przez ten głośnik dla wszystkich w pobliżu (Bluetooth). Ponowny PPM zatrzymuje.",
+        "# Przechowywanie muzyki",
+        "Gablota na winyle pokazuje płytę na ścianie lub stole. Szafka na muzykę mieści 16 partytur i 8 płyt winylowych: PPM na jej froncie, aby odłożyć jedną, Shift+PPM pustą ręką, aby wyjąć."
+      ]
+    },
+    {
+      "title": "Budowa systemu",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "System to źródło, kilka hubów i głośników połączonych przewodem głośnikowym.",
+        "# Źródła",
+        "Konsola mikserska gra zadokowany w niej odtwarzacz MP3. Biurko kompozytora gra leżącą na nim partyturę. Gramofon gra swoją płytę, tylko bezpośrednio do głośników.",
+        "# Łańcuch",
+        "Źródło, potem opcjonalnie jednostka multiefektów, potem menedżer kanałów, potem wzmacniacz, potem głośniki. Każdy hub jest opcjonalny, ale zawsze idą w tej kolejności.",
+        "# Podłączanie",
+        "Gniazda każdego bloku są z tyłu. Wejścia to gniazda z niebieską strzałką; wyjścia to wtyki z białą strzałką. Gniazda łączą się tylko z tym samym kolorem.",
+        "Kliknij przewodem gniazdo, a potem gniazdo na drugim końcu. Hub do huba: Shift+PPM, przewód dowolnego przekroju. Hub do głośnika lub głośnik do głośnika: PPM przewodem w przekroju głośnika: 12 ga do subwooferów, 16 ga do głośników średniotonowych, 20 ga do tweeterów.",
+        "Uchwyty kablowe przytrzymują kabel po drodze: kliknij wejściowy koniec uchwytu podczas prowadzenia kabla. Szczypce zdejmują kabel i oddają przewód."
+      ]
+    },
+    {
+      "title": "Głośniki",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofery grają basy (20-200 Hz), głośniki średniotonowe średnie (200 Hz-2 kHz), a tweetery wysokie (2-20 kHz). Rodzaj głośnika gra tylko wtedy, gdy jego pasmo jest podłączone na każdym hubie aż do źródła.",
+        "Głośniki stoją na czymś lub wiszą pod czymś, ale nigdy na ścianie. Domyślnie słychać je z 32 bloków, najgłośniej z przodu, a ciszej z tyłu.",
+        "Łącz łańcuchowo kolejne głośniki tego samego rodzaju przez ich gniazda wyjściowe. PPM pustą ręką na głośniku, aby zmienić jego nazwę i zobaczyć kanał, moc i stan.",
+        "# Za głośno",
+        "Przeciąż głośnik, a dostanie zwarcia: wypadnie jako przedmiot, a głośniki za nim stracą sygnał. Basy palą się pierwsze. Aby zresetować, odetnij zasilanie źródła i przywróć je (albo, jeśli energia jest wyłączona w konfiguracji, odczekaj 5 sekund i kliknij „Graj”)."
+      ]
+    },
+    {
+      "title": "Huby",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Menedżer kanałów",
+        "Przypisuje każdemu głośnikowi lewy, prawy lub mono, każdy z własnym poziomem i przyciskiem wyszukiwania. Nigdy nie stoi za wzmacniaczem.",
+        "# Wzmacniacz",
+        "Głośność główna i 10-pasmowy korektor. Może wzmacniać ponad 100% aż do limitu wyznaczonego przez najcieńsze połączenie hubów prowadzące do niego: 200% przy 20 ga, 300% przy 16 ga, 400% przy 12 ga. Głośniejsze głośniki słychać też dalej.",
+        "Wzmacniacze liniowe stoją na linii głośników, obsługują jeden rodzaj głośnika i nie pozwalają, by zwarcie za nimi dotarło do tego, co przed nimi.",
+        "# Jednostka multiefektów",
+        "Stoi tuż za mikserem lub biurkiem. Mieści do sześciu kart efektów (przester i distortion, modulacja, delay, pogłos, wzmacniacz i kolumna, dynamika i narzędzia), stosowanych w kolejności gniazd. Wybierz po jednym efekcie w każdej karcie i ustaw gałki; chipy presetów zapisują cały zestaw. Podłączona do tokarki wypala swoje efekty na płytach tam wycinanych."
+      ]
+    },
+    {
+      "title": "Moc",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "Domyślnie systemy działają na Forge Energy, podawanej tylko do źródła. Każdy hub kosztuje 50 FE/t (jednostka multiefektów 10 więcej za każdą używaną kartę), a każdy głośnik nieco więcej, im dalej jest w łańcuchu.",
+        "Aby w ogóle grać, system potrzebuje co najmniej kosztu swoich hubów. Dopóki zasilanie pokrywa cały system, wszystko gra na pełnej głośności; ponad budżet systemu (domyślnie 500 FE/t) najdalsze głośniki cichną.",
+        "Wyłącz energię całkowicie w menu ustawień, a systemy działają za darmo, bez limitów."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Ekran każdego huba ma przełącznik „Sterowanie redstone”, domyślnie wyłączony. Po włączeniu hubem steruje redstone; komparatory działają w każdym przypadku.",
+        "# Konsola mikserska",
+        "Sygnał z przodu, z tyłu, z góry lub z dołu odtwarza; bez niego pauza. Impuls z lewej przechodzi do następnego utworu; z prawej zaczyna utwór od nowa lub cofa do poprzedniego.",
+        "# Pozostałe",
+        "Menedżer kanałów wycisza stronę słabym sygnałem z tej strony i włącza mono silnym sygnałem. Wzmacniacz i jednostka multiefektów mają własne zasady: najedź na przełącznik na ich ekranach, aby zobaczyć, co robi każda strona.",
+        "Lewa i prawa to strony samego bloku, jakbyś był blokiem i patrzył przez jego front."
+      ]
+    },
+    {
+      "title": "Pisanie muzyki",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Postaw obok siebie dwa bloki biurka kompozytora, aby stworzyć biurko. Połóż na nim pustą partyturę i kliknij „Otwórz edytor”.",
+        "# Edytor",
+        "Działa jak edytor nut. Wybierz wartość klawiszami cyfr, potem kliknij pięciolinię lub wpisz literę (A-G), aby wprowadzić nuty, a palet po lewej używaj do wszystkiego innego: dynamiki, artykulacji, linii, tekstu, arpeggiów i nie tylko. Ctrl+F przeszukuje palety. Spacja odtwarza; najpierw zaznacz muzykę, aby zagrać tylko ją. Każdy skrót można zmienić w skrótach edytora.",
+        "Dodawaj instrumenty w sekcji „Instrumenty” po prawej. Ctrl+Z cofa, a kilku graczy może edytować tę samą partyturę jednocześnie, każdy z własnym kursorem.",
+        "# Kopie i płyty",
+        "Pusta partytura w gnieździe kopii biurka tworzy numerowaną kopię. Drukuj partyturę na płytę na tokarce. Importuj i eksportuj pliki MIDI, Note Block Studio i MineScore z edytora.",
+        "# Biurko jako źródło",
+        "Podłączone do głośników biurko gra swoją partyturę przez system: „Graj”, „Stop” i „Pętla” są na jego ekranie."
+      ]
+    },
+    {
+      "title": "Ustawienia",
+      "icon": "minescore:manual",
+      "text": [
+        "Naciśnij Ctrl+M w grze lub użyj „Konfiguracji” na liście modów, aby otworzyć wszystkie ustawienia MineScore: energię, słyszalność, przepalanie, przewody, edytor i nie tylko. Operatorzy mogą zmieniać ustawienia serwera w grze. Presety zmieniają wiele naraz.",
+        "# Wygląd i dźwięki",
+        "MineScore ma wbudowane paczki zasobów: Nowoczesne studio, Retro hi-fi i wersję 16x zwykłego wyglądu oraz paczki dźwięków Retro i Studio. Włącz je w Opcje → Paczki zasobów."
+      ]
+    }
+  ]
+}

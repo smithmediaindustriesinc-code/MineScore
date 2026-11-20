@@ -1,0 +1,18 @@
+.gradle/
+build/
+out/
+run/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.architectury-transformer/
+# Local Java socket temp dir (only used by this machine's build environment)
+.jtmp/
+logs/
+__pycache__/
+*.pyc
+# Recipe maker scratch files
+tools/recipe_maker_session.json
+tools/recipes_export_datapack/

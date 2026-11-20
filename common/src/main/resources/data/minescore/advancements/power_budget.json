@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:full_range",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "advancements.minescore.power_budget.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.power_budget.description"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "power_budget": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "power_budget"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "power_budget"
+    ]
+  ]
+}

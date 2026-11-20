@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:root",
+  "display": {
+    "icon": {
+      "item": "minescore:encoded_cd"
+    },
+    "title": {
+      "translate": "advancements.minescore.fresh_cut.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.fresh_cut.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "fresh_cut": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "fresh_cut"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fresh_cut"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "NPN",
+    " N "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:glass_panes"
+    },
+    "N": {
+      "tag": "minecraft:stone_buttons"
+    },
+    "P": {
+      "item": "minescore:preset_chip"
+    }
+  },
+  "result": {
+    "item": "minescore:mp3_player"
+  }
+}

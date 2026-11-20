@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:pedalboard",
+  "display": {
+    "icon": {
+      "item": "minescore:card_reverb"
+    },
+    "title": {
+      "translate": "advancements.minescore.slowed_reverb.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.slowed_reverb.description"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "slowed_reverb": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "slowed_reverb"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slowed_reverb"
+    ]
+  ]
+}

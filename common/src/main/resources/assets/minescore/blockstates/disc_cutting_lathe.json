@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minescore:block/disc_cutting_lathe"
+    },
+    "facing=east": {
+      "model": "minescore:block/disc_cutting_lathe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minescore:block/disc_cutting_lathe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minescore:block/disc_cutting_lathe",
+      "y": 270
+    }
+  }
+}

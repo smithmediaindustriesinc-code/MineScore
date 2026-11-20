@@ -1,0 +1,119 @@
+{
+  "title": "MineScore Manual",
+  "intro": [
+    "MineScore brings real music into Minecraft: records cut from your own song files, MP3 Players, a hi-fi system you wire up yourself, and a desk for writing music.",
+    "Pick a chapter on the right. The arrows or the mouse wheel turn pages; Backspace comes back here."
+  ],
+  "chapters": [
+    {
+      "title": "Records",
+      "icon": "minescore:encoded_cd",
+      "text": [
+        "Music starts at the Disc Cutting Lathe. Put your song files (MP3, OGG, WAV, FLAC, MIDI, Note Block Studio or MineScore scores) in the blkcdsongs folder of your Minecraft instance.",
+        "# Cutting a record",
+        "Put a Blank Vinyl in the Lathe's input slot, pick a song from the list (you can search, sort and preview), and press Cut. Out comes a Vinyl Record named after the song. You can rename it at the Lathe for free.",
+        "The Lathe needs 20 FE/t, or rotation from Create. Wiring an Amplifier's band output to it speeds cutting up: 20 ga halves the time, 16 ga cuts in 2 seconds and 12 ga is instant. With Create, 64 RPM takes 3 seconds; any faster and the record shatters.",
+        "# Copies",
+        "A Vinyl Record in the input slot and a Blank Vinyl in the second slot makes a copy, numbered Copy #1, #2 and so on. A Score in the input slot with a Blank Vinyl presses your score onto a record.",
+        "# Looks",
+        "Dye a record like leather armour to colour its label, and trim it at a smithing table with any trim template and material. A furnace erases a record back to a Blank Vinyl."
+      ]
+    },
+    {
+      "title": "Playing Music",
+      "icon": "minescore:vinyl_player",
+      "text": [
+        "# Vinyl Player",
+        "Right-click it with a Vinyl Record to play it, and with an empty hand to take it off. On its own it plays from itself; wired to speakers, it plays through them instead.",
+        "# MP3 Player",
+        "Load songs onto it at the Lathe: a Vinyl Record in the input slot and the MP3 Player in the second slot. The record stays. Right-click to open it: a library, playlists, a queue and a 10-band EQ. Only you hear it while it's in your inventory.",
+        "Right-click a speaker with it to play through that speaker for everyone nearby (Bluetooth). Right-click again to stop.",
+        "# Keeping music",
+        "A Vinyl Display shows a record on a wall or a table. A Music Cabinet holds 16 Scores and 8 Vinyl Records: right-click its front to file one, Shift+right-click one with an empty hand to take it out."
+      ]
+    },
+    {
+      "title": "Building a System",
+      "icon": "minescore:audio_mixer",
+      "text": [
+        "A system is a source, some hubs and speakers, joined with Speaker Wire.",
+        "# Sources",
+        "The Audio Mixer plays an MP3 Player docked in it. The Writer's Desk plays the score on it. The Vinyl Player plays its record, straight to speakers only.",
+        "# The chain",
+        "Source, then optionally a Multi-Effects Unit, then a Channel Manager, then an Amplifier, then speakers. Every hub is optional, but they always go in that order.",
+        "# Wiring",
+        "Every block's jacks are on its back. Inputs are sockets marked with a blue arrow; outputs are plugs marked with a white arrow. Jacks only join matching colours.",
+        "Click a jack with wire, then the jack at the other end. Hub to hub: Shift+right-click, with any gauge. Hub to speaker, or speaker to speaker: right-click with the speaker's gauge: 12 ga for Subwoofers, 16 ga for Middle Speakers, 20 ga for Tweeters.",
+        "Cable Anchors hold a cable up along the way: click an anchor's input end while laying a cable. Wire Cutters take a cable down and give the wire back."
+      ]
+    },
+    {
+      "title": "Speakers",
+      "icon": "minescore:subwoofer",
+      "text": [
+        "Subwoofers play the bass (20-200 Hz), Middle Speakers the middle (200 Hz-2 kHz) and Tweeters the top (2-20 kHz). A speaker type only plays if its band is wired at every hub back to the source.",
+        "Speakers stand on something or hang from something, never from a wall. They're heard 32 blocks away by default, loudest in front and quieter behind.",
+        "Daisy-chain more speakers of a type from each other's output jacks. Right-click a speaker with an empty hand to rename it and see its channel, power and state.",
+        "# Too loud",
+        "Push a speaker too hard and it shorts: it pops off as an item, and the speakers after it lose their signal. Bass blows first. To reset, cut the source's power and restore it (or, with power off in the config, wait 5 seconds and press Play)."
+      ]
+    },
+    {
+      "title": "Hubs",
+      "icon": "minescore:amplifier",
+      "text": [
+        "# Channel Manager",
+        "Sets each speaker to Left, Right or Mono, with a volume trim each and a Locate button. It never goes after an Amplifier.",
+        "# Amplifier",
+        "Master volume and a 10-band EQ. It can boost past 100%, up to a cap set by the thinnest hub link wired to it: 200% on 20 ga, 300% on 16 ga, 400% on 12 ga. Louder speakers carry further, too.",
+        "Line Amplifiers sit on a speaker line, serve one speaker type, and keep a short after them from reaching what's before them.",
+        "# Multi-Effects Unit",
+        "Goes straight after the Mixer or Desk. It holds up to six effect cards (Drive & Distortion, Modulation, Delay, Reverb, Amp & Cabinet, Dynamics & Utility), applied in slot order. Pick one effect in each card and set its knobs; Preset Chips save the whole set. Wired to a Lathe, it prints its effects onto the records cut there."
+      ]
+    },
+    {
+      "title": "Power",
+      "icon": "minescore:channel_manager",
+      "text": [
+        "By default, systems run on Forge Energy, fed into the source only. Each hub costs 50 FE/t (the MEU 10 more per card in use), and each speaker a little more the further down its chain it is.",
+        "A system needs at least what its hubs cost to play at all. While supply covers the whole system, everything plays at full volume; past a system's budget (500 FE/t by default), the speakers furthest down get quieter.",
+        "Turn power off entirely in the config menu, and systems run free with no limits."
+      ]
+    },
+    {
+      "title": "Redstone",
+      "icon": "minecraft:comparator",
+      "text": [
+        "Each hub's screen has a Redstone Control toggle, off by default. Turned on, redstone controls it; comparators work either way.",
+        "# Audio Mixer",
+        "A signal on its front, back, top or bottom plays; taking it away pauses. A pulse on its left skips to the next song; on its right, it restarts the song or goes back one.",
+        "# Others",
+        "A Channel Manager mutes a side with weak power on that side, and forces mono with strong power. The Amplifier and MEU have their own: hover the toggle in their screens to see what each side does.",
+        "Left and right are the block's own, as if you were the block looking out of its front."
+      ]
+    },
+    {
+      "title": "Writing Music",
+      "icon": "minescore:writers_desk",
+      "text": [
+        "Place two Writer's Desk blocks side by side to build the desk. Put a Blank Score on it and press Open Editor.",
+        "# The editor",
+        "It works like a notation program. Pick a duration with the number keys, then click the staff or type a letter (A-G) to enter notes, and use the palettes on the left for everything else: dynamics, articulations, lines, text, arpeggios and more. Ctrl+F searches the palettes. Space plays; select some music first to play just that part. Every shortcut can be changed in the editor's key settings.",
+        "Add instruments from the Instruments section on the right. Ctrl+Z undoes, and several players can edit the same score at once, each with their own cursor.",
+        "# Copies and records",
+        "A Blank Score in the desk's copy slot makes a numbered copy. Press a score onto a record at the Lathe. Import and export MIDI, Note Block Studio and MineScore files from the editor.",
+        "# The desk as a source",
+        "Wired to speakers, the desk plays the score on it through the system: Play, Stop and Loop are on its screen."
+      ]
+    },
+    {
+      "title": "Settings",
+      "icon": "minescore:manual",
+      "text": [
+        "Press Ctrl+M in game, or use Config in the Mods list, for every MineScore setting: power, hearing, blowouts, wires, the editor and more. Operators can change the server's settings in game. Presets set many at once.",
+        "# Looks and sounds",
+        "MineScore comes with built-in resource packs: Modern Studio, Retro Hi-Fi and a 16x version of the default look, plus Retro and Studio sound packs. Turn them on in Options, Resource Packs."
+      ]
+    }
+  ]
+}

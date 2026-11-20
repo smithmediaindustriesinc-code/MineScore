@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minescore:blank_cd",
+    "minescore:encoded_cd"
+  ]
+}

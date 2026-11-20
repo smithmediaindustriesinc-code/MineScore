@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "NNN"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "N": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minescore:vinyl_display"
+  }
+}

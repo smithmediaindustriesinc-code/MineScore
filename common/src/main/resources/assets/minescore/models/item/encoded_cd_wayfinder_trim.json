@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minescore:item/encoded_cd",
+    "layer1": "minescore:item/cd_label_encoded",
+    "layer2": "minescore:item/cd_trim_wayfinder"
+  }
+}

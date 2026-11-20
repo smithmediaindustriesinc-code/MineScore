@@ -1,0 +1,21 @@
+architectury {
+    common rootProject.enabled_platforms.split(',')
+}
+
+dependencies {
+    // Only for the shared annotations Loom expects in a common module; nothing Fabric-specific is used yet.
+    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+
+    // MP3 decoding: JLayer (LGPL 2.1). Each loader ships it as a separate nested jar, unmodified.
+    implementation "javazoom:jlayer:$rootProject.jlayer_version"
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+    // LocalSongsTest decodes whatever songs the dev client has, if any.
+    systemProperty 'minescore.songs', rootProject.file('forge/run/blkcdsongs').absolutePath
+}

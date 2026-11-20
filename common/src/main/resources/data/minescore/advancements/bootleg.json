@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:fresh_cut",
+  "display": {
+    "icon": {
+      "item": "minescore:blank_cd"
+    },
+    "title": {
+      "translate": "advancements.minescore.bootleg.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.bootleg.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "bootleg": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "bootleg"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bootleg"
+    ]
+  ]
+}

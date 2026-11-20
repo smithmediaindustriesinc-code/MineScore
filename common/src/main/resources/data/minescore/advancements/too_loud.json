@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:plugged_in",
+  "display": {
+    "icon": {
+      "item": "minescore:amplifier"
+    },
+    "title": {
+      "translate": "advancements.minescore.too_loud.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.too_loud.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "too_loud": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "too_loud"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "too_loud"
+    ]
+  ]
+}

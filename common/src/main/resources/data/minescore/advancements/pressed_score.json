@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:composer",
+  "display": {
+    "icon": {
+      "item": "minescore:encoded_cd"
+    },
+    "title": {
+      "translate": "advancements.minescore.pressed_score.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.pressed_score.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "pressed_score": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "pressed_score"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pressed_score"
+    ]
+  ]
+}

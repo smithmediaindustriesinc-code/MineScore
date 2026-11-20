@@ -1,0 +1,28 @@
+{
+  "parent": "minescore:plugged_in",
+  "display": {
+    "icon": {
+      "item": "minescore:subwoofer"
+    },
+    "title": {
+      "translate": "advancements.minescore.full_range.title"
+    },
+    "description": {
+      "translate": "advancements.minescore.full_range.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "full_range": {
+      "trigger": "minescore:event",
+      "conditions": {
+        "event": "full_range"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "full_range"
+    ]
+  ]
+}
