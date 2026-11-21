@@ -1756,6 +1756,83 @@ BIG_FONT = {  # 5 x 7 capitals for the logo
 }
 
 
+def icon():
+    """The square icon (mod pages, the repo), 64 x 64: a walnut tile with rounded corners, the logo's record
+    on it, and a gold quaver in front. gen_resources.py writes it at 8 x as branding/icon.png."""
+    N, R = 64, 10
+    c = Canvas(401, size=N)
+
+    def corner(x, y):  # how far a pixel is inside the rounded square (negative: outside)
+        dx = max(R - (x + 0.5), 0, (x + 0.5) - (N - R))
+        dy = max(R - (y + 0.5), 0, (y + 0.5) - (N - R))
+        if dx and dy:
+            return R - math.hypot(dx, dy)
+        return min(x + 0.5, y + 0.5, N - x - 0.5, N - y - 0.5)
+
+    for y in range(N):  # the walnut tile: horizontal grain, a bevel lit from the top-left
+        for x in range(N):
+            edge = corner(x, y)
+            if edge < 0:
+                continue
+            grain = 1 + 0.07 * math.sin(y * 0.85 + 2.2 * math.sin(x * 0.11)) + c.rng.uniform(-0.04, 0.04)
+            p = tone(WALNUT, grain * (1.12 - 0.22 * y / N))
+            if edge < 2:
+                p = tone(WALNUT, 1.45) if x + y < N - 1 else tone(WALNUT, 0.55)
+            c.set(x, y, p)
+
+    cx, cy, r = 29, 28, 22
+    for y in range(N):  # the record's shadow on the wood
+        for x in range(N):
+            if math.hypot(x + 0.5 - cx - 2, y + 0.5 - cy - 3) <= r and corner(x, y) >= 2:
+                c.set(x, y, tone(c.get(x, y), 0.6))
+
+    def record(d, a):
+        if d < 1.6:
+            return None  # the spindle hole shows the wood
+        if d < 8:
+            return tone((190, 50, 60), 1.15 if a < -0.3 else 0.9)
+        if d < 8.8:
+            return (120, 30, 38)
+        if d > r - 1.2:
+            return tone((36, 36, 43), 1.7)
+        shine = max(0.0, math.cos(2 * (a + 2.3))) ** 6
+        return tone((24, 24, 28), (0.8 if int(d * 1.3) % 2 else 1.0) * (1 + 1.3 * shine))
+    c.disc(cx, cy, r, record)
+
+    note = set()  # a quaver: a tilted head, a stem, and a curled flag
+    hx, hy = 43, 52
+    t = math.radians(-22)
+    for y in range(N):
+        for x in range(N):
+            u = (x + 0.5 - hx) * math.cos(t) - (y + 0.5 - hy) * math.sin(t)
+            v = (x + 0.5 - hx) * math.sin(t) + (y + 0.5 - hy) * math.cos(t)
+            if (u / 5.6) ** 2 + (v / 3.9) ** 2 <= 1:
+                note.add((x, y))
+    for y in range(29, 51):
+        for x in (47, 48, 49):
+            note.add((x, y))
+    for i in range(41):  # the flag: a curve down and to the right of the stem's top, thinning as it goes
+        s = i / 40
+        fx = (1 - s) ** 2 * 48.5 + 2 * (1 - s) * s * 58 + s * s * 55
+        fy = (1 - s) ** 2 * 29.5 + 2 * (1 - s) * s * 35 + s * s * 45
+        w = 2.4 - 1.4 * s
+        for y in range(int(fy - w) - 1, int(fy + w) + 2):
+            for x in range(int(fx - w) - 1, int(fx + w) + 2):
+                if math.hypot(x + 0.5 - fx, y + 0.5 - fy) <= w:
+                    note.add((x, y))
+
+    for x, y in note:  # its shadow, then a dark rim, then the gold
+        c.set(x + 2, y + 2, tone(c.get(min(x + 2, N - 1), min(y + 2, N - 1)), 0.55))
+    for x, y in note:
+        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            if (x + dx, y + dy) not in note:
+                c.set(x + dx, y + dy, (54, 36, 18))
+    for x, y in note:
+        lit = 1.3 - 0.45 * (y - 29) / 28 - (0.12 if (x - 1, y) in note and (x, y - 1) in note else 0)
+        c.set(x, y, tone(GOLD, lit))
+    return c
+
+
 def logo():
     """The Mods-list logo, 256 x 64: a record with a red label, then MINESCORE in gold capitals."""
     c = Canvas(400, size=256)

@@ -1477,6 +1477,12 @@ if not PACK:
 if not PACK:  # the Mods list's logo (mods.toml logoFile), at the root of the Forge jar
     png_rows = tx.logo().rows()[:64]
     (ROOT / "forge" / "src" / "main" / "resources" / "minescore_logo.png").write_bytes(png_bytes(png_rows))
+    # The square icon for mod pages and the repo, blown up 8 x with hard pixel edges (512 x 512).
+    small = tx.icon().rows()
+    big = [[p for p in row for _ in range(8)] for row in small for _ in range(8)]
+    (ROOT / "branding").mkdir(exist_ok=True)
+    (ROOT / "branding" / "icon.png").write_bytes(png_bytes(big))
+    (ROOT / "branding" / "icon_64.png").write_bytes(png_bytes(small))
 
 if PACK:
     style, half, name, description = PACKS[PACK]
