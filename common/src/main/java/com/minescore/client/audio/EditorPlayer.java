@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The score editor's playback (SCOPE.md §8.1): heard only by the player editing, straight into their ears,
+ * The score editor's playback (SCOPE.md §9.9): heard only by the player editing, straight into their ears,
  * from wherever they start it. The score is rendered to note-block audio in the background first.
  */
 public final class EditorPlayer {

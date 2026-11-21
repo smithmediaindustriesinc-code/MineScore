@@ -10,7 +10,7 @@ public final class MeuPackets {
     private MeuPackets() {}
 
     public enum Action {
-        /** The Redstone Control toggle (SCOPE.md §6.4). */
+        /** The Redstone Control toggle (SCOPE.md §7.2). */
         REDSTONE,
         /** slot, i = which of the card's effects */
         EFFECT,

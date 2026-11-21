@@ -29,7 +29,7 @@ import org.jetbrains.annotations.Nullable;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * MineScore's config menu (SCOPE.md §9), in Tweakeroo's style: the categories down the left, their settings
+ * MineScore's config menu (SCOPE.md §10), in Tweakeroo's style: the categories down the left, their settings
  * as rows with a value and a reset button, a search across everything, presets, and import and export.
  * Server settings are the server's: operators (or whoever's world it is) change them in-game, and everyone
  * else sees them locked. Opened with Ctrl+M or from the Mods list.

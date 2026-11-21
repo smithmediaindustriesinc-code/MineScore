@@ -17,7 +17,7 @@ import java.util.Locale;
 import java.util.function.Consumer;
 
 /**
- * The editor's palettes (SCOPE.md §8.2), as in MuseScore: click an item to put it on what's selected.
+ * The editor's palettes (SCOPE.md §9.6), as in MuseScore: click an item to put it on what's selected.
  * Items show a notation symbol, or a few letters where notation has none.
  */
 public final class EditorPalettes {

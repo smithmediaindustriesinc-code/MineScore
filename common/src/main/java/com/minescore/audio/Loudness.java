@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /**
  * How loud each speaker band of a song is over time. Measured once, on the client that cuts the song,
- * and kept by the server so it can tell when music played too loud blows a speaker (SCOPE.md §5.5).
+ * and kept by the server so it can tell when music played too loud blows a speaker (SCOPE.md §6.5).
  *
  * <p>Each window stores the loudest 0.4 s of each band, as whole decibels below full scale.
  */

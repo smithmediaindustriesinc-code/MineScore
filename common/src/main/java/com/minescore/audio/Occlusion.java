@@ -15,7 +15,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Sound through blocks (SCOPE.md §7.3): every block on the straight path from a speaker to a listener
+ * Sound through blocks (SCOPE.md §8.2): every block on the straight path from a speaker to a listener
  * muffles it, harder blocks more. Bass gets through walls best.
  */
 public final class Occlusion {

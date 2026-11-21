@@ -5,7 +5,7 @@ import java.util.Locale;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * One setting in the config menu (SCOPE.md §9): a toggle, a whole number, a number, a choice, some text, a
+ * One setting in the config menu (SCOPE.md §10): a toggle, a whole number, a number, a choice, some text, a
  * button that does something, or a hotkey. Server settings are kept by the server, sent to every player and
  * changed in-game only by operators; client settings are each player's own.
  */

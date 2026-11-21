@@ -7,7 +7,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Room Sound Physics (SCOPE.md §7.4): a speaker in a sealed room sounds fuller than one in the open, like
+ * Room Sound Physics (SCOPE.md §8.3): a speaker in a sealed room sounds fuller than one in the open, like
  * a car stereo that loses its punch when a door opens. Rays cast out from the speaker in every direction
  * find how much of the space round it is closed in; each gap lets sound escape.
  */

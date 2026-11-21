@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.minescore.audio.EqCurve;
 import org.junit.jupiter.api.Test;
 
-/** The Amplifier's redstone EQ (SCOPE.md §6.3): 15 = 400%, sides set their groups, the bottom moves them all. */
+/** The Amplifier's redstone EQ (SCOPE.md §7.4): 15 = 400%, sides set their groups, the bottom moves them all. */
 class AmplifierRedstoneTest {
     private static final double DB_400 = 20 * Math.log10(4);
 

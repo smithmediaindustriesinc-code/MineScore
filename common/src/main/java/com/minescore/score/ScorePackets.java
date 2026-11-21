@@ -6,7 +6,7 @@ import java.util.UUID;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
 
-/** What travels between a score editor and the server (SCOPE.md §8). */
+/** What travels between a score editor and the server (SCOPE.md §9). */
 public final class ScorePackets {
     /** Largest piece of a score sent at once (it's compressed first). */
     public static final int CHUNK = 256 * 1024;
@@ -28,9 +28,9 @@ public final class ScorePackets {
     public enum Purpose {
         /** Open the editor on it. */
         EDIT,
-        /** Render it to audio and play it from the desk (SCOPE.md §3.6). */
+        /** Render it to audio and play it from the desk (SCOPE.md §9.2). */
         DESK_PLAY,
-        /** Render it to audio and cut it onto a record (SCOPE.md §3.1). */
+        /** Render it to audio and cut it onto a record (SCOPE.md §2.4). */
         LATHE_CUT
     }
 
@@ -124,7 +124,7 @@ public final class ScorePackets {
     }
 
     /**
-     * Where one editor's selection or note-input cursor is (SCOPE.md §8.1, stage 4): from (measure1, at1) to
+     * Where one editor's selection or note-input cursor is (SCOPE.md §9.10, stage 4): from (measure1, at1) to
      * (measure2, at2) across parts part1–part2; part1 -1 when nothing is selected.
      */
     public record CursorState(int part1, int part2, int measure1, Frac at1, int measure2, Frac at2, boolean input) {
@@ -185,7 +185,7 @@ public final class ScorePackets {
 
     /**
      * Client: one piece of an imported score (compressed NBT) to replace the desk's score with, {@code index} of
-     * {@code total} (SCOPE.md §8.3). With {@code copyFirst}, the score as it was is kept as a copy first.
+     * {@code total} (SCOPE.md §9.12). With {@code copyFirst}, the score as it was is kept as a copy first.
      */
     public record Replace(BlockPos desk, int index, int total, byte[] data, boolean copyFirst) {
         public void write(FriendlyByteBuf buf) {

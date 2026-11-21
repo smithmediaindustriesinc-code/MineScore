@@ -38,7 +38,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A Writer's Desk's pedestal (SCOPE.md §3.6): a score slot and a copy slot. A Blank Score on the desk
+ * A Writer's Desk's pedestal (SCOPE.md §9.2): a score slot and a copy slot. A Blank Score on the desk
  * becomes a new, untitled score; a Blank Score in the copy slot becomes a numbered copy of it at once.
  *
  * <p>It's also a source, like the Mixer: Play renders the score on the desk (as it is then) on the

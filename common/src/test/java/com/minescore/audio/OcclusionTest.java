@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.Vec3;
 import org.junit.jupiter.api.Test;
 
-/** The numbers in SCOPE.md §7.3. */
+/** The numbers in SCOPE.md §8.2. */
 class OcclusionTest {
     @Test
     void harderBlocksMuffleMore() {

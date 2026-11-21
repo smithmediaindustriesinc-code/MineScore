@@ -3,7 +3,7 @@ package com.minescore.power;
 import java.util.function.DoubleSupplier;
 import java.util.function.IntSupplier;
 
-/** Create rotation settings (SCOPE.md §3.1), bound to the config menu's (§9). */
+/** Create rotation settings (SCOPE.md §2.4), bound to the config menu's (§10). */
 public final class KineticSettings {
     /** The fastest a Lathe may turn: above it, the record being cut shatters. A cut at this speed takes 3 s. */
     public static IntSupplier maxRpm = () -> 64;

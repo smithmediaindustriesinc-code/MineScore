@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import net.minecraft.core.BlockPos;
 import org.junit.jupiter.api.Test;
 
-/** What each speaker's sound passes through on its way from the source (SCOPE.md §5.1). */
+/** What each speaker's sound passes through on its way from the source (SCOPE.md §6.1). */
 class SystemPathsTest {
     private static void ok(WiringRules.Result result) {
         assertInstanceOf(WiringRules.Ok.class, result, () -> "expected Ok but got " + result);

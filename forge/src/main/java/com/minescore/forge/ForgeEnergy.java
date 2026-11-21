@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Forge Energy for MineScore's powered blocks (SCOPE.md §10): every {@link Powered} block entity gets an
+ * Forge Energy for MineScore's powered blocks (SCOPE.md §15): every {@link Powered} block entity gets an
  * energy capability on all sides that fills its buffer. MineScore only takes FE; it never gives any out.
  */
 final class ForgeEnergy {

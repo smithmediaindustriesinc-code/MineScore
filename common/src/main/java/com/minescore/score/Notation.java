@@ -1,6 +1,6 @@
 package com.minescore.score;
 
-/** The small fixed vocabularies of notation (SCOPE.md §8.2). Their ordinals are saved, so only add at the end. */
+/** The small fixed vocabularies of notation (SCOPE.md §9.8). Their ordinals are saved, so only add at the end. */
 public final class Notation {
     private Notation() {}
 

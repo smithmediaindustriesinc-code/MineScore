@@ -47,7 +47,7 @@ public enum NoteInstrument {
     }
 
     /**
-     * Playback speed for a score's note (SCOPE.md §8.1): two octaves past the note block's own range either
+     * Playback speed for a score's note (SCOPE.md §9.9): two octaves past the note block's own range either
      * way by stretching the sample; anything further moves by octaves until it fits.
      */
     public double rateStretched(int midiNote) {

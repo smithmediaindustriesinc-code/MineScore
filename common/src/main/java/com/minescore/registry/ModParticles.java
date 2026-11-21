@@ -6,7 +6,7 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.registries.Registries;
 
 /**
- * MineScore's own particles (SCOPE.md §11.4), drawn in tools/textures.py. The client's {@code MineScoreParticle}
+ * MineScore's own particles (SCOPE.md §13.5), drawn in tools/textures.py. The client's {@code MineScoreParticle}
  * gives each its motion. A note's x speed picks its band colour: 0 bass, 1 mid, 2 treble.
  */
 public final class ModParticles {

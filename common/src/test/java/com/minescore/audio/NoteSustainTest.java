@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.minescore.audio.notes.NoteSustain;
 import org.junit.jupiter.api.Test;
 
-/** Holding a dying note block sound for a long note, and cutting a short one off (SCOPE.md §8.1). */
+/** Holding a dying note block sound for a long note, and cutting a short one off (SCOPE.md §9.9). */
 class NoteSustainTest {
     private static final int RATE = 44_100;
 

@@ -18,7 +18,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
- * What Jade and The One Probe show for MineScore's blocks (SCOPE.md §14, M12 stage 5): a few lines from
+ * What Jade and The One Probe show for MineScore's blocks (SCOPE.md §16, M12 stage 5): a few lines from
  * the block and its block entity, using only what clients are sent too, so Jade can read it on the client
  * and The One Probe on the server.
  */

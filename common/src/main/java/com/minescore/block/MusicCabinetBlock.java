@@ -23,7 +23,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A Music Cabinet (SCOPE.md §3.11): a walnut cabinet with an open front, 16 Scores on its top shelf and 8 Vinyl
+ * A Music Cabinet (SCOPE.md §4.2): a walnut cabinet with an open front, 16 Scores on its top shelf and 8 Vinyl
  * Records in sleeves on its bottom one. Right-click the front with a Score or record to file it at the left of
  * its shelf's free places; Shift+right-click one with an empty hand to take it, and the rest close up. Its
  * blockstate counts what's on each shelf, so its model shows how full it is.

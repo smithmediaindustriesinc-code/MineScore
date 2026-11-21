@@ -21,7 +21,7 @@ import org.jetbrains.annotations.Nullable;
 
 /**
  * The Disc Cutting Lathe when Create is installed: everything the plain one does, and it takes rotation
- * from a shaft or cog underneath it, the way its platter turns (SCOPE.md §3.1). The hooks below are the
+ * from a shaft or cog underneath it, the way its platter turns (SCOPE.md §2.4). The hooks below are the
  * ones Create's own kinetic blocks use to join and leave a rotation network.
  */
 public class CreateLatheBlock extends LatheBlock implements IRotate {

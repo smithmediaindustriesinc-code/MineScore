@@ -23,7 +23,7 @@ public final class Part {
     public float pan;
     public boolean mute;
     public boolean solo;
-    /** Long notes are struck again every beat instead of held (SCOPE.md §8.1). */
+    /** Long notes are struck again every beat instead of held (SCOPE.md §9.9). */
     public boolean restrike;
     public final List<Measure> measures = new ArrayList<>();
     public final List<Spanner> spanners = new ArrayList<>();
@@ -147,7 +147,7 @@ public final class Part {
         try {
             instrument = NoteInstrument.valueOf(tag.getString("Instrument"));
         } catch (IllegalArgumentException e) {
-            instrument = NoteInstrument.HARP; // missing instruments fall back to harp (SCOPE.md §8.3)
+            instrument = NoteInstrument.HARP; // missing instruments fall back to harp (SCOPE.md §9.11)
         }
         custom = tag.contains("Custom") ? tag.getString("Custom") : null;
         clef = Chord.pick(Clef.values(), tag.getByte("Clef"), Clef.TREBLE);

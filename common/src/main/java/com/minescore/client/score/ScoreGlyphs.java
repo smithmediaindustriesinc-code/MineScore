@@ -16,7 +16,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 
 /**
- * The score editor's notation symbols (SCOPE.md §8): original pixel art in one atlas
+ * The score editor's notation symbols (SCOPE.md §9): original pixel art in one atlas
  * ({@code textures/gui/score_glyphs.png}) that a resource pack can redraw. The symbols are white, so each
  * is drawn in whatever colour it's given. One staff space is 8 atlas pixels.
  */

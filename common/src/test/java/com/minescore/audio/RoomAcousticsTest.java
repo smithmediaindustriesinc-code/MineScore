@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.minescore.wiring.Gauge;
 import org.junit.jupiter.api.Test;
 
-/** The numbers in SCOPE.md §7.4. */
+/** The numbers in SCOPE.md §8.3. */
 class RoomAcousticsTest {
     @Test
     void smallGapsSpoilTheSeal() {

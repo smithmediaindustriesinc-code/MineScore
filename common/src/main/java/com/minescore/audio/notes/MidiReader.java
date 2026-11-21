@@ -34,7 +34,7 @@ public final class MidiReader {
     }
 
     /**
-     * A MIDI file as written, for importing it as a score (SCOPE.md §8.3).
+     * A MIDI file as written, for importing it as a score (SCOPE.md §9.12).
      *
      * @param tempos           tick -> microseconds per quarter note
      * @param ticksPerQuarter  0 for SMPTE timing, which counts {@code smpteTicksPerSecond} instead
@@ -190,7 +190,7 @@ public final class MidiReader {
             double rate = instrument.rateFor(n.key);
             float vol = (n.velocity / 127f) * (n.volume / 127f);
             float panValue = (n.pan - 64) / 64f;
-            // notes last as long as the file holds them (SCOPE.md §8.1); drums always play their whole hit
+            // notes last as long as the file holds them (SCOPE.md §9.9); drums always play their whole hit
             double length = -1;
             if (n.end > n.tick && n.channel != DRUM_CHANNEL) {
                 double off = smpteTicksPerSecond > 0 ? n.end / smpteTicksPerSecond : seconds(tempos, n.end, ticksPerQuarter);

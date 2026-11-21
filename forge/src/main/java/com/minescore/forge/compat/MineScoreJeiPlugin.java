@@ -27,7 +27,7 @@ import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * JEI (SCOPE.md §14, M12 stage 5): a Disc Cutting Lathe category with the four things it does, and notes on
+ * JEI (SCOPE.md §16, M12 stage 5): a Disc Cutting Lathe category with the four things it does, and notes on
  * the items that aren't made in a recipe at all. Loaded only when JEI is installed.
  */
 @JeiPlugin

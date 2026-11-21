@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
- * A comparator reading a MineScore hub asks it for the face it touches (SCOPE.md §6): a Channel Manager's
+ * A comparator reading a MineScore hub asks it for the face it touches (SCOPE.md §7): a Channel Manager's
  * left and right, or an Amplifier's band groups, give different signals. Vanilla never says which face.
  */
 @Mixin(ComparatorBlock.class)

@@ -20,7 +20,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
 
-/** A speaker's screen (SCOPE.md §3.2): rename it, and see its channel, trim, power and what it's doing. */
+/** A speaker's screen (SCOPE.md §5.3): rename it, and see its channel, trim, power and what it's doing. */
 public class SpeakerScreen extends DeviceScreen<SpeakerBlockEntity> {
     private EditBox name;
 

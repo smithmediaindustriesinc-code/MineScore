@@ -16,7 +16,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
- * The One Probe (SCOPE.md §14, M12 stage 5): MineScore's {@link BlockInfo} lines in the probe. Only touched
+ * The One Probe (SCOPE.md §16, M12 stage 5): MineScore's {@link BlockInfo} lines in the probe. Only touched
  * when The One Probe is installed: MineScoreForge only sends it this, by inter-mod message, then.
  */
 public final class TheOneProbeCompat implements Function<ITheOneProbe, Void> {

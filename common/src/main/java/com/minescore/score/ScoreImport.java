@@ -16,7 +16,7 @@ import net.minecraft.nbt.NbtIo;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Turns a MIDI file, a Note Block Studio song or a MineScore file into a score (SCOPE.md §8.3, M10).
+ * Turns a MIDI file, a Note Block Studio song or a MineScore file into a score (SCOPE.md §9.12, M10).
  *
  * <p>MIDI notes are placed on the nearest 16th note (or the grid the settings pick) and keep their lengths; Note Block Studio notes (which
  * have none) last until the next note of their instrument, at most a quarter. Each MIDI channel's

@@ -9,7 +9,7 @@ material.
 Run from anywhere:  python tools/gen_resources.py
 Re-run after editing ports.json, textures.py or the tables below.
 
-It then runs itself once per built-in resource pack (PACKS, SCOPE.md §11.1), with MINESCORE_PACK naming the
+It then runs itself once per built-in resource pack (PACKS, SCOPE.md §13.1), with MINESCORE_PACK naming the
 pack: those runs draw the textures in the pack's style and write only the ones that differ from the default
 into resourcepacks/<pack>, skipping models, lang and data.
 """
@@ -1329,7 +1329,7 @@ png(ASSETS / "textures" / "gui" / "speaker.png", tx.gui_speaker().rows())
 png(ASSETS / "textures" / "gui" / "multi_effects_unit.png", tx.gui_meu().rows())
 png(ASSETS / "textures" / "gui" / "writers_desk.png", tx.gui_desk().rows())
 png(ASSETS / "textures" / "gui" / "manual.png", tx.gui_manual().rows())
-# The score editor's notation symbols (SCOPE.md §8): the atlas, and where each symbol sits in it for ScoreGlyphs.
+# The score editor's notation symbols (SCOPE.md §9): the atlas, and where each symbol sits in it for ScoreGlyphs.
 import glyphs
 glyph_atlas, glyph_layout = glyphs.atlas()
 png(ASSETS / "textures" / "gui" / "score_glyphs.png", glyph_atlas.rows())
@@ -1343,7 +1343,7 @@ for name, (draw, frames) in PARTICLES.items():
         png(ASSETS / "textures" / "particle" / f"{name}_{i}.png", draw(i).rows())
     write(ASSETS / "particles" / f"{name}.json", {"textures": [f"minescore:{name}_{i}" for i in range(frames)]})
 
-# Advancements (SCOPE.md §12): one tree, every criterion the minescore:event trigger (ModAdvancements) but the root.
+# Advancements (SCOPE.md §14): one tree, every criterion the minescore:event trigger (ModAdvancements) but the root.
 # id: (parent, icon, frame, title, description, events: all must happen)
 ADVANCEMENTS = {
     "fresh_cut": ("root", "minescore:encoded_cd", "task", "Fresh Cut", "Cut your first record", ["fresh_cut"]),

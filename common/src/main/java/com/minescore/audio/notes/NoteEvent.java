@@ -9,10 +9,10 @@ import org.jetbrains.annotations.Nullable;
  * @param rate    playback speed of the instrument's sample (1 = as recorded)
  * @param volume  0 to 1
  * @param pan     -1 (left) to 1 (right)
- * @param length  how long the note lasts in seconds, held or cut short to fit (SCOPE.md §8.1); 0 or less to
+ * @param length  how long the note lasts in seconds, held or cut short to fit (SCOPE.md §9.9); 0 or less to
  *                let the sample play out as a note block does
  * @param midi    the MIDI note it sounds (for exporting), or -1 for an unpitched hit
- * @param custom  a resource pack's instrument it plays instead of {@code instrument}, or null (SCOPE.md §8.3)
+ * @param custom  a resource pack's instrument it plays instead of {@code instrument}, or null (SCOPE.md §9.11)
  */
 public record NoteEvent(double seconds, NoteInstrument instrument, double rate, float volume, float pan, double length, int midi,
                         @Nullable String custom) {

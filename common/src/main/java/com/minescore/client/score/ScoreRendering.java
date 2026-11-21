@@ -23,9 +23,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 
 /**
- * Turns a score into a song, on the client of the player who asked (SCOPE.md §7): rendered to note-block
+ * Turns a score into a song, on the client of the player who asked (SCOPE.md §8.1): rendered to note-block
  * audio as the editor plays it, then handed to the server like any cut file. Used by the desk's Play
- * (§3.6) and the Lathe's Cut (§3.1).
+ * (§9.2) and the Lathe's Cut (§2.4).
  */
 public final class ScoreRendering {
     /** A rendered score, ready to upload. */

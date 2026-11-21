@@ -1,4 +1,4 @@
-"""MineScore's music notation symbols (SCOPE.md §8): original pixel art, white so the editor can tint them,
+"""MineScore's music notation symbols (SCOPE.md §9): original pixel art, white so the editor can tint them,
 packed into one atlas a resource pack can redraw. One staff space is 8 pixels.
 
 Each glyph has an anchor: the point the editor lines up with the music (a notehead's middle, a treble

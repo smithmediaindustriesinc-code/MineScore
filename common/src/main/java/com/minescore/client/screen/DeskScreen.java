@@ -18,7 +18,7 @@ import net.minecraft.world.entity.player.Inventory;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The Writer's Desk (SCOPE.md §3.6): the score slot, the copy slot and the editor button, in vanilla's
+ * The Writer's Desk (SCOPE.md §9.2): the score slot, the copy slot and the editor button, in vanilla's
  * container style.
  */
 public class DeskScreen extends AbstractContainerScreen<DeskMenu> {
@@ -42,7 +42,7 @@ public class DeskScreen extends AbstractContainerScreen<DeskMenu> {
         }).bounds(leftPos + 8, topPos + 64, 76, 16).build());
         editor.setTooltip(Tooltip.create(Component.translatable("gui.minescore.desk.editor_hint")));
         this.editorButton = editor;
-        // as a source (SCOPE.md §3.6): Play renders the score as it is now and plays it
+        // as a source (SCOPE.md §9.2): Play renders the score as it is now and plays it
         playButton = addRenderableWidget(Button.builder(Component.literal("▶"), b -> {
             MineScoreNetwork.sendToServer(new ScorePackets.Render(menu.pos(), ScorePackets.Purpose.DESK_PLAY));
             b.active = false; // until it has started (or failed)

@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.RedStoneWireBlock;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
- * A hub's redstone (SCOPE.md §6): inputs, which only count while its Redstone Control toggle is on and it
+ * A hub's redstone (SCOPE.md §7): inputs, which only count while its Redstone Control toggle is on and it
  * feeds speakers, and comparator outputs, which always work and can differ by face.
  *
  * <p>Left and right are the block's own, as if you were the block looking out of its front. "Strong" power

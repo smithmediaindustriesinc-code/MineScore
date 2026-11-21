@@ -3,7 +3,7 @@ package com.minescore.audio.notes;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Holds a note block sound for as long as a note lasts, or cuts it off when the note is short (SCOPE.md §8.1).
+ * Holds a note block sound for as long as a note lasts, or cuts it off when the note is short (SCOPE.md §9.9).
  *
  * <p>A note block sample dies away, so a long note can't simply play it slower. Instead a short stretch of
  * the sample just after its attack, a whole number of the note's own cycles long, is looped: its fading level

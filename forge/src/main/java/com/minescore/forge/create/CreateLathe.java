@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
- * MineScore's Create integration (SCOPE.md §3.1, §10). Only called when Create is installed, so none of
+ * MineScore's Create integration (SCOPE.md §2.4, §15). Only called when Create is installed, so none of
  * Create's classes load without it: callers see plain MineScore and Minecraft types only.
  */
 public final class CreateLathe {

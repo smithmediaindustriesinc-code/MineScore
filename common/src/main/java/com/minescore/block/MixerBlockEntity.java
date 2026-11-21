@@ -36,7 +36,7 @@ public class MixerBlockEntity extends BlockEntity implements PowerSource, Redsto
     private boolean redstoneControl = RedstoneHub.controlByDefault();
     /** The signals last seen: play (front, back, top, bottom), left and right. Pulses act on their rising edge. */
     private boolean playSignal, leftSignal, rightSignal;
-    /** Volume past 100%, which only an Amplifier in the system can deliver (SCOPE.md §3.5). */
+    /** Volume past 100%, which only an Amplifier in the system can deliver (SCOPE.md §5.4). */
     private float boost = 1;
 
     public MixerBlockEntity(BlockPos pos, BlockState state) {
@@ -64,7 +64,7 @@ public class MixerBlockEntity extends BlockEntity implements PowerSource, Redsto
     }
 
     /**
-     * SCOPE.md §6.1: a signal on the front, back, top or bottom plays (if anything is queued) and pauses when
+     * SCOPE.md §7.1: a signal on the front, back, top or bottom plays (if anything is queued) and pauses when
      * it goes; a pulse on the left skips ahead; a pulse on the right restarts the song, or goes back one if
      * it's under 2 s in.
      */

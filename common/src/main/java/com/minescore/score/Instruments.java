@@ -11,7 +11,7 @@ import java.util.Map;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Every instrument a score can use (SCOPE.md §8.3): the note block's own, plus any that resource packs add.
+ * Every instrument a score can use (SCOPE.md §9.11): the note block's own, plus any that resource packs add.
  * A pack lists its instruments in {@code assets/<namespace>/minescore/instruments.json}, each with its
  * sound and range; the client reads them whenever its resources load. A part whose pack instrument is
  * missing plays as a harp.

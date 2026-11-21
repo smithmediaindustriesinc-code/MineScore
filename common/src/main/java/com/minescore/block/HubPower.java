@@ -14,7 +14,7 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 
 /**
  * Whether a hub (Mixer, Channel Manager, Amplifier, Multi-Effects Unit) looks switched on: lit while its
- * system has power, dark with its lights off when it hasn't (SCOPE.md §11.2).
+ * system has power, dark with its lights off when it hasn't (SCOPE.md §13.2).
  */
 public final class HubPower {
     public static final BooleanProperty POWERED = BlockStateProperties.POWERED;

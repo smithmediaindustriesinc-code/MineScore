@@ -14,7 +14,7 @@ import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
 
 /**
- * Reads the instruments resource packs add (SCOPE.md §8.3), from {@code assets/<namespace>/minescore/instruments.json}
+ * Reads the instruments resource packs add (SCOPE.md §9.11), from {@code assets/<namespace>/minescore/instruments.json}
  * in every pack:
  *
  * <pre>{"instruments": [{"id": "violin", "name": "Violin", "sound": "mypack:violin", "center": 69, "low": 55, "high": 100}]}</pre>

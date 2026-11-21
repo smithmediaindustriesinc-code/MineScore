@@ -12,7 +12,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 
 /**
- * MineScore's hotkeys (SCOPE.md §9): Ctrl+M opens the config menu; the others are unbound until a player
+ * MineScore's hotkeys (SCOPE.md §10): Ctrl+M opens the config menu; the others are unbound until a player
  * picks keys for them. They're ordinary controls (in vanilla's Controls screen too), listed again in the
  * menu's Hotkeys tab, where they can be changed the same way.
  */

@@ -3,7 +3,7 @@ package com.minescore.power;
 import net.minecraft.nbt.CompoundTag;
 
 /**
- * A block's store of FE (SCOPE.md §5.3). The loader's energy API (Forge Energy on Forge) fills it; the block
+ * A block's store of FE (SCOPE.md §6.3). The loader's energy API (Forge Energy on Forge) fills it; the block
  * spends it. It also remembers how much came in over the last whole second, so a source can tell when its
  * power has been switched off.
  */

@@ -42,13 +42,13 @@ public record EffectChain(List<CardSettings> cards, boolean bypass, float expres
         return speed == null ? 1 : speed.value("speed") / 100f;
     }
 
-    /** Effects changed from their defaults: each adds 2 s when a Lathe prints them onto a record (SCOPE.md §3.10). */
+    /** Effects changed from their defaults: each adds 2 s when a Lathe prints them onto a record (SCOPE.md §5.5). */
     public int changedEffects() {
         return (int) active().stream().filter(CardSettings::changed).count();
     }
 
     /**
-     * Roughly how much louder the unit makes the music, in dB, for blowouts (SCOPE.md §5.5): drive and amp
+     * Roughly how much louder the unit makes the music, in dB, for blowouts (SCOPE.md §6.5): drive and amp
      * gain saturate it hotter, and level and makeup knobs raise it.
      */
     public double loudnessDb() {

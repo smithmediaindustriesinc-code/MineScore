@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import net.minecraft.client.Minecraft;
 
 /**
- * The score editor's other preferences (SCOPE.md §8.1), beside its shortcuts: saved per player in
+ * The score editor's other preferences (SCOPE.md §9.3), beside its shortcuts: saved per player in
  * {@code config/minescore-editor.json}.
  */
 public final class EditorPrefs {
@@ -27,7 +27,7 @@ public final class EditorPrefs {
     }
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    /** Instruments switched off in the instrument list (SCOPE.md §8.3), by {@link com.minescore.score.Instruments.Choice#key()}. */
+    /** Instruments switched off in the instrument list (SCOPE.md §9.11), by {@link com.minescore.score.Instruments.Choice#key()}. */
     private static final java.util.Set<String> disabled = new java.util.TreeSet<>();
     private static boolean loaded;
 
@@ -37,7 +37,7 @@ public final class EditorPrefs {
         return Minecraft.getInstance().gameDirectory.toPath().resolve("config").resolve("minescore-editor.json");
     }
 
-    /** Kept with the config menu's settings (SCOPE.md §9). */
+    /** Kept with the config menu's settings (SCOPE.md §10). */
     public static ArrowSelect arrowSelect() {
         try {
             return ArrowSelect.valueOf(com.minescore.config.MineScoreConfig.ARROW_SELECT.text());

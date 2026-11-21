@@ -8,7 +8,7 @@ import com.minescore.score.Notation.Duration;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-/** Exporting a score and importing it again keeps its notes where they were (SCOPE.md §8.3, M10). */
+/** Exporting a score and importing it again keeps its notes where they were (SCOPE.md §9.12, M10). */
 class ImportExportTest {
     private static final Duration QUARTER = Duration.QUARTER, HALF = new Duration(1, 0), WHOLE = new Duration(0, 0);
 

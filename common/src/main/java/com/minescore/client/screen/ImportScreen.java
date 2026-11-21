@@ -16,7 +16,7 @@ import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Importing into the score editor (SCOPE.md §8.3): pick a MIDI, Note Block Studio or MineScore file from
+ * Importing into the score editor (SCOPE.md §9.12): pick a MIDI, Note Block Studio or MineScore file from
  * {@code blkcdsongs/} or {@code minescore/} (or browse for one). Importing overwrites the score, so it first
  * offers to keep the score as it is as a copy.
  */

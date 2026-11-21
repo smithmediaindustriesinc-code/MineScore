@@ -12,7 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 
 /**
- * Lets the player hear a note as they place, select or move it, as MuseScore does (SCOPE.md §8.1): one
+ * Lets the player hear a note as they place, select or move it, as MuseScore does (SCOPE.md §9.4): one
  * note-block hit in the part's instrument, heard only by them.
  */
 public final class Audition {

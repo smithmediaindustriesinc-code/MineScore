@@ -9,7 +9,7 @@ import com.minescore.mp3.Mp3State;
 import com.minescore.song.SongMeta;
 import org.junit.jupiter.api.Test;
 
-/** The Speed effect's algorithms (SCOPE.md §3.10), and analysing songs for synced delays and the Tuner. */
+/** The Speed effect's algorithms (SCOPE.md §5.5), and analysing songs for synced delays and the Tuner. */
 class TimeStretchTest {
     private static Track tone(double frequency, int seconds) {
         int frames = seconds * Track.SAMPLE_RATE;

@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 
 /**
- * The Amplifier's screen (SCOPE.md §3.3): its role in the system, the boost cap its wiring allows, a
+ * The Amplifier's screen (SCOPE.md §5.7): its role in the system, the boost cap its wiring allows, a
  * master volume up to that cap, and a 10-band EQ.
  */
 public class AmplifierScreen extends DeviceScreen<AmplifierBlockEntity> {

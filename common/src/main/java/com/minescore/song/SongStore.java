@@ -104,7 +104,7 @@ public final class SongStore {
         return fixed;
     }
 
-    /** Keeps a song's loudness (SCOPE.md §5.5), measured by the player who cut it. Bad data is ignored. */
+    /** Keeps a song's loudness (SCOPE.md §6.5), measured by the player who cut it. Bad data is ignored. */
     public synchronized void writeLoudness(String id, byte[] data) {
         if (!SongMeta.validId(id)) {
             return;

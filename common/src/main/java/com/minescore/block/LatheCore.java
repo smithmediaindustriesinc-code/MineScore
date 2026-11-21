@@ -47,7 +47,7 @@ import org.jetbrains.annotations.Nullable;
  * <p>Slots: 0 input (a Blank Vinyl to cut, or the Vinyl Record to copy), 1 the Blank Vinyl a copy goes onto (or
  * the MP3 Player a song is loaded into), 2 output.
  *
- * <p>What drives it (SCOPE.md §3.1, S3): 20 FE/t of its own, at a speed set by any Amplifier band wired in;
+ * <p>What drives it (SCOPE.md §2.4, S3): 20 FE/t of its own, at a speed set by any Amplifier band wired in;
  * or Create rotation, 3 × 64 ÷ RPM seconds a cut, for free. Whichever is faster at the moment wins. Turned
  * past the maximum RPM, the record being cut shatters. With neither it waits. Previews need no power.
  */
@@ -290,7 +290,7 @@ public final class LatheCore implements MenuProvider {
         return input.is(ModItems.BLANK_CD.get()) || scoreCut();
     }
 
-    /** A Score to cut, with a Blank Vinyl in the second slot to cut it onto (SCOPE.md §3.1). */
+    /** A Score to cut, with a Blank Vinyl in the second slot to cut it onto (SCOPE.md §2.4). */
     private boolean scoreCut() {
         return items.getItem(INPUT).is(ModItems.SCORE.get()) && items.getItem(EXTRA).is(ModItems.BLANK_CD.get());
     }

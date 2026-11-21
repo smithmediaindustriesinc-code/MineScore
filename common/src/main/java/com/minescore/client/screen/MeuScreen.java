@@ -33,7 +33,7 @@ import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The Multi-Effects Unit's screen (SCOPE.md §3.10), laid out like a vanilla container: the six card slots
+ * The Multi-Effects Unit's screen (SCOPE.md §5.5), laid out like a vanilla container: the six card slots
  * and the expression pedal along the top, the chosen card's effect and knobs in the dark panel below, and
  * the player's inventory with the presets, the Preset Chip slot and the master switch beside it.
  */

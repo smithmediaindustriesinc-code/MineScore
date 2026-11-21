@@ -9,7 +9,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 
 /**
- * Server settings travelling (SCOPE.md §9): the server sends all of them to each player who joins and again
+ * Server settings travelling (SCOPE.md §10): the server sends all of them to each player who joins and again
  * whenever they change; operators change them in-game from the config menu.
  */
 public final class ConfigPackets {

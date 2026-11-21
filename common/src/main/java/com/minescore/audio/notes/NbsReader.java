@@ -19,7 +19,7 @@ public final class NbsReader {
     public record RawNote(int tick, int layer, int instrument, int key, int velocity, int panning, int pitch) {}
 
     /**
-     * A song as written, for importing it as a score too (SCOPE.md §8.3).
+     * A song as written, for importing it as a score too (SCOPE.md §9.12).
      *
      * @param beats       its time signature, in quarter notes a measure
      * @param layerVolume each layer's volume (0–100), by layer

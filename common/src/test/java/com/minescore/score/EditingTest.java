@@ -12,7 +12,7 @@ import com.minescore.score.Notation.Tuplet;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-/** Note input that overwrites like MuseScore's, and edits that undo exactly (SCOPE.md §8.1). */
+/** Note input that overwrites like MuseScore's, and edits that undo exactly (SCOPE.md §9.4). */
 class EditingTest {
     private static final Frac BAR = Frac.ONE;
     private static final Duration QUARTER = Duration.QUARTER;

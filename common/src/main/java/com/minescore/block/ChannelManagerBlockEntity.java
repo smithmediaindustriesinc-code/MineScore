@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A Channel Manager's switches (SCOPE.md §3.4): whether its Left and Right channels play, and whether it
+ * A Channel Manager's switches (SCOPE.md §5.6): whether its Left and Right channels play, and whether it
  * forces everything to mono. Each speaker's own channel and trim live on the speaker.
  */
 public class ChannelManagerBlockEntity extends SettingsBlockEntity implements RedstoneHub {
@@ -21,7 +21,7 @@ public class ChannelManagerBlockEntity extends SettingsBlockEntity implements Re
     private boolean rightOn = true;
     private boolean forceMono;
     private boolean redstoneControl = RedstoneHub.controlByDefault();
-    /** What redstone does right now (§6.2): weak power on a side turns that channel off; strong power forces mono. */
+    /** What redstone does right now (§7.3): weak power on a side turns that channel off; strong power forces mono. */
     private boolean redstoneLeftOff, redstoneRightOff, redstoneMono;
 
     public ChannelManagerBlockEntity(BlockPos pos, BlockState state) {

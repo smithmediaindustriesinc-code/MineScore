@@ -29,7 +29,7 @@ public final class HubPackets {
         /** On a Mixer: sets this EQ band on every Amplifier in its system. i = band, f = dB */
         MIXER_EQ,
         MIXER_EQ_RESET,
-        /** A hub's Redstone Control toggle (SCOPE.md §6). f = 1 on, 0 off */
+        /** A hub's Redstone Control toggle (SCOPE.md §7). f = 1 on, 0 off */
         REDSTONE_CONTROL
     }
 

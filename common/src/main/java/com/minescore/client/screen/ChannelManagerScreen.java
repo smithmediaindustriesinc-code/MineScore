@@ -21,7 +21,7 @@ import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The Channel Manager's screen (SCOPE.md §3.4): its Left, Right and Mono switches, and every speaker after
+ * The Channel Manager's screen (SCOPE.md §5.6): its Left, Right and Mono switches, and every speaker after
  * it with its name, type, range, channel, trim and a Locate button. Click a name to rename that speaker.
  */
 public class ChannelManagerScreen extends DeviceScreen<ChannelManagerBlockEntity> {

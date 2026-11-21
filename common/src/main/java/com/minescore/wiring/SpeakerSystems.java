@@ -40,7 +40,7 @@ public final class SpeakerSystems {
 
     /**
      * Every speaker that plays when {@code start} plays. A speaker plays only if its band has a cable at
-     * every step back to the source (SCOPE.md §4.2), so this follows band cables only.
+     * every step back to the source (SCOPE.md §5.9), so this follows band cables only.
      *
      * @param cablesAt cables with an end at a block
      * @param start    usually a source; a speaker for Bluetooth, or a Channel Manager to list its speakers
@@ -164,7 +164,7 @@ public final class SpeakerSystems {
 
     /**
      * How loud a main Amplifier may go, set by the thinnest wire linking the hubs that lead to it (SCOPE.md
-     * §3.3): the orange Mixer → Amplifier link, or the teal Channel Manager → Amplifier link plus the purple
+     * §5.7): the orange Mixer → Amplifier link, or the teal Channel Manager → Amplifier link plus the purple
      * Mixer → Channel Manager link before it. 400% on 12 ga, 300% on 16 ga, 200% on 20 ga; 100% unlinked.
      */
     public static float boostCap(Function<BlockPos, Collection<Cable>> cablesAt, BlockPos amp) {

@@ -17,7 +17,7 @@ import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The instrument list (SCOPE.md §8.1, §8.3), shown over the score editor when adding a part or when its
+ * The instrument list (SCOPE.md §9.6, §9.11), shown over the score editor when adding a part or when its
  * pencil button changes one: every note block instrument (the drums together as one drum kit), then those
  * the resource packs add. "Choose instruments…" switches the list to picking which ones it offers.
  */

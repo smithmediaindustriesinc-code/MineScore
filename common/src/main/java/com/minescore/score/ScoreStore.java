@@ -15,7 +15,7 @@ import net.minecraft.world.level.storage.LevelResource;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A world's scores (SCOPE.md §2.5), one compressed file each in {@code <world>/minescore/scores/}. Score
+ * A world's scores (SCOPE.md §9.1), one compressed file each in {@code <world>/minescore/scores/}. Score
  * items only carry an ID, so a big score never bloats an item or a packet. Loaded scores stay in memory
  * while the server runs.
  */

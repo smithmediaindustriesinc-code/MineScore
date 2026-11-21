@@ -9,7 +9,7 @@ import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.Tag;
 
 /**
- * A whole score (SCOPE.md §8): its titles, the measures every part shares ({@link Bar}), and the parts.
+ * A whole score (SCOPE.md §9): its titles, the measures every part shares ({@link Bar}), and the parts.
  * Every part always has exactly as many measures as there are bars.
  */
 public final class Score {

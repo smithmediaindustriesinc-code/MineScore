@@ -14,7 +14,7 @@ import snownee.jade.api.IWailaPlugin;
 import snownee.jade.api.WailaPlugin;
 import snownee.jade.api.config.IPluginConfig;
 
-/** Jade (SCOPE.md §14, M12 stage 5): MineScore's {@link BlockInfo} lines under the block's name. Loaded only with Jade. */
+/** Jade (SCOPE.md §16, M12 stage 5): MineScore's {@link BlockInfo} lines under the block's name. Loaded only with Jade. */
 @WailaPlugin
 public class MineScoreJadePlugin implements IWailaPlugin {
     @Override

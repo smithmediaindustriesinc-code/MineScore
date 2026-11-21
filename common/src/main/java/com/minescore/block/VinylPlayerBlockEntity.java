@@ -24,7 +24,7 @@ import org.jetbrains.annotations.Nullable;
 
 /**
  * The Vinyl Player: holds one Vinyl Record and plays it once through, then stops (the record stays on). It needs
- * no power itself, but its speakers draw through it (SCOPE.md §3.8).
+ * no power itself, but its speakers draw through it (SCOPE.md §3.1).
  */
 public class VinylPlayerBlockEntity extends BlockEntity implements PowerSource {
     private final SourcePower power = new SourcePower();

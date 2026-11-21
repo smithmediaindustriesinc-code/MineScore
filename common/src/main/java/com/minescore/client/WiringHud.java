@@ -10,7 +10,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
 
 /**
- * The wiring HUD (SCOPE.md §11.4): while a cable is being laid, a line above the hotbar says which block it
+ * The wiring HUD (SCOPE.md §5.1): while a cable is being laid, a line above the hotbar says which block it
  * started at and how far the last fixed point is, turning amber past the hearing range (where the distance
  * warning would fire).
  */

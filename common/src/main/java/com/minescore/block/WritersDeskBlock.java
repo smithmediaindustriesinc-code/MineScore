@@ -40,7 +40,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The Writer's Desk (SCOPE.md §3.6): two desk blocks facing the same way, side by side, make one desk, the
+ * The Writer's Desk (SCOPE.md §9.2): two desk blocks facing the same way, side by side, make one desk, the
  * halves mirror images: each a drawer pedestal at its outer end under the top, with knee space between. The
  * left half (as you face it) holds the slots and the jacks. A row of desks pairs off from the left; a desk
  * with no partner is a lone, unfinished half.

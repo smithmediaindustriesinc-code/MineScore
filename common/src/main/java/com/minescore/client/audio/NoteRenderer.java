@@ -61,7 +61,7 @@ public final class NoteRenderer {
             int start = (int) Math.round(e.seconds() * Track.SAMPLE_RATE);
             float leftGain = e.volume() * MASTER * Math.min(1, 1 - e.pan());
             float rightGain = e.volume() * MASTER * Math.min(1, 1 + e.pan());
-            if (e.held()) { // held to its length, or cut short (SCOPE.md §8.1)
+            if (e.held()) { // held to its length, or cut short (SCOPE.md §9.9)
                 float[] note = NoteSustain.render(sample, loops.get(soundOf(e)).orElse(null), e.rate(),
                         (int) Math.round(e.length() * Track.SAMPLE_RATE), (int) Math.round(NoteSustain.RELEASE * Track.SAMPLE_RATE));
                 for (int i = 0; i < note.length && start + i < frames; i++) {

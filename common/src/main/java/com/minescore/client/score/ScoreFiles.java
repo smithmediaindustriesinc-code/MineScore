@@ -25,7 +25,7 @@ import org.lwjgl.system.MemoryStack;
 import org.lwjgl.util.tinyfd.TinyFileDialogs;
 
 /**
- * Importing and exporting scores from the editor (SCOPE.md §8.3, M10). Files to import come from
+ * Importing and exporting scores from the editor (SCOPE.md §9.12, M10). Files to import come from
  * {@code blkcdsongs/}, {@code minescore/} or a file picker; exports go to {@code minescore/} or a folder picked
  * in the editor.
  */

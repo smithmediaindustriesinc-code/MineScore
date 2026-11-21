@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 /**
  * What one measure number means for every part at once: time and key changes, tempo marks, repeats,
- * endings, jump signs and its barline (SCOPE.md §8.2).
+ * endings, jump signs and its barline (SCOPE.md §9.8).
  */
 public final class Bar {
     /** A new time signature from here, or null. */

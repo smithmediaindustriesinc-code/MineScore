@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * The score editor's shortcuts (SCOPE.md §8.1), MuseScore's by default, each one rebindable in the
+ * The score editor's shortcuts (SCOPE.md §9.4), MuseScore's by default, each one rebindable in the
  * editor's Preferences. Saved per player in {@code config/minescore-editor-keys.json}.
  */
 public final class EditorKeys {

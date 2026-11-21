@@ -16,7 +16,7 @@ import java.util.Map;
 import net.minecraft.nbt.NbtIo;
 
 /**
- * Writes a score out as a file (SCOPE.md §8.3, M10): a MIDI file, a Note Block Studio song or a MineScore
+ * Writes a score out as a file (SCOPE.md §9.12, M10): a MIDI file, a Note Block Studio song or a MineScore
  * file from the score itself; a WAV file from its rendered audio. MIDI and Note Block Studio are written
  * from what playback plays, so repeats, ties, ornaments and dynamics come out as heard.
  */

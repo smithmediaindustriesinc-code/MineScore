@@ -55,7 +55,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 /** Client-only Forge glue. Only loaded on the physical client. */
 public final class MineScoreForgeClient {
-    /** The config menu's key (Ctrl+M) and the extra hotkeys, unbound until a player picks keys (SCOPE.md §9). */
+    /** The config menu's key (Ctrl+M) and the extra hotkeys, unbound until a player picks keys (SCOPE.md §10). */
     private static final String CATEGORY = "key.categories.minescore";
 
     private MineScoreForgeClient() {}
@@ -145,7 +145,7 @@ public final class MineScoreForgeClient {
         }
     }
 
-    /** The built-in style packs (SCOPE.md §11.1), listed in the Resource Packs screen and off until picked. */
+    /** The built-in style packs (SCOPE.md §13.1), listed in the Resource Packs screen and off until picked. */
     private static void onAddPacks(AddPackFindersEvent event) {
         if (event.getPackType() != PackType.CLIENT_RESOURCES) {
             return;

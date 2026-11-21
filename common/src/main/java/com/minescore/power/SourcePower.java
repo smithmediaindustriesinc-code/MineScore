@@ -7,7 +7,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
 
 /**
- * A source's power (SCOPE.md §5.3): the system's one power input. While the system plays, it draws what
+ * A source's power (SCOPE.md §6.3): the system's one power input. While the system plays, it draws what
  * the system asks for, up to the cap, every tick; its budget is what it actually managed to draw over the
  * last second. It also notes when its power was last switched off, which resets a system after a short.
  */

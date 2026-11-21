@@ -31,7 +31,7 @@ public interface PlatformHelper {
     /** A block entity type (vanilla's builder isn't public outside the loaders). */
     <T extends BlockEntity> BlockEntityType<T> blockEntityType(BiFunction<BlockPos, BlockState, T> factory, Block... blocks);
 
-    /** The Disc Cutting Lathe: plain, or one that takes rotation when Create is installed (SCOPE.md §3.1). */
+    /** The Disc Cutting Lathe: plain, or one that takes rotation when Create is installed (SCOPE.md §2.4). */
     default LatheBlock latheBlock(BlockBehaviour.Properties properties, VoxelShape shape) {
         return new LatheBlock(properties, shape);
     }

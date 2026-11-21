@@ -6,7 +6,7 @@ import org.jetbrains.annotations.Nullable;
 
 /**
  * One notehead, spelled the way it's written: a letter, a sharp or flat, and an octave, so F♯ and G♭ stay
- * themselves (SCOPE.md §8.2).
+ * themselves (SCOPE.md §9.8).
  *
  * @param step   0 = C … 6 = B
  * @param alter  -2 (double flat) … 2 (double sharp)

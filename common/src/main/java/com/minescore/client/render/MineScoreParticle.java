@@ -9,7 +9,7 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.util.Mth;
 
 /**
- * How each of MineScore's particles moves (SCOPE.md §11.4): notes drift up from playing speakers in their
+ * How each of MineScore's particles moves (SCOPE.md §13.5): notes drift up from playing speakers in their
  * band's colour, vinyl shavings curl off the Lathe's cutter and fall, record shards tumble and bounce, sparks
  * fly and drop, and a short's smoke rises and spreads.
  */

@@ -3,7 +3,7 @@
 Everything here is 32x32 (the default Minecraft-native set). Shading follows Minecraft's conventions:
 light from the top-left, a few tones per material, subtle per-pixel noise, and darker item outlines.
 
-Each style (SCOPE.md §11.1) is the same drawings in its own palette: MINESCORE_STYLE picks it, and
+Each style (SCOPE.md §13.1) is the same drawings in its own palette: MINESCORE_STYLE picks it, and
 gen_resources.py draws each built-in pack in a fresh process so every default argument picks it up too.
 """
 import math
@@ -815,7 +815,7 @@ def plate(c, x1, y1, x2, y2, base):
 
 
 def underside(seed, kind):
-    """A block's underside (SCOPE.md §11): its body material with rubber feet in the corners, a maker's
+    """A block's underside (SCOPE.md §13.2): its body material with rubber feet in the corners, a maker's
     plate, and whatever that block has underneath."""
     wood = kind in ("tweeter_speaker", "middle_speaker", "subwoofer", "vinyl_player", "writers_desk", "music_cabinet")
     if wood:

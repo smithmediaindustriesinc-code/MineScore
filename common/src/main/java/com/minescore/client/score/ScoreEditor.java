@@ -27,7 +27,7 @@ import net.minecraft.nbt.CompoundTag;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * One open score editor, on the client (SCOPE.md §8.1): its copy of the score, what's selected, the note
+ * One open score editor, on the client (SCOPE.md §9.3): its copy of the score, what's selected, the note
  * input settings, undo and redo, and the clipboard. Every action becomes {@link ScoreChange}s, applied here
  * at once and sent to the server, which passes them on to anyone else editing the score.
  */
@@ -100,7 +100,7 @@ public final class ScoreEditor {
     private int lastPitch = 71;
     /** More chords picked with Ctrl+click, besides {@link #selected}. */
     public final List<ChordRef> also = new ArrayList<>();
-    /** Everyone else with this score open, by player (SCOPE.md §8.1, stage 4). */
+    /** Everyone else with this score open, by player (SCOPE.md §9.10, stage 4). */
     public final java.util.Map<java.util.UUID, Peer> peers = new java.util.LinkedHashMap<>();
     private ScorePackets.CursorState sentCursor = ScorePackets.CursorState.NONE;
     /** Extending a selection with Shift+arrows: the fixed end and the moving end, from the score's start. */

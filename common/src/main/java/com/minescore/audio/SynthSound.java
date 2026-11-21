@@ -8,7 +8,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 /**
  * MineScore's own sound effects, synthesized on each client rather than shipped as recordings (SCOPE.md
- * §11.4), in the sound style the client's packs pick ({@link SynthRecipes}). The server only says which one and where.
+ * §13.6), in the sound style the client's packs pick ({@link SynthRecipes}). The server only says which one and where.
  */
 public enum SynthSound {
     /** A record spun past the Lathe's top speed snaps and its shards clatter down. */

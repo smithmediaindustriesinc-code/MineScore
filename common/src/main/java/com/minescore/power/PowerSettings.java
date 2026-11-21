@@ -3,7 +3,7 @@ package com.minescore.power;
 import java.util.function.BooleanSupplier;
 import java.util.function.IntSupplier;
 
-/** Power settings (SCOPE.md §5.2–5.4), bound to the config menu's (§9). */
+/** Power settings (SCOPE.md §6.2–4), bound to the config menu's (§10). */
 public final class PowerSettings {
     /** Energy mode (true, the default) or None mode, where nothing needs power and chains lose nothing. */
     public static BooleanSupplier energy = () -> true;

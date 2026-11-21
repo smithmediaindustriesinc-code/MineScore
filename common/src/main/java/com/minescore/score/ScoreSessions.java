@@ -22,7 +22,7 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Who has which score open in an editor, on the server (SCOPE.md §8.1): edits are checked, applied to the
+ * Who has which score open in an editor, on the server (SCOPE.md §9.3): edits are checked, applied to the
  * stored score and passed on to everyone else editing it. Scores are saved a few seconds after a change
  * and when the last editor closes.
  */
@@ -34,7 +34,7 @@ public final class ScoreSessions {
     private record Session(ResourceKey<Level> dimension, BlockPos desk, String scoreId) {}
 
     private static final Map<ServerPlayer, Session> OPEN = new HashMap<>();
-    /** Where each editor's cursor is, for showing to the others (SCOPE.md §8.1). */
+    /** Where each editor's cursor is, for showing to the others (SCOPE.md §9.10). */
     private static final Map<ServerPlayer, ScorePackets.CursorState> CURSORS = new HashMap<>();
     private static final Set<String> DIRTY = new HashSet<>();
 
@@ -74,7 +74,7 @@ public final class ScoreSessions {
     private static final Map<ServerPlayer, byte[][]> REPLACING = new HashMap<>();
 
     /**
-     * A piece of an imported score (SCOPE.md §8.3). Once it's all here it replaces the score on the desk,
+     * A piece of an imported score (SCOPE.md §9.12). Once it's all here it replaces the score on the desk,
      * after (if asked) keeping the old one as a numbered copy on a Blank Score from the player's inventory,
      * and everyone editing it gets the new score.
      */

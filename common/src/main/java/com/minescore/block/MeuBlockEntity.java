@@ -38,7 +38,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The Multi-Effects Unit (SCOPE.md §3.10): six card slots, a Preset Chip slot, a master bypass and the
+ * The Multi-Effects Unit (SCOPE.md §5.5): six card slots, a Preset Chip slot, a master bypass and the
  * expression pedal. Each card's settings live on the card; the unit remembers which preset it last
  * loaded or saved and whether it's been changed since.
  */
@@ -46,7 +46,7 @@ public class MeuBlockEntity extends BlockEntity implements MenuProvider, Redston
     private final SimpleContainer items = new SimpleContainer(MeuMenu.CARDS + 1);
     private boolean bypass;
     private boolean redstoneControl = RedstoneHub.controlByDefault();
-    /** Switched off by a redstone signal (§6.4), as if on master bypass. */
+    /** Switched off by a redstone signal (§7.2), as if on master bypass. */
     private boolean redstoneOff;
     private float expression;
     private String presetName = Preset.BUILT_IN.get(0).name();

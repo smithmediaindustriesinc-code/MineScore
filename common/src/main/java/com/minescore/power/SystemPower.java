@@ -17,7 +17,7 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * What a speaker system asks for in Energy mode, and what a budget gives it (SCOPE.md §5.3, §5.4, S1).
+ * What a speaker system asks for in Energy mode, and what a budget gives it (SCOPE.md §6.3, §6.4, S1).
  *
  * <p>The hubs come first: with less than their total the system can't run. What's left powers the speakers
  * in chain order, nearest the source first, each at full volume. The first speaker the budget can't cover,
@@ -136,7 +136,7 @@ public final class SystemPower {
     }
 
     /**
-     * The daisy-chain curve (SCOPE.md §5.4) for the speaker at {@code position} (from 1) of {@code count}
+     * The daisy-chain curve (SCOPE.md §6.4) for the speaker at {@code position} (from 1) of {@code count}
      * speakers past the budget: each at 95% of the one before, down to 10%. Once that many reach the floor,
      * each extra speaker lowers the first by 5 points, the ones between evenly spaced; once even the first
      * is at 10%, they all share 10% × N₀ ÷ n.

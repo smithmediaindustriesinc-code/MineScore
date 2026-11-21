@@ -11,7 +11,7 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A Score (SCOPE.md §2.5): the item points at a score stored on the server, and shows its title (or
+ * A Score (SCOPE.md §9.1): the item points at a score stored on the server, and shows its title (or
  * <i>Untitled Score</i> in italics), its composer, and its copy number.
  */
 public class ScoreItem extends Item {

@@ -27,7 +27,7 @@ import org.joml.Matrix3f;
 import org.joml.Matrix4f;
 
 /**
- * A speaker's driver in 3D (SCOPE.md §11.2): the Subwoofer's and Middle Speaker's cones sink into the baffle
+ * A speaker's driver in 3D (SCOPE.md §5.3): the Subwoofer's and Middle Speaker's cones sink into the baffle
  * from the rubber surround to a domed dust cap, and the Tweeter's dome stands proud of its waveguide. While
  * the speaker plays, the cone pumps in and out: harder the louder it's driven (the music's loudness at it
  * times its system's gain), and faster the higher it's playing. The front texture has a hole where the driver

@@ -25,7 +25,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Lays a score out the way MuseScore's continuous view does (SCOPE.md §8.1): each part a row of staves
+ * Lays a score out the way MuseScore's continuous view does (SCOPE.md §9.3): each part a row of staves
  * running sideways, measures spaced by their notes' lengths, and draws it: staves, clefs, key and time
  * signatures, notes, rests, beams, accidentals, ties, marks and text. It also says what's under the mouse.
  *
@@ -726,7 +726,7 @@ public final class ScoreView {
     }
 
     /**
-     * Note input's preview (SCOPE.md §8.1): a see-through note of the chosen value where a click would put
+     * Note input's preview (SCOPE.md §9.4): a see-through note of the chosen value where a click would put
      * it, with its ledger lines and stem.
      */
     public void drawGhost(GuiGraphics g, float left, float top, float sx, float sy, Hit hit, int durationLog, int color) {

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Every effect a Multi-Effects Unit card can run (SCOPE.md §3.10), the card it belongs to, and its knobs.
+ * Every effect a Multi-Effects Unit card can run (SCOPE.md §5.5), the card it belongs to, and its knobs.
  * Knob values are stored as real values (dB, ms, Hz, %), not 0–1.
  */
 public enum Effect {

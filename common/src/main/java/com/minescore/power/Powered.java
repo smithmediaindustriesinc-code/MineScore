@@ -4,7 +4,7 @@ package com.minescore.power;
 public interface Powered {
     EnergyBuffer energy();
 
-    /** Whether cables and pipes may fill it right now: never in None mode (SCOPE.md §5.2). */
+    /** Whether cables and pipes may fill it right now: never in None mode (SCOPE.md §6.2). */
     default boolean acceptsEnergy() {
         return PowerSettings.energyMode();
     }

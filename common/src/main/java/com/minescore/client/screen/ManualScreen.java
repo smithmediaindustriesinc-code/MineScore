@@ -22,7 +22,7 @@ import net.minecraft.world.item.ItemStack;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * The MineScore Manual (SCOPE.md §11.4): an open book, two pages at a time. The first spread is the
+ * The MineScore Manual (SCOPE.md §11): an open book, two pages at a time. The first spread is the
  * introduction and the contents; each chapter starts on a fresh page and flows on as far as it needs.
  * The text is {@code assets/minescore/minescore/manual/<language>.json} (English if the game's language has
  * none), so a resource pack can translate or replace it: a title, an intro, and chapters, each with a

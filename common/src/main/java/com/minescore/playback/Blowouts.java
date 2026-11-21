@@ -4,7 +4,7 @@ import com.minescore.audio.EqCurve;
 import com.minescore.wiring.Gauge;
 
 /**
- * When a speaker blows (SCOPE.md §5.5): both how far it's turned up and how loud the music is count. Bass
+ * When a speaker blows (SCOPE.md §6.5): both how far it's turned up and how loud the music is count. Bass
  * gives out first, then mid, then tweeters.
  */
 public final class Blowouts {

@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-/** The MineScore Manual: right-click to read it (SCOPE.md §11.4). Its pages are client resources, so packs can translate them. */
+/** The MineScore Manual: right-click to read it (SCOPE.md §11). Its pages are client resources, so packs can translate them. */
 public class ManualItem extends Item {
     public ManualItem(Properties properties) {
         super(properties);

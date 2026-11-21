@@ -7,7 +7,7 @@ import java.util.List;
 import net.minecraft.core.BlockPos;
 import org.junit.jupiter.api.Test;
 
-/** The Multi-Effects Unit's place in a system (SCOPE.md §3.10, §4.1). */
+/** The Multi-Effects Unit's place in a system (SCOPE.md §5.5, §5.8). */
 class MeuWiringTest {
     private static void ok(WiringRules.Result result) {
         assertInstanceOf(WiringRules.Ok.class, result, () -> "expected Ok but got " + result);

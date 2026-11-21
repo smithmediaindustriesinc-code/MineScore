@@ -13,7 +13,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
-/** The config menu's settings (SCOPE.md §9): values stay in range, old files move over, presets and imports apply. */
+/** The config menu's settings (SCOPE.md §10): values stay in range, old files move over, presets and imports apply. */
 class ConfigTest {
     @AfterEach
     void defaults() {

@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Set;
 import org.junit.jupiter.api.Test;
 
-/** The Multi-Effects Unit's cards, presets and effects (SCOPE.md §3.10). */
+/** The Multi-Effects Unit's cards, presets and effects (SCOPE.md §5.5). */
 class EffectsTest {
     private static final int N = Track.SAMPLE_RATE;
 

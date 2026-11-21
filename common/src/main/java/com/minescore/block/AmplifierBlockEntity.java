@@ -17,7 +17,7 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
- * An Amplifier's master volume and 10-band EQ (SCOPE.md §3.3). How far it may boost depends on its wiring.
+ * An Amplifier's master volume and 10-band EQ (SCOPE.md §5.7). How far it may boost depends on its wiring.
  * Inside a system it draws from the source; on its own (one wired only to a Lathe) it takes FE itself (S6).
  */
 public class AmplifierBlockEntity extends SettingsBlockEntity implements Powered, RedstoneHub {
@@ -25,7 +25,7 @@ public class AmplifierBlockEntity extends SettingsBlockEntity implements Powered
     public static final float MAX_MASTER = 4;
 
     private final EnergyBuffer energy = new EnergyBuffer(4_000);
-    /** The EQ bands each face's redstone controls (§6.3), 0-based: back 1–3, left 4–5, right 6–7, front 8–10. */
+    /** The EQ bands each face's redstone controls (§7.4), 0-based: back 1–3, left 4–5, right 6–7, front 8–10. */
     static final int[][] FACE_BANDS = {{0, 1, 2}, {3, 4}, {5, 6}, {7, 8, 9}};
     /** The speaker type each group feeds: Subwoofers, Middle Speakers twice, Tweeters. */
     private static final Gauge[] FACE_SPEAKERS = {Gauge.G12, Gauge.G16, Gauge.G16, Gauge.G20};
@@ -66,7 +66,7 @@ public class AmplifierBlockEntity extends SettingsBlockEntity implements Powered
     }
 
     /**
-     * The EQ with redstone applied (§6.3). The bottom face (1–15) sets the loudest band to signal ÷ 15 × 400%
+     * The EQ with redstone applied (§7.4). The bottom face (1–15) sets the loudest band to signal ÷ 15 × 400%
      * and moves the rest with it, keeping their ratios to it from the screen's EQ (a band held at the EQ's
      * limit keeps its ratio for when it comes back). A side face (1–15) then sets its own bands to signal ÷
      * 15 × 400%. Signal 0 leaves the screen's values.

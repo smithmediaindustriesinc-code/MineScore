@@ -1,7 +1,7 @@
 package com.minescore.client.audio;
 
 /**
- * A record's surface noise (SCOPE.md §3.8): a soft hiss, a gentle low rumble, and now and then a crackle or
+ * A record's surface noise (SCOPE.md §3.1): a soft hiss, a gentle low rumble, and now and then a crackle or
  * a pop. It's worked out from the track frame (and the track), not from a running random generator, so every
  * speaker playing the same record gets the same crackles at the same moment, as if they were in the groove.
  * At 100% it sits about 50 dB under full scale, so you hear it in the quiet passages and lose it under the music.

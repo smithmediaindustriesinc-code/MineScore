@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Plays a score as note block hits (SCOPE.md §8.1, §8.2): in played order (repeats and jumps followed), at
+ * Plays a score as note block hits (SCOPE.md §9.9, §9.8): in played order (repeats and jumps followed), at
  * its tempo with ritardando and accelerando, each note held for its length (or struck again every beat, for
  * parts set to re-strike), with dynamics,
  * hairpins, accents, ornaments, grace notes, glissandos and octave lines. {@code NoteRenderer} turns the
@@ -237,7 +237,7 @@ public final class ScorePlayback {
         /** A tied note still sounding: when it was first struck, and its held hit (-1 when re-struck instead). */
         private record Tied(double start, int event) {}
 
-        /** Whether this part strikes long notes again every beat, rather than holding them (SCOPE.md §8.1). */
+        /** Whether this part strikes long notes again every beat, rather than holding them (SCOPE.md §9.9). */
         private boolean restrikes() {
             return part.restrike || MineScoreSettings.restrikeLongNotes.getAsBoolean();
         }
@@ -433,7 +433,7 @@ public final class ScorePlayback {
             }
             float v = Math.max(0, Math.min(1, volume));
             Instruments.Custom custom = note.drum() == null ? Instruments.custom(part.custom) : null;
-            if (custom != null) { // a resource pack's instrument (SCOPE.md §8.3)
+            if (custom != null) { // a resource pack's instrument (SCOPE.md §9.11)
                 events.add(new NoteEvent(seconds, NoteInstrument.HARP, Instruments.rate(custom, pitch), v, part.pan, custom.pitched() ? length : -1,
                         custom.pitched() ? pitch : -1, custom.id()));
                 return events.size() - 1;

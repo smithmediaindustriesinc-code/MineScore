@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * The score editor's Preferences (SCOPE.md §8.1): which note the arrow keys select, and every shortcut,
+ * The score editor's Preferences (SCOPE.md §9.3): which note the arrow keys select, and every shortcut,
  * each of which can be changed. Click a shortcut, then press the new keys (with Ctrl, Shift or Alt if
  * wanted); Delete clears it, Esc cancels.
  */

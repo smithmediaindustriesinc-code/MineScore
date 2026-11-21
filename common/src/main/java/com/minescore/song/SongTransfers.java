@@ -32,7 +32,7 @@ public final class SongTransfers {
 
     /** Asks {@code player} to upload a song; {@code onDone} runs once it has arrived and checked out. */
     public static void requestUpload(ServerPlayer player, SongMeta meta, long size, Consumer<SongMeta> onDone) {
-        if (size > com.minescore.config.MineScoreConfig.MAX_SONG_MB.integer() * 1024L * 1024L) { // too big for this server (SCOPE.md §9)
+        if (size > com.minescore.config.MineScoreConfig.MAX_SONG_MB.integer() * 1024L * 1024L) { // too big for this server (SCOPE.md §10)
             player.displayClientMessage(net.minecraft.network.chat.Component.translatable("msg.minescore.song.too_big",
                     com.minescore.config.MineScoreConfig.MAX_SONG_MB.integer()), false);
             return;

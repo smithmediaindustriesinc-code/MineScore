@@ -6,7 +6,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.FriendlyByteBuf;
 
 /**
- * One step of an edit to a score, as it travels between an editor and the server (SCOPE.md §8): whole
+ * One step of an edit to a score, as it travels between an editor and the server (SCOPE.md §9): whole
  * measures, bars and headers are sent as they now are, so applying a change twice does no harm and the
  * last change to a measure wins. {@link #inverse} gives what undoes it.
  */

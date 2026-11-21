@@ -5,7 +5,7 @@ import net.minecraft.nbt.CompoundTag;
 
 /**
  * A line in one part from one point to another: a slur, hairpin, 8va, glissando, ritardando or
- * accelerando (SCOPE.md §8.2). It covers chords starting from {@code start} up to and including {@code end}.
+ * accelerando (SCOPE.md §9.8). It covers chords starting from {@code start} up to and including {@code end}.
  */
 public record Spanner(SpannerType type, Pos start, Pos end, int voice) {
     /** A point in a part: a measure and how far into it, in whole notes. */

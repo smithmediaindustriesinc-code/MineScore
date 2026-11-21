@@ -14,7 +14,7 @@ import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * The config menu's presets (SCOPE.md §9): MineScore's own, and any saved here from the settings as they
+ * The config menu's presets (SCOPE.md §10): MineScore's own, and any saved here from the settings as they
  * are (kept in {@code config/minescore-presets/}). Applying one changes only the settings it holds; server
  * settings only for operators.
  */

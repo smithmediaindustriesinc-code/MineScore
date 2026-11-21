@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 /**
- * Every MineScore setting (SCOPE.md §9), in the config menu's categories. Server settings are saved in
+ * Every MineScore setting (SCOPE.md §10), in the config menu's categories. Server settings are saved in
  * {@code config/minescore-server.json} and sent to every player; client settings in
  * {@code config/minescore-client.json}. Both load at startup (from the old {@code .toml} files the first
  * time) and save whenever something changes. The rest of the mod reads them through the settings

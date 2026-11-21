@@ -3,7 +3,7 @@ package com.minescore.audio;
 import java.util.Random;
 
 /**
- * How each {@link SynthSound} is made, in each sound style (SCOPE.md §11.1): the default, plus the Retro and
+ * How each {@link SynthSound} is made, in each sound style (SCOPE.md §13.1): the default, plus the Retro and
  * Studio sound packs. Retro is heavier and warmer, with mechanical clunks and a touch of mains hum; Studio
  * is clean, short and precise. Everything is mono 16-bit at {@link Track#SAMPLE_RATE}.
  */

@@ -6,7 +6,7 @@ import java.util.List;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Editing one voice of one measure the way MuseScore's note input does (SCOPE.md §8.1): a new note or rest
+ * Editing one voice of one measure the way MuseScore's note input does (SCOPE.md §9.4): a new note or rest
  * overwrites the time it covers; a note it lands partway into is shortened, and whatever's left over
  * becomes rests, so a measure always adds up exactly.
  */
@@ -206,7 +206,7 @@ public final class VoiceEdit {
     }
 
     /**
-     * A chord too long for what's left of its measure, cut into pieces for the barline (SCOPE.md §8.1): the
+     * A chord too long for what's left of its measure, cut into pieces for the barline (SCOPE.md §9.4): the
      * values covering {@code span} from {@code start}, each a copy of the chord. Notes are tied on to the
      * next piece; the last ties on if {@code tiedOn} (more of it follows in the next measure), or as the
      * chord's own notes did. Marks stay on the first piece, and only when {@code first}.
@@ -242,7 +242,7 @@ public final class VoiceEdit {
     }
 
     /**
-     * Ctrl+number (SCOPE.md §8.2): the chord at {@code index} becomes the first of a tuplet of {@code actual}
+     * Ctrl+number (SCOPE.md §9.7): the chord at {@code index} becomes the first of a tuplet of {@code actual}
      * notes in its time (a quarter becomes a triplet of eighths), the others rests. Null if its length can't be
      * split that way (it's in a tuplet already, or dotted past what the tuplet's notes can be written as).
      */

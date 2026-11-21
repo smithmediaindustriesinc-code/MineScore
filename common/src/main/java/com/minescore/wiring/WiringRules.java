@@ -9,7 +9,7 @@ import java.util.Set;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 
-/** Decides whether two jacks may be connected (SCOPE.md §4). */
+/** Decides whether two jacks may be connected (SCOPE.md §5.8). */
 public final class WiringRules {
     private WiringRules() {}
 

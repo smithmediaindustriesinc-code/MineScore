@@ -140,7 +140,7 @@ public final class PlaybackManager extends SavedData {
         }
     }
 
-    /** The hubs in a system whose comparator outputs follow whether it plays (SCOPE.md §6). */
+    /** The hubs in a system whose comparator outputs follow whether it plays (SCOPE.md §7). */
     private void updateComparators(BlockPos source) {
         for (BlockPos pos : SpeakerSystems.blocks(WireNetwork.get(level)::endsAt, source)) {
             if (level.getBlockEntity(pos) instanceof com.minescore.block.RedstoneHub) {
@@ -216,7 +216,7 @@ public final class PlaybackManager extends SavedData {
     }
 
     /**
-     * A Mixer or Desk system (SCOPE.md §5.1): volume × Mixer boost × Amplifier master × trim × Line
+     * A Mixer or Desk system (SCOPE.md §6.1): volume × Mixer boost × Amplifier master × trim × Line
      * Amplifiers, held to the main Amplifier's boost cap (100% without one). Speakers whose channel is
      * switched off, or whose line is knocked out by a short, stay silent.
      */
@@ -231,7 +231,7 @@ public final class PlaybackManager extends SavedData {
             return result; // not enough power for its hubs: the system is silent
         }
         if (feeds.isEmpty() && level.getBlockEntity(source) instanceof com.minescore.block.WritersDeskBlockEntity) {
-            // a desk with no speakers plays from itself, like an unwired Vinyl Player (SCOPE.md §3.6)
+            // a desk with no speakers plays from itself, like an unwired Vinyl Player (SCOPE.md §9.2)
             return List.of(new SpeakerInfo(source.immutable(), Vec3.atCenterOf(source), Vec3.ZERO, null, OutputChannel.MONO, volume,
                     (float) MineScoreSettings.hearingRange(), EqCurve.FLAT, -1, 0));
         }
@@ -276,7 +276,7 @@ public final class PlaybackManager extends SavedData {
         return result;
     }
 
-    /** Once a second: what the playing systems earn the players listening (SCOPE.md §12). */
+    /** Once a second: what the playing systems earn the players listening (SCOPE.md §14). */
     private void checkAdvancements() {
         for (Playback playback : playing.values()) {
             if (playback.startTick() > level.getGameTime()) {
@@ -301,7 +301,7 @@ public final class PlaybackManager extends SavedData {
         }
     }
 
-    /** What a source's power budget gives its system right now (SCOPE.md §5.3). */
+    /** What a source's power budget gives its system right now (SCOPE.md §6.3). */
     private SystemPower.Allocation allocate(BlockPos source, SystemPower.Demand demand) {
         int budget = level.getBlockEntity(source) instanceof PowerSource powered ? powered.power().budget() : 0;
         return SystemPower.allocate(demand, budget, PowerSettings.energyMode());
@@ -370,7 +370,7 @@ public final class PlaybackManager extends SavedData {
                 gain, range, eq, power, cost));
     }
 
-    // --- shorts (SCOPE.md §5.5) ---------------------------------------------------------------
+    // --- shorts (SCOPE.md §6.5) ---------------------------------------------------------------
 
     /** Once a second: blow any speaker that's been driven too hard for too long. */
     public void tick() {
@@ -484,7 +484,7 @@ public final class PlaybackManager extends SavedData {
     }
 
     /**
-     * Someone is starting a source again after a short (SCOPE.md §5.5). In Energy mode its power must have
+     * Someone is starting a source again after a short (SCOPE.md §6.5). In Energy mode its power must have
      * been switched off (a whole second with no FE coming in) since the short; in None mode, 5 s must have
      * passed. Until then it's false and the source stays off; after, the source and every Line Amplifier in
      * its system come back.

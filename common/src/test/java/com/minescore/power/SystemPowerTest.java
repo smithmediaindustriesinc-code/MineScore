@@ -11,13 +11,13 @@ import java.util.List;
 import net.minecraft.core.BlockPos;
 import org.junit.jupiter.api.Test;
 
-/** Power budgets, minimums and the daisy-chain curve (SCOPE.md §5.3, §5.4, S1). */
+/** Power budgets, minimums and the daisy-chain curve (SCOPE.md §6.3, §6.4, S1). */
 class SystemPowerTest {
     private static SystemPower.Load load(Gauge band, int chainIndex) {
         return new SystemPower.Load(SystemPower.speakerCost(band, chainIndex), null);
     }
 
-    /** SCOPE.md §5.3's example: Mixer + Amplifier, 2 Subwoofers, 4 Middle Speakers and 4 Tweeters, each its own chain. */
+    /** SCOPE.md §6.3's example: Mixer + Amplifier, 2 Subwoofers, 4 Middle Speakers and 4 Tweeters, each its own chain. */
     private static SystemPower.Demand example() {
         List<SystemPower.Load> speakers = new ArrayList<>();
         for (int i = 0; i < 2; i++) {

@@ -16,7 +16,7 @@ import com.minescore.score.Notation.Tuplet;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-/** The score format (SCOPE.md §8): lengths, spelling, structure, saving, the played order and playback. */
+/** The score format (SCOPE.md §9): lengths, spelling, structure, saving, the played order and playback. */
 class ScoreTest {
     private static final Duration QUARTER = Duration.QUARTER;
     private static final Duration HALF = new Duration(1, 0);

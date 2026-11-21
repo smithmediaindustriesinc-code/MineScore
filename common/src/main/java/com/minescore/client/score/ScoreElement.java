@@ -1,7 +1,7 @@
 package com.minescore.client.score;
 
 /**
- * One mark in a score that can be selected on its own (SCOPE.md §8.1): a dynamic, articulation, ornament,
+ * One mark in a score that can be selected on its own (SCOPE.md §9.5): a dynamic, articulation, ornament,
  * lyric, chord symbol, text, tempo mark, line or sign.
  *
  * @param part    its part, or -1 for marks that belong to a whole measure (tempo, signs, rehearsal marks)

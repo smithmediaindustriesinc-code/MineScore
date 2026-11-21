@@ -39,7 +39,7 @@ import org.jetbrains.annotations.Nullable;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * The score editor (SCOPE.md §8): a MuseScore-style notation editor, drawn in MineScore's pixel style.
+ * The score editor (SCOPE.md §9): a MuseScore-style notation editor, drawn in MineScore's pixel style.
  * A toolbar of note values and tools along the top, palettes on the left, the score in the middle,
  * properties on the right, and what's selected along the bottom.
  */
@@ -296,7 +296,7 @@ public class ScoreEditorScreen extends Screen {
             add.active = editor.score.parts.size() < Score.MAX_PARTS;
             y += 18;
         }
-        // File: import, export (SCOPE.md §8.3)
+        // File: import, export (SCOPE.md §9.12)
         y = section("file", Tr.s("File"), y + 2);
         if (!closedSections.contains("file")) {
             place(Button.builder(Component.translatable("gui.minescore.editor.import"), b -> {

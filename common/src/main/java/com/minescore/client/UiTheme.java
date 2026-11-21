@@ -11,7 +11,7 @@ import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
 
 /**
- * The colours of the screens MineScore draws in code (SCOPE.md §11.1), from {@code assets/minescore/minescore/theme.json}:
+ * The colours of the screens MineScore draws in code (SCOPE.md §13.1), from {@code assets/minescore/minescore/theme.json}:
  * <pre>{"panel": "C0101014", "text": "FFE8E8EE", ...}</pre>
  * as ARGB hex. The mod's own file has every key; a resource pack's (the built-in Retro and Modern packs, or any
  * other) changes just the keys it lists, later packs winning. Read again whenever resources reload.

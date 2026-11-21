@@ -15,7 +15,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 
 /**
- * MineScore's advancements (SCOPE.md §12) all use one criterion, {@code minescore:event}, with the name of
+ * MineScore's advancements (SCOPE.md §14) all use one criterion, {@code minescore:event}, with the name of
  * what happened: {@code {"trigger": "minescore:event", "conditions": {"event": "fresh_cut"}}}. The code
  * that does the thing calls {@link #award}, or {@link #awardNear} for things that happen in the world
  * rather than to one player (a speaker shorting is earned by everyone who heard it).
