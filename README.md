@@ -4,6 +4,8 @@ Real music in Minecraft. Cut your own songs onto vinyl, carry them around on an 
 
 **Minecraft 1.20.1 · Forge 47+** · needed on both the client and the server
 
+![A full surround sound system](docs/screenshots/surround-system.jpg)
+
 ## What's in it
 
 - **Records from your own music.** Put MP3, OGG, WAV, FLAC, MIDI or Note Block Studio files in the `blkcdsongs` folder of your game folder, then cut them onto Blank Vinyl at the Disc Cutting Lathe. Copy records, dye them, trim them at a smithing table, and play them on the Vinyl Player.
@@ -17,6 +19,30 @@ Real music in Minecraft. Cut your own songs onto vinyl, carry them around on an 
 - **Built-in packs.** Modern Studio, Retro Hi-Fi and a 16× version of the default look, plus Retro and Studio sound packs. Turn them on under Options → Resource Packs.
 - **The MineScore Manual** in game, 19 advancements, and settings for everything (press Ctrl+M in game). Operators can change server settings from inside the game.
 - **19 languages.** English, German, Spanish (Spain, Mexico, Argentina), French (France, Canada), Italian, Portuguese (Brazil, Portugal), Dutch, Polish, Russian, Ukrainian, Turkish, Swedish, Japanese, Korean, and Simplified and Traditional Chinese. The mod follows whatever language Minecraft is set to.
+
+## Screenshots
+
+<table>
+<tr>
+<td><img src="docs/screenshots/composers-desk.jpg" alt="Composer's Desk"><br><b>Composer's Desk</b>: two desk blocks side by side</td>
+<td><img src="docs/screenshots/score-editor.jpg" alt="Score editor"><br><b>The score editor</b> at the Composer's Desk</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/disc-cutting-lathe.jpg" alt="Disc Cutting Lathe"><br><b>Disc Cutting Lathe</b>: pick a song and cut it onto vinyl</td>
+<td><img src="docs/screenshots/vinyl-display.jpg" alt="Vinyl Displays"><br><b>Vinyl Displays</b> showing off dyed records</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/wiring.jpg" alt="Speaker wiring"><br><b>Speaker wire</b> running from the hubs to every speaker</td>
+<td><img src="docs/screenshots/speaker-chain.jpg" alt="A chain of speakers"><br><b>A long chain of speakers</b> on one system</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/blocks-front.jpg" alt="Every block, front"><br><b>Every block</b>, from the front</td>
+<td><img src="docs/screenshots/blocks-back.jpg" alt="Every block, back"><br><b>Every block</b>, from the back</td>
+</tr>
+<tr>
+<td colspan="2"><img src="docs/screenshots/items.jpg" alt="Every item"><br><b>Every item</b></td>
+</tr>
+</table>
 
 ## Works with (optional)
 
